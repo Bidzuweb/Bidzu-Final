@@ -41,11 +41,18 @@ export const AnonymousMobileMenu = (props: { handleClose: () => void }) => {
           </div>
           <span className="mt-10 secondary-text-color">{t('anonymous.login_for_favourites')}</span>
         </div>
-        <Link href="/auth/login">
-          <button className="fill-btn w-100" aria-label={t('auth.sign_in.sign_in')}>
-            {t('auth.sign_in.sign_in')}
-          </button>
-        </Link>
+        <div className="d-flex flex-column gap-3">
+                     <Link href="/auth/login">
+             <button className="border-btn w-100" aria-label={t('auth.sign_in.sign_in')}>
+               {t('auth.sign_in.sign_in')}
+             </button>
+           </Link>
+           <Link href="/auth/register">
+             <button className="fill-btn w-100" aria-label={t('auth.sign_up.sign_up')}>
+               {t('auth.sign_up.sign_up')}
+             </button>
+           </Link>
+        </div>
       </div>
     </>
   )

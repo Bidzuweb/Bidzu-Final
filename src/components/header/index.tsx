@@ -4,6 +4,7 @@ import React from 'react'
 import { AppLogo } from '../common/app-logo'
 import { CreateAuctionButton } from '../common/create-auction-button'
 import { HeaderAccountButton } from './account-button'
+import { AuthButtons } from './auth-buttons'
 import { ChatButton } from './chat-button'
 import { FavouritesButton } from './favourites-button'
 import { NotificationsButton } from './notifications-button'
@@ -11,11 +12,18 @@ import { MobileMenu } from './mobile-menu'
 import { GlobalSearchInput } from './global-search-input'
 import { BuyCoinsModal } from '../modals/buy-coins'
 import { useHeaderScrollDirection } from '@/hooks/header-scroll-direction'
+import useGlobalContext from '@/hooks/use-context'
+import { useTranslation } from '@/app/i18n/client'
+import Link from 'next/link'
 
 export const Header = () => {
   const { isVisible, isFixed } = useHeaderScrollDirection()
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
   const [buyCoinsModalOpened, setBuyCoinsModalOpened] = useState(false)
+  const globalContext = useGlobalContext()
+  const { cookieAccount, currentLanguage } = globalContext
+  const isAuthenticated = !!cookieAccount?.id
+  const { t } = useTranslation(currentLanguage)
 
   const toggleMobileMenu = () => {
     if (!mobileMenuOpened) {
@@ -54,21 +62,41 @@ export const Header = () => {
               <div className="col-xl-6 col-lg-5 col-md-2 col-sm-2 col-4">
                 <div className="d-flex align-items-center header-content d-none d-xl-flex">
                   <div className="d-flex align-items-center">
-                    <div className="d-flex align-items-center gap-4">
-                      <div className={`d-flex menu-action-buttons gap-3`}>
-                        <ChatButton />
-                        <FavouritesButton />
-                        <NotificationsButton />
-                      </div>
-                      <div className="ml-20 mr-20">
-                        <HeaderAccountButton handleBuyCoins={() => toggleBuyCoinsModal()} />
-                      </div>
-                    </div>
-                    <CreateAuctionButton />
+                    {isAuthenticated ? (
+                      <>
+                        <div className="d-flex align-items-center gap-4">
+                          <div className={`d-flex menu-action-buttons gap-3`}>
+                            <ChatButton />
+                            <FavouritesButton />
+                            <NotificationsButton />
+                          </div>
+                          <div className="ml-20 mr-20">
+                            <HeaderAccountButton handleBuyCoins={() => toggleBuyCoinsModal()} />
+                          </div>
+                        </div>
+                        <CreateAuctionButton />
+                      </>
+                    ) : (
+                      <AuthButtons />
+                    )}
                   </div>
                 </div>
 
                 <div className="d-flex align-items-center justify-content-end gap-4">
+                  {!isAuthenticated && (
+                    <div className="d-block d-lg-none d-flex align-items-center gap-2">
+                      <Link href="/auth/login">
+                        <button className="btn border-btn signin-btn-sm" aria-label={t('auth.sign_in.sign_in')}>
+                          {t('auth.sign_in.sign_in')}
+                        </button>
+                      </Link>
+                      <Link href="/auth/register">
+                        <button className="btn fill-btn register-btn-sm" aria-label={t('auth.sign_up.sign_up')}>
+                          {t('auth.sign_up.sign_up')}
+                        </button>
+                      </Link>
+                    </div>
+                  )}
                   <div className="d-block d-xl-none">
                     <NotificationsButton />
                   </div>
