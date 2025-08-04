@@ -9,7 +9,7 @@ export const AppLogo = memo(() => {
   const globalContext = useGlobalContext()
   return (
     <Link className="logo" href="/">
-      <Image width={165} height={50} src={logo} alt="logo-img" />
+      <Image width={210} height={70} src={logo} alt="logo-img" />
       {globalContext.appSettings.appName || APP_NAME}
     </Link>
   )
