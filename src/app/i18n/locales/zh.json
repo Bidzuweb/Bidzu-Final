@@ -1,0 +1,1014 @@
+{
+  "coins_for_auction_or_bid": {
+    "reached_max_auctions": "您已达到可以免费创建的最大拍卖数量({{no}})。",
+    "reached_max_auctions_1": "要创建新的拍卖，您需要支付{{no}}个硬币。",
+    "auction_get_back": "如果拍卖到期且没有人出价，您将收回硬币。",
+    "not_enough_for_auction": "您没有足够的硬币来创建新的拍卖。",
+    "not_enough_for_bid": "您没有足够的硬币来创建新的出价。",
+    "you_have_coins_no": "您有{{no}}个硬币。",
+    "bid_get_back": "如果拍卖到期且您不是赢家，您将收回硬币。"
+  },
+  "starting_soon_auctions": {
+    "starting_soon": "即将开始",
+    "starting_soon_plural": "即将开始的拍卖",
+    "starts_at": "拍卖开始时间：",
+    "add_to_fav": "将拍卖添加到收藏以在开始时收到通知",
+    "add_to_fav_multiple": "将即将开始的拍卖添加到收藏并在开始时收到通知",
+    "custom_start_date": "自定义开始日期",
+    "opted_for_custom": "您已选择此拍卖的自定义开始和结束日期。您无法返回让拍卖自动激活。",
+    "will_automaticaly_start": "拍卖创建后将自动开始。如果您愿意，可以禁用此选项并设置自定义开始和结束日期。",
+    "start_date": "开始日期",
+    "end_date": "结束日期",
+    "no_starting_soon": "目前没有即将开始的拍卖"
+  },
+  "auctions_map": {
+    "title": "在地图上查看拍卖",
+    "description": "寻找特别的东西？在地图上查看您附近的拍卖！",
+    "see_auction_details": "查看详情",
+    "see_auctions": "查看拍卖"
+  },
+  "auction_details_status": {
+    "closing_at": "结束时间：",
+    "closed_at": "已结束于："
+  },
+  "similar": {
+    "similar_auctions": "类似拍卖"
+  },
+  "share": {
+    "button": "分享",
+    "share_on": "分享到{{name}}",
+    "check_auction": "在Biddo上查看此拍卖",
+    "check_account": "在Biddo上查看此账户"
+  },
+  "terms_conditions": {
+    "titles": {
+      "terms_and_conditions": "条款和条件",
+      "cookie_policy": "Cookie政策",
+      "security_policy": "安全政策",
+      "user_rights": "用户权利",
+      "prohibited_activities": "禁止活动",
+      "other_information": "其他重要信息"
+    },
+    "terms_and_conditions": {
+      "acceptance_of_terms": {
+        "title": "条款接受",
+        "content": "使用本应用程序即表示您同意遵守并受这些条款和条件的约束。如果您不同意这些条款，必须立即停止使用本应用程序。"
+      },
+      "user_responsibilities": {
+        "title": "用户责任",
+        "sections": {
+          "responsible_use": "用户对其使用应用程序的行为完全负责，必须以合法、道德和负责任的方式使用。",
+          "prohibited_content": "用户不得发布或分享任何冒犯性、成人、歧视性、种族主义、非法或有害的内容。管理员保留删除此类内容和终止相关账户的权利。",
+          "account_security": "用户负责维护其账户凭据的机密性，并对其账户下发生的任何活动负责。"
+        }
+      },
+      "sharing_of_information": {
+        "title": "信息共享",
+        "content": "使用本应用程序即表示您同意您的信息可能会与第三方服务共享，以增强应用程序的功能和体验。管理员确保数据共享符合适用的法律标准。"
+      },
+      "liability": {
+        "title": "责任",
+        "sections": {
+          "not_responsible": "管理员对因不当使用应用程序、技术问题、停机时间或用户互动而导致的任何伤害、损害或损失不承担责任。",
+          "indemnification": "用户同意赔偿并使管理员免于承担因其使用应用程序而产生的任何索赔。"
+        }
+      },
+      "account_removal": {
+        "title": "账户删除",
+        "sections": {
+          "user_right": "用户有权随时删除其账户。删除后，个人数据将按照应用程序的隐私政策处理。",
+          "admin_right": "管理员保留暂停或永久删除违反规则或从事恶意活动的账户的权利。"
+        }
+      },
+      "modifications": {
+        "title": "修改",
+        "content": "管理员保留随时修改这些条款和条件的权利。继续使用应用程序即表示接受修改后的条款。"
+      }
+    },
+    "cookie_policy": {
+      "title": "Cookie政策",
+      "use_of_cookies": {
+        "title": "Cookie使用",
+        "content": "本应用程序使用cookie来增强用户体验、分析应用程序性能并提供个性化内容。使用本应用程序即表示您同意使用cookie。"
+      },
+      "types_of_cookies": {
+        "title": "Cookie类型",
+        "sections": {
+          "essential_cookies": "对应用程序运行必要的cookie。",
+          "performance_cookies": "收集用户如何与应用程序交互的数据。",
+          "functionality_cookies": "保存用户偏好以增强可用性。",
+          "third_party_cookies": "可能用于提供个性化广告或分析。"
+        }
+      },
+      "user_consent": {
+        "title": "用户同意",
+        "content": "使用本应用程序即表示您同意按照本政策所述存储和使用cookie。您可以通过设备设置禁用cookie，但这样做可能会限制应用程序的功能。"
+      }
+    },
+    "security_policy": {
+      "title": "安全政策",
+      "data_protection": {
+        "title": "数据保护",
+        "content": "本应用程序采用行业标准安全措施来保护用户数据。但是，由于在线服务固有的风险，管理员不能保证完全的安全。"
+      },
+      "user_responsibility": {
+        "title": "用户责任",
+        "content": "用户负责保护其登录凭据，并立即向管理员报告任何未经授权的访问或可疑活动。"
+      },
+      "data_sharing": {
+        "title": "数据共享",
+        "content": "虽然本应用程序优先考虑用户数据安全，但某些数据可能会与受信任的第三方提供商共享，以增强功能或遵守法律要求。"
+      }
+    },
+    "prohibited_activities": {
+      "title": "禁止活动",
+      "sections": {
+        "prohibited_content": "用户不得发布或分享露骨、成人、歧视性、种族主义、非法或煽动暴力或仇恨的内容。",
+        "misuse_of_app": "用户不得将应用程序用于可能损害其声誉、干扰其运营或利用其他用户的任何活动。",
+        "consequences": "管理员保留在不事先通知的情况下删除任何违反这些规则的内容或账户的权利。"
+      }
+    },
+    "user_rights": {
+      "title": "用户权利",
+      "account_deletion": {
+        "title": "账户删除",
+        "content": "用户可以随时通过应用程序设置或联系支持请求删除账户。删除后，个人数据将按照隐私政策删除，但某些数据可能因法律或监管目的而保留。"
+      },
+      "complaints": {
+        "title": "投诉和争议",
+        "content": "用户有权就应用程序提出投诉或争议。此类投诉必须通过官方支持渠道提交。"
+      }
+    },
+    "other_information": {
+      "title": "其他重要信息",
+      "sections": {
+        "no_guarantee": "本应用程序按\"原样\"提供。管理员不保证不间断访问、准确性或适合任何特定目的。",
+        "legal_compliance": "用户负责确保其行为符合当地法律法规。",
+        "admin_rights": "管理员保留随时更新政策、删除内容和修改应用程序功能的权利。"
+      }
+    }
+  },
+  "pageSEO": {
+    "starting_soon_title": "即将开始的拍卖",
+    "starting_soon_description": "查看Biddo上即将开始的拍卖",
+    "terms_title": "条款和条件及隐私政策",
+    "terms_description": "阅读应用程序的条款和条件及隐私政策",
+    "login_title": "登录页面",
+    "login_description": "登录应用程序",
+    "forgot_password_title": "忘记密码",
+    "forgot_password_description": "忘记密码页面",
+    "phone_login_title": "手机登录",
+    "phone_login_description": "手机登录页面",
+    "phone_otp_title": "手机验证码",
+    "phone_otp_description": "手机验证码页面",
+    "home_title": "Biddo，主页",
+    "home_description": "Biddo，应用程序主页",
+    "create_auction_title": "创建拍卖",
+    "create_auction_description": "创建新拍卖",
+    "not_found_title": "页面未找到",
+    "not_found_description": "页面未找到",
+    "account_details_description": "账户详情",
+    "auctions_list_title": "拍卖列表",
+    "auctions_list_description": "所有拍卖列表",
+    "recommendations_title": "推荐",
+    "recommendations_description": "为您推荐",
+    "auctions_map": "地图上的拍卖",
+    "auctions_map_description": "地图上的拍卖",
+    "promoted_auctions_title": "推广拍卖",
+    "promoted_auctions_description": "推广拍卖",
+    "last_seen_auctions_title": "最近查看的拍卖",
+    "last_seen_auctions_description": "最近查看的拍卖",
+    "payment_success_title": "支付成功",
+    "payment_success_description": "支付已成功",
+    "register_title": "注册",
+    "register_description": "注册页面"
+  },
+  "404": {
+    "oops": "哎呀！页面未找到",
+    "page_not_found": "可能此页面已损坏或未创建。返回主页。",
+    "back_to_home": "返回主页"
+  },
+  "anonymous": {
+    "login_for_notifications": "您需要登录才能接收通知。",
+    "login_for_favourites": "您需要登录才能将拍卖添加到您的收藏夹。",
+    "login_for_chat": "您需要登录才能与其他用户聊天。",
+    "login_for_search_history": "您需要登录才能拥有搜索历史。",
+    "login_to_search_accounts": "您需要登录才能搜索账户。",
+    "login_to_send_user_message": "您需要登录才能向此用户发送消息。",
+    "login_to_bid": "您需要登录才能出价。",
+    "login_to_report": "您需要登录才能创建报告。",
+    "login_to_follow": "您需要登录才能关注此用户。"
+  },
+  "header": {
+    "profile": "个人资料",
+    "all_around_the_world": "世界各地",
+    "see_my_profile": "查看我的个人资料",
+    "my_auctions": "我的拍卖",
+    "my_bids": "我的出价"
+  },
+  "footer": {
+    "follow_us": "关注我们",
+    "tutorial": "教程",
+    "create_auction": "创建拍卖",
+    "create_bid": "创建出价",
+    "about": "关于",
+    "privacy_policy": "隐私政策",
+    "terms_of_service": "服务条款",
+    "faq": "常见问题",
+    "mobile_app": "移动应用",
+    "enjoy_better_experience": "享受更好的体验",
+    "about_motto": "Biddo是一个平台，您可以在这里出售不再需要的东西并购买您想要的东西。"
+  },
+  "cookie": {
+    "message": "此网站使用cookie来改善用户体验。使用我们的网站即表示您同意按照我们的Cookie政策使用所有cookie。",
+    "readMore": "阅读Cookie政策",
+    "accept": "接受"
+  },
+  "info": {
+    "no_locations_found": "未找到位置",
+    "condition_required": "条件是必需的",
+    "location_needed": "位置是必需的，因为一个用户可能会根据您之间的距离出价。",
+    "add_more_to_search": "添加至少2个字符以搜索位置",
+    "see_all_my_auctions": "查看所有我的拍卖",
+    "see_all_auctions_from_user": "查看所有来自此用户的拍卖",
+    "min_price_for_bid_is": "出价的最小价格是{{no}}",
+    "max_price_for_bid_is": "出价的最高价格是{{no}}",
+    "price_must_be_number": "价格必须在{{min}}和{{max}}之间",
+    "status": "状态",
+    "you_see_page": "第{{page}}页，共{{total}}页",
+    "main_category": "主类别",
+    "sub_category": "子类别",
+    "saved_filters": "已保存的过滤器",
+    "search_auctions": "搜索拍卖",
+    "sort_auctions": "排序拍卖",
+    "no_filter_applied": "您没有应用任何过滤器",
+    "manage_preferences": "管理偏好",
+    "you_dont_have_any_reviews": "您还没有任何评论",
+    "see_how_others_see_you": "查看其他人如何看待您的个人资料",
+    "settings": "设置",
+    "credentials_exist": "您输入的凭据已存在",
+    "need_to_accept_terms": "您需要接受服务条款才能继续",
+    "no_chat_to_match": "没有匹配您标准的聊天",
+    "preferences_updated": "类别偏好已更新",
+    "sign_in_for_recommendations": "您需要登录才能接收拍卖推荐",
+    "buy_coins_description": "购买代币以创建更多拍卖、出价和推广您的拍卖。",
+    "payment_success": "支付成功",
+    "sign_in_for_last_seen": "您需要登录才能查看最近查看的拍卖"
+  },
+  "ads": {
+    "win_coins": "您每观看一次广告即可获得{{no}}个代币。听起来怎么样？",
+    "watch_ad": "观看广告"
+  },
+  "intro": {
+    "would_you_like_to_see": "您想了解",
+    "would_you_like_to_see_2": "如何运作吗？",
+    "a_guid_on_how_it_words": "您将看到一个关于应用程序如何运作和如何使用的指南",
+    "see_intro": "查看介绍",
+    "not_now": "暂不需要",
+    "want_to_skip": "您确定要跳过介绍吗？",
+    "how_it_works": "它是如何运作的？",
+    "skip_intro": "跳过介绍",
+    "on": "在",
+    "can_easily_trade": "上，您可以出售不再需要的物品并购买想要的物品。",
+    "steps": {
+      "create_auction": "1. 创建拍卖",
+      "wait_for_bids": "2. 等待出价",
+      "accept_bid": "3. 接受出价",
+      "review": "4. 添加评价"
+    },
+    "create_auction": {
+      "become_visible": "您的拍卖将对其他人可见，社区将有",
+      "hours_active": "{{no}}小时",
+      "to_bid": "的时间对您的物品进行出价。",
+      "simply": "只需",
+      "create_an_auction": "创建一个拍卖",
+      "using_the_books": "使用任何您想出售的物品，",
+      "other_users": "其他用户就可以",
+      "for_them": "对它们出价。"
+    },
+    "wait_for_bid": {
+      "can_wait": "您可以一直等待，直到找到适合您拍卖的完美出价。"
+    },
+    "chose_bid": {
+      "if_you_pick": "如果您选择了中标者，您将可以",
+      "to_chat": "与中标者聊天",
+      "to_arrange_settlement": "以安排交易。",
+      "full_control": "选择中标者或拒绝出价完全由您控制。"
+    },
+    "review": {
+      "after_the_auction": "拍卖结束后，您可以",
+      "leave_a_review": "为中标者",
+      "for_the_winner": "留下评价。",
+      "help_other_users": "这将帮助其他用户更多地了解中标者。"
+    }
+  },
+  "home": {
+    "discounts": {
+      "first15": "首次订单可获得15%折扣",
+      "use_code": "使用代码：",
+      "every_weekend": "每个周末汽车可享受5%折扣",
+      "car_accessories": "汽车配件最高30%折扣",
+      "shop_now": "立即购买"
+    },
+    "preferred_categories": {
+      "title": "选择偏好类别",
+      "info": "您将根据您的偏好类别收到通知和个性化推荐。",
+      "update": "更新偏好类别"
+    },
+    "search": {
+      "search": "您在寻找什么？",
+      "recent_searches": "最近搜索",
+      "users": "用户",
+      "no_recent_search_found": "没有找到最近搜索",
+      "auctions_count_singular": "{{no}}个拍卖",
+      "auctions_count_plural": "{{no}}个拍卖",
+      "no_auction_that_match": "没有符合您条件的拍卖...",
+      "no_users_that_match": "没有符合您条件的用户..."
+    },
+    "filter": {
+      "filtered_auctions": "已筛选的拍卖",
+      "no_data_found": "未找到数据",
+      "all_auctions": "所有拍卖{{no}}",
+      "auctions_count": "{{no}}个拍卖",
+      "categories": "类别",
+      "price": "价格",
+      "min_price_value": "最低价格：{{no}}",
+      "max_price_value": "最高价格：{{no}}",
+      "min_price": "最低价格",
+      "max_price": "最高价格",
+      "invalid_number": "无效价格",
+      "apply_filter": "应用筛选",
+      "apply_sub_filter": "应用子筛选",
+      "see_all": "查看全部",
+      "auctions_count_parant": "({{no}}个拍卖)",
+      "selected_items": "(已选择{{no}}个)",
+      "filter": "筛选",
+      "clear_all": "清除全部",
+      "location": "位置",
+      "locations": "位置",
+      "include_my_auctions": "包含我的拍卖",
+      "without_my_auctions": "不包含我的拍卖",
+      "max_locations_error": "最多可选择{{no}}个位置",
+      "no_locations_for_criteria": "没有符合您条件的位置",
+      "no_categories_for_criteria": "没有符合您条件的类别",
+      "save_filter_title": "保存筛选",
+      "save_filter_name": "筛选名称",
+      "you_dont_have_saved_filters": "您没有任何已保存的筛选",
+      "you_can_have_max": "您最多可以保存{{no}}个筛选",
+      "sure_you_want_to_remove": "您确定要删除此筛选吗？",
+      "filter_remove_error": "无法删除筛选。请重试",
+      "about_saved_filters_title": "关于已保存的筛选",
+      "about_saved_filters_descr": "您可以保存筛选以便以后快速访问。\n\n只有当筛选不为空时，您才能保存筛选。"
+    },
+    "auctions": {
+      "auctions": "拍卖",
+      "last_seen": "最近查看的拍卖",
+      "no_last_seen": "您还没有任何最近查看的拍卖",
+      "no_auctions": "目前应用程序中没有拍卖。请稍后再试",
+      "see_all": "查看所有拍卖({{no}})",
+      "no_auctions_to_match_criteria": "没有符合您条件的拍卖",
+      "no_auctions_to_display": "目前没有拍卖",
+      "all_auctions": "所有拍卖({{no}})"
+    },
+    "notifications": {
+      "notifications": "通知",
+      "mark_as_seen": "标记所有为已读",
+      "dont_have_notifications": "您还没有任何通知",
+      "mark_as_seen_success": "所有通知已标记为已读",
+      "mark_as_seen_error": "无法将所有通知标记为已读",
+      "permission_not_granted": "未授予权限",
+      "permission_not_granted_msg": "要接收通知，您需要给予应用程序特定权限",
+      "give_permission": "授予权限",
+      "permission_granted": "已授予权限",
+      "permission_rejected": "已拒绝权限"
+    },
+    "categories": {
+      "categories": "类别",
+      "all": "全部",
+      "sub_categories": "子类别",
+      "no_auctions_for": "{{name}}没有拍卖",
+      "no_auctions_to_match": "在{{name}}中没有符合您搜索的拍卖",
+      "auctions_by_categories": "按类别分类的拍卖",
+      "alphabetical": "按字母顺序",
+      "count_desc": "拍卖数量(降序)",
+      "count_asc": "拍卖数量(升序)",
+      "search_categories": "搜索类别",
+      "search_sub_categories": "在{{category}}中搜索",
+      "filter": "添加额外筛选"
+    }
+  },
+  "favourites": {
+    "app_bar": {
+      "no_closed_auctions": "您的收藏列表中没有已结束的拍卖",
+      "no_active_auctions": "您的收藏列表中没有活跃的拍卖",
+      "tap_on_the": "要将拍卖添加到收藏，您需要点击所有拍卖上可用的",
+      "available_icon": "图标",
+      "favourites": "收藏的拍卖",
+      "active": "活跃({{no}})",
+      "closed": "已结束({{no}})"
+    },
+    "users_who_added_to_favourites": "将此拍卖添加到收藏的用户",
+    "nobody_added_to_favourites": "没有人将此拍卖添加到收藏"
+  },
+  "create_auction": {
+    "create_auction": "创建拍卖",
+    "create_a_new_auction": "创建新拍卖",
+    "title": "标题",
+    "enter_title": "在此输入拍卖标题",
+    "youtube_link": "YouTube链接",
+    "enter_youtube_link": "在此输入YouTube链接",
+    "description": "描述",
+    "enter_description": "在此输入拍卖描述",
+    "another_starting_price": "其他",
+    "starting_price": "起拍价",
+    "price_cannot_be_empty": "价格不能为空",
+    "starting_price_condition": "起拍价必须在1和{{maxPrice}}之间",
+    "invalid_starting_price": "无效的起拍价",
+    "add_starting_price": "添加起拍价",
+    "category": "类别",
+    "select_category": "选择类别",
+    "new": "全新",
+    "used": "二手",
+    "condition": "状况",
+    "title_required": "标题为必填项",
+    "category_required": "类别为必填项",
+    "location_required": "位置为必填项",
+    "price_required": "价格为必填项",
+    "repository": {
+      "too_many_assets": "上传的资产过多",
+      "asset_too_big": "上传的资产太大",
+      "asset_not_supported": "不支持上传的资产类型",
+      "could_not_create": "无法创建拍卖。请重试",
+      "could_not_update": "无法更新拍卖。请重试"
+    }
+  },
+  "promote_auction": {
+    "promote_auction": "推广",
+    "don_t_have_enough_coins": "您没有足够的硬币来推广此拍卖",
+    "could_not_promote": "无法推广拍卖。请重试",
+    "auction_promoted": "拍卖已成功推广",
+    "sure_you_want_to_promote": "您确定要推广此拍卖吗？",
+    "promoted_will_show": "推广的拍卖将显示在拍卖列表的顶部。您可以多次推广同一拍卖。",
+    "can_be_pushed_down": "推广会使您的拍卖跳到列表顶部，但新的推广拍卖会将其下推。",
+    "promotion_cost": "每次推广需要{{no}}个硬币",
+    "promoted_at": "推广时间",
+    "promoted": "已推广"
+  },
+  "auction_details": {
+    "auction_ends_in": "拍卖结束时间还剩",
+    "auction_does_not_exit": "拍卖不再存在或无法访问",
+    "auction_data_reloaded": "拍卖数据已成功重新加载",
+    "auction_images": "拍卖图片",
+    "does_not_have_images": "此拍卖没有任何图片",
+    "no_active_bids": "此拍卖没有活跃的出价",
+    "no_description_provided": "未提供描述",
+    "bids_count": "出价({{no}})",
+    "accepted_bid": "已接受的出价",
+    "closed": "已结束",
+    "create_bid": {
+      "title": "创建出价",
+      "price_hint": "价格",
+      "location_is_required": "位置为必填项",
+      "message_description": "您想为您的出价留言吗",
+      "starting_price": "起拍价",
+      "highest_bid": "最高出价",
+      "cannot_place_bid_lower": "*您不能出价低于起拍价",
+      "cannot_place_bid_lower_than_bid": "您不能出价低于最高出价",
+      "select_price": "选择您想出的价格",
+      "leave_a_message": "留言(可选)",
+      "bid_created": "出价已成功创建",
+      "error_creating": "无法创建出价。请重试",
+      "this_is_user_bid": "这是用户对此拍卖的出价",
+      "already_have_highest_bid": "您已经是此拍卖的最高出价者",
+      "cannot_create_on_your_auction": "您不能对自己的拍卖出价",
+      "cannot_create_on_expired": "您不能对已结束的拍卖出价"
+    },
+    "update": {
+      "title": "更新拍卖",
+      "update": "更新",
+      "update_successful": "拍卖已成功更新"
+    },
+    "long_distance": {
+      "title": "您的位置很远",
+      "description": "看起来您正在对一个拍卖出价，而您的位置离拍卖所有者的位置很远。"
+    },
+    "app_bar": {
+      "report_auction": "举报拍卖",
+      "remove_auction": "删除拍卖",
+      "update_auction": "更新拍卖",
+      "bids_count": "出价({{no}})"
+    },
+    "details": {
+      "created_by": "创建者",
+      "views": "浏览量：",
+      "created_at": "创建时间："
+    },
+    "dialogs": {
+      "auction_removed": "拍卖已被删除",
+      "sure_to_remove_auction": "您确定要删除此拍卖吗？",
+      "bidders_will_be_notified_after_remove": "*此拍卖的出价者将收到拍卖被删除的通知"
+    },
+    "bids": {
+      "bid_was_removed": "出价已从拍卖中删除",
+      "sure_to_remove_bid": "您确定要从拍卖中删除此出价吗？",
+      "auction_owner_will_be_notified": "*拍卖所有者将收到此变更的通知",
+      "bid_rejected": "出价已被拒绝，出价者将收到通知。",
+      "sure_to_reject": "您确定要拒绝此出价吗？",
+      "enter_rejection_reason": "输入拒绝原因",
+      "cannot_undo_or_see": "*您将无法撤销此操作，也无法再查看出价详情",
+      "reject_bid": "拒绝出价",
+      "bid_accepted": "出价已被接受，出价者将收到通知",
+      "sure_to_accept": "您确定要接受此出价吗？",
+      "auction_will_be_closed": "拍卖将自动结束",
+      "cannot_undo": "*您将无法撤销此操作",
+      "accept_bid": "接受出价",
+      "rejected": "已拒绝",
+      "see_your_profile": "查看您的个人资料",
+      "see_bidder": "查看出价者个人资料",
+      "report": "举报出价",
+      "remove": "删除出价",
+      "unknown_location": "未知位置"
+    },
+    "reviews": {
+      "review_updated": "评价已更新",
+      "review_created": "评价已创建",
+      "could_not_update_review": "无法更新评价",
+      "could_not_create_review": "无法创建评价",
+      "would_you_leave_review": "您想给",
+      "review_details": "评价详情",
+      "save_review": "保存评价",
+      "added_a_review": "添加了一条评价"
+    }
+  },
+  "map_auctions": {
+    "auctions_count": "此位置有{{no}}个拍卖",
+    "auctions_loaded": "已加载{{no}}个拍卖",
+    "location_disabled": "位置服务已禁用",
+    "location_denied": "位置权限被拒绝",
+    "location_permanent_denied": "位置权限被永久拒绝，我们无法请求权限",
+    "auctions_count_simple": "{{no}}个拍卖",
+    "search_locations": "搜索位置",
+    "select_location": "请选择一个位置",
+    "need_to_zoom_in": "要在地图上查看拍卖，您需要放大",
+    "loading_auctions": "正在加载拍卖",
+    "no_auction_loaded": "未加载任何拍卖。尝试选择不同的位置或类别",
+    "long_tap": "长按地图以选择不同的位置",
+    "select_category": "选择要在地图上显示的类别",
+    "show_on_map": "在地图上显示",
+    "need_permission_from_settings": "您需要从系统设置中授予此权限"
+  },
+  "recommendations": {
+    "no_recommendations_for_you": "目前没有为您推荐的内容。",
+    "no_recommendation_details": "确保您已将一些拍卖添加到收藏，或至少选择了一个首选类别。",
+    "you_might_like": "您可能喜欢"
+  },
+  "buy_coins": {
+    "buy_coins": "购买硬币",
+    "coins_no": "{{no}}个硬币",
+    "buy_coins_and_promote": "购买硬币并推广您的拍卖以获得更多曝光。",
+    "no_products": "目前没有可用的商品",
+    "success_purchase": "硬币购买成功",
+    "error_purchase": "无法购买硬币。请重试",
+    "having_trouble": "购买硬币遇到问题？",
+    "send_us_a_message": "给我们发送消息，我们会尽快联系您。",
+    "buy_coins_to_create_more_auctions": "购买硬币以创建更多拍卖并推广它们以获得更多曝光。"
+  },
+  "location": {
+    "location": "位置",
+    "your_location": "您的位置",
+    "select_location": "选择位置",
+    "location_disabled": "位置服务已禁用",
+    "location_denied": "位置权限被拒绝",
+    "location_permanent_denied": "位置权限被永久拒绝，我们无法请求权限",
+    "long_tap": "长按地图以选择不同的位置",
+    "search_by_city": "按城市搜索",
+    "to_create_pin": "搜索新位置或长按地图以创建新标记",
+    "map_not_available": "迷你地图不可用",
+    "need_to_give_permissions": "您需要授予位置权限才能使用此功能",
+    "distance": "距离您{{no}}公里"
+  },
+  "reports": {
+    "was_reported": "举报已成功创建。我们将尽快审核",
+    "misleading_or_scam": "误导或诈骗",
+    "sexually_inappropriate": "性内容不当",
+    "offensive_content": "冒犯性内容",
+    "other": "其他",
+    "like_to_give_details": "您想提供更多详细信息吗？",
+    "sure_to_report": "您确定要举报这个{{name}}吗？",
+    "sure_to_report_2": "您确定要举报这个{{name}}吗？",
+    "sure_to_report_auction": "拍卖",
+    "sure_to_report_bid": "出价",
+    "sure_to_report_account": "账户",
+    "report_action": "举报"
+  },
+  "errors": {
+    "no_internet": "看起来您没有连接到互联网",
+    "try_again": "重试"
+  },
+  "auth": {
+    "email": "电子邮箱",
+    "password": "密码",
+    "sign_in": {
+      "sign_in": "登录",
+      "enter_credentials": "输入您的凭据以继续",
+      "enter_email": "输入您的电子邮箱",
+      "enter_password": "输入您的密码",
+      "forgot_password": "忘记密码？",
+      "continue_with": "或继续使用",
+      "not_a_member": "还不是会员？",
+      "register_now": "立即注册",
+      "continue_as_anon": "以匿名身份继续",
+      "email_empty": "电子邮箱不能为空",
+      "email_invalid": "电子邮箱无效",
+      "password_empty": "密码不能为空",
+      "cannot_facebook_login": "无法使用Facebook登录。请重试",
+      "cannot_google_login": "无法使用Google登录。请重试",
+      "cannot_email_login": "无法使用这些凭据登录。请确保您有一个有效的账户，并且凭据正确。"
+    },
+    "sign_up": {
+      "email_empty": "电子邮箱不能为空",
+      "email_invalid": "电子邮箱无效",
+      "password_empty": "密码不能为空",
+      "password_min_len": "密码长度必须至少为6个字符",
+      "need_to_accept": "您需要接受",
+      "terms_of_service": "服务条款",
+      "to_continue": "才能继续",
+      "sign_up": "注册",
+      "lets_create_acc": "让我们创建一个新账户",
+      "email_placeholder": "输入您的电子邮箱",
+      "password_placeholder": "设置密码",
+      "already_member": "已有账户？",
+      "sign_in": "登录"
+    },
+    "forgot_password": {
+      "title": "忘记密码",
+      "reset": "重置密码",
+      "enter_email": "输入您创建账户时使用的电子邮箱地址",
+      "return_to": "返回",
+      "you_will_receive": "**您将收到一封帮助您重置密码的电子邮件",
+      "user_was_not_found": "我们找不到使用此电子邮箱地址的用户",
+      "could_not_send_email": "我们无法发送密码重置电子邮件。请稍后重试",
+      "email_sent": "已向您的电子邮箱地址发送了一封电子邮件。请按照电子邮件中的说明重置密码"
+    },
+    "terms": {
+      "continue": "继续",
+      "almost_there": "即将完成",
+      "accept": "我接受",
+      "terms_of_service": "服务条款",
+      "processing": "的条件，并同意根据",
+      "privacy": "隐私政策"
+    }
+  },
+  "generic": {
+    "days_no": "{{no}}天",
+    "see_video": "查看视频",
+    "online": "在线",
+    "offline": "离线",
+    "translate": "翻译",
+    "see_original": "查看原文",
+    "change_tab": "切换标签",
+    "promoted_auctions": "推广的拍卖",
+    "open_settings": "打开设置",
+    "give_permission": "授予权限",
+    "permission_denied": "权限被拒绝",
+    "image_not_found": "找不到图片",
+    "choose": "选择",
+    "unknown": "未知",
+    "search": "搜索",
+    "by": "由{{name}}",
+    "undo": "撤消",
+    "remove": "删除",
+    "see_all": "查看全部",
+    "done": "完成",
+    "newest": "最新",
+    "oldest": "最早",
+    "newest_accepted_bid": "最新接受的出价",
+    "oldest_accepted_bid": "最早接受的出价",
+    "ascending_price": "价格升序",
+    "descending_price": "价格降序",
+    "skip": "跳过",
+    "back": "返回",
+    "continue": "继续",
+    "finish": "完成",
+    "closed": "已关闭",
+    "cancel": "取消",
+    "face_to_face": "面对面",
+    "delivery": "配送",
+    "custom": "自定义",
+    "save": "保存",
+    "see_less": "查看更少",
+    "see_more": "查看更多",
+    "optional": "（可选）",
+    "details": "详情",
+    "clear": "清除",
+    "clear_all": "清除全部",
+    "refresh": "刷新",
+    "yes": "是",
+    "no": "否",
+    "auction": "拍卖",
+    "auction2": "拍卖",
+    "ok": "确定",
+    "offer": "出价",
+    "offer2": "出价",
+    "loading": "加载中...",
+    "don_t_show_again": "不再显示",
+    "something_went_wrong": "出现错误。请重试",
+    "info": "信息",
+    "your_auction": "您的拍卖",
+    "bids_count_singular": "1个出价",
+    "bids_count_plural": "{{no}}个出价",
+    "auction_count_singular": "1个拍卖",
+    "auction_count_plural": "{{no}}个拍卖"
+  },
+  "bottom_nav": {
+    "home": "首页",
+    "favourites": "收藏",
+    "create": "创建",
+    "chat": "聊天",
+    "more": "更多"
+  },
+  "permissions": {
+    "camera_permissions": "相机权限",
+    "need_to_request_camera": "我们需要请求您的权限来打开相机",
+    "from_settings": "您需要从系统设置中授予此权限",
+    "open_settings": "打开设置",
+    "allow_access": "允许访问",
+    "storage_permissions": "存储权限",
+    "need_to_request_files": "我们需要请求您的权限来读取本地文件以便在应用中加载",
+    "need_to_request_notifications": "为了使此功能正常工作，我们需要请求您的权限来发送通知"
+  },
+  "assets": {
+    "selected_images": "已选择的图片",
+    "no_selected": "您没有更多已选择的图片",
+    "image_singular": "{{no}}张图片",
+    "image_plural": "{{no}}张图片",
+    "remove_image": "删除图片",
+    "all_images_folder": "所有图片",
+    "max_allowed": "最多可以选择{{no}}个资源",
+    "select": "选择",
+    "no_images_in_folder": "此文件夹中没有图片",
+    "add_images": "添加图片"
+  },
+  "profile": {
+    "legal_info": "法律信息",
+    "terms_of_service": "服务条款",
+    "privacy_policy": "隐私政策",
+    "cookies_policy": "Cookie政策",
+    "about": "关于",
+    "sign_out": "退出登录",
+    "version": "版本{{no}}",
+    "preferences": "偏好设置",
+    "languages": "应用语言",
+    "report": "举报",
+    "language": "应用语言",
+    "no_reviews": "(无评价)",
+    "update_account": "更新",
+    "all_auctions_for": "{{name}}创建的拍卖({{no}})",
+    "currencies": "货币",
+    "see_review_auction": "查看相关拍卖",
+    "no_auctions": "暂无可用拍卖",
+    "send_message": "发送消息",
+    "follow": "关注",
+    "unfollow": "取消关注",
+    "following": "正在关注",
+    "followers": "关注者",
+    "congratulations_follow": "🚀 恭喜！",
+    "you_are_now_following": "您现在正在关注{{name}}。\n\n当{{name}}创建新拍卖时，您将收到通知。",
+    "could_not_follow": "无法关注{{name}}。请稍后重试",
+    "could_not_unfollow": "无法取消关注{{name}}。请稍后重试",
+    "unfollow_success": "您已不再关注{{name}}",
+    "no_followers": "{{name}}还没有任何关注者",
+    "no_following": "{{name}}还没有关注任何人",
+    "cannot_load_chat_group": "无法加载与账户的聊天。请重试。",
+    "your_auctions": "您的拍卖",
+    "your_bids": "您的出价",
+    "all_your_bids": {
+      "title": "所有出价",
+      "all_bids": "您的所有出价({{no}})",
+      "no_bids": "您还没有任何出价"
+    },
+    "accepted_bids": {
+      "title": "已接受的出价",
+      "accepted_bids": "已接受的出价({{no}})",
+      "no_bids": "您还没有任何已接受的出价"
+    },
+    "rejected_bids": {
+      "title": "已拒绝的出价",
+      "rejected_bids": "已拒绝的出价({{no}})",
+      "no_bids": "您还没有任何已拒绝的出价"
+    },
+    "closed_auctions": {
+      "title": "已结束的拍卖",
+      "closed_auctions": "已结束的拍卖({{no}})",
+      "no_auctions": "您还没有任何已结束的拍卖"
+    },
+    "active_auctions": {
+      "title": "活跃的拍卖",
+      "active_auctions": "活跃的拍卖({{no}})",
+      "no_auctions": "您没有活跃的拍卖"
+    },
+    "sign_out_dialog": {
+      "title": "退出登录",
+      "description": "您确定要退出登录吗？"
+    },
+    "update": {
+      "update_account": "更新账户",
+      "application_name": "您在应用中的名称",
+      "email": "电子邮箱",
+      "cannot_update_email": "*电子邮箱地址无法更改",
+      "update_error": "无法更新您在应用中的名称",
+      "update_success": "您的账户已成功更新",
+      "what_name_do_you_want": "您想使用什么名称？",
+      "change_profile_picture": "更改头像",
+      "delete_account": "删除账户",
+      "are_you_sure_to_delete": "您确定要删除您的账户吗？",
+      "delete_account_details": "删除您的账户将从应用中移除您的所有拍卖、出价、评价和其他数据。\n\n*** 此操作无法撤消",
+      "delete_account_error": "无法删除您的账户",
+      "save_location_to": "如果您保存您的位置，它将在您每次创建拍卖或出价时默认使用",
+      "cannot_update_phone_number": "电话号码无法更改"
+    },
+    "notifications": {
+      "notifications": "通知",
+      "permission_not_granted": "未授予权限",
+      "permission_not_granted_msg": "为了接收通知，您需要给予应用特定权限",
+      "give_permission": "授予权限",
+      "permission_granted": "已授予权限",
+      "permission_rejected": "权限被拒绝",
+      "auctions": "拍卖",
+      "bids": "出价",
+      "generic": "通用",
+      "favourites": "收藏",
+      "my_auction_started": "您的拍卖已开始",
+      "my_auction_started_descr": "当您的某个拍卖开始时，您将收到通知",
+      "fav_auction_started": "收藏的拍卖已开始",
+      "fav_auction_started_descr": "当您收藏的某个拍卖开始时，您将收到通知",
+      "auction_updated_title": "您出价的拍卖已更新",
+      "auction_updated_descr": "当您出价的拍卖的所有者更新拍卖时，您将收到通知",
+      "bid_added_title": "您的拍卖收到新出价",
+      "bid_added_descr": "当有人对您的某个拍卖出价时，您将收到通知",
+      "bid_removed_title": "您的拍卖有出价被移除",
+      "bid_removed_descr": "当有人从您的某个拍卖中移除出价时，您将收到通知",
+      "bid_accepted_title": "出价已被接受",
+      "bid_accepted_descr": "当您的某个出价被接受时，您将收到通知",
+      "bid_rejected_title": "出价已被拒绝",
+      "bid_rejected_descr": "当您的某个出价被拒绝时，您将收到通知",
+      "bid_seen": "出价已被查看",
+      "bid_seen_descr": "当您出价的拍卖的所有者查看您的出价时，您将收到通知",
+      "same_auction_bid": "与我相同的拍卖有新出价",
+      "same_auction_bid_descr": "当有人对您已出价的拍卖出价时，您将收到通知",
+      "auction_added_to_favourites": "拍卖被添加到收藏",
+      "auction_added_to_favourites_descr": "当有人将您的某个拍卖添加到他们的收藏时，您将收到通知",
+      "bid_on_favourites_auction": "您收藏的拍卖有新出价",
+      "bid_on_favourites_auction_descr": "当有人对您收藏的拍卖出价时，您将收到通知",
+      "favourite_price_change": "您收藏的拍卖价格变动",
+      "favourite_price_change_descr": "当您收藏的拍卖的价格发生变化时，您将收到通知",
+      "review_title": "评价/反馈",
+      "review_descr": "当其他用户对您的个人资料留下反馈时，您将收到通知",
+      "new_message_title": "新消息",
+      "new_message_descr": "当您收到来自其他用户的新消息时，您将收到通知",
+      "new_follower": "新关注者",
+      "new_follower_descr": "当有人开始关注您时，您将收到通知",
+      "new_auction_from_followed": "关注的用户发布新拍卖",
+      "new_auction_from_followed_descr": "当您关注的人添加新拍卖时，您将收到通知",
+      "new_comment_title": "新评论",
+      "new_comment_descr": "当有人评论您的某个拍卖时，您将收到通知",
+      "reply_title": "评论回复",
+      "reply_descr": "当有人回复您的某个评论时，您将收到通知",
+      "same_auction_comment": "相同拍卖有新评论",
+      "same_auction_comment_descr": "当有人评论您已评论的拍卖时，您将收到通知"
+    },
+    "block": {
+      "title": "屏蔽账户",
+      "unblock": "解除屏蔽账户",
+      "are_you_sure": "您确定要屏蔽此账户吗？",
+      "are_you_sure_to_unblock": "您确定要解除屏蔽此账户吗？",
+      "blocked_cannot_bid": "被屏蔽的用户将无法对您的任何拍卖出价。",
+      "block": "屏蔽",
+      "unblock_2": "解除屏蔽",
+      "was_blocked": "{{name}}已被屏蔽",
+      "was_unblocked": "{{name}}已被解除屏蔽"
+    },
+    "reviews": {
+      "info_msg": "只有在您赢得其拍卖或其赢得您的拍卖后，您才能对此用户添加评价",
+      "no_reviews": "暂无评价",
+      "no_reviews_for_you": "您暂无评价",
+      "reviews": "评价",
+      "no_reviews_for_account": "此用户还没有任何评价",
+      "see_all_reviews": "查看所有评价({{no}})"
+    },
+    "more": {
+      "title": "更多信息",
+      "send_message": {
+        "title": "发送消息或建议",
+        "input_placeholder": "在此写下消息或建议",
+        "send_message": "发送消息",
+        "could_not_send": "无法发送消息。请重试",
+        "message_sent": "消息已成功发送，我们会尽快阅读",
+        "send_message_and_well_be_back": "给我们发送消息，我们会尽快回复您。"
+      }
+    }
+  },
+  "dialogs": {
+    "discard_changes": "放弃",
+    "sure_to_go_back": "您确定要返回吗？",
+    "changes_will_be_discarded": "所有更改将被放弃"
+  },
+  "chat": {
+    "chat_images": "聊天图片",
+    "chat": "聊天",
+    "delete": "删除",
+    "single_message_copied": "消息已复制",
+    "messages_copied": "已复制{{no}}条消息",
+    "send_message": "发送消息",
+    "search": "搜索对话",
+    "no_more_messages": "没有更多可用消息",
+    "no_recent_emojis": "最近没有使用表情符号",
+    "no_conversations_available": "暂无可用对话",
+    "chat_data_reloaded": "聊天数据已成功重新加载",
+    "could_not_reload_data": "无法重新加载聊天数据",
+    "sure_you_want_to_delete": "您确定要删除所选消息吗？",
+    "permanently_deleted": "它们将被永久删除且无法恢复"
+  },
+  "verification": {
+    "account_verification": "账户验证",
+    "verified_info": "此账户已通过系统验证。",
+    "account_was_verified": "您的账户验证时间：",
+    "ask_verification": "您可以点击可用按钮申请验证。",
+    "ask_verification_button": "申请验证",
+    "already_asked_for_verification": "您已申请验证。请等待系统验证您的账户。",
+    "verified_have_icon": "已验证的账户在头像旁边有特殊图标。",
+    "could_not_ask_for_verification": "无法申请验证。请稍后重试。",
+    "verification_asked": "验证申请已成功提交。请等待系统验证您的账户。"
+  },
+  "auction_history": {
+    "auction_history": "拍卖历史",
+    "update": "您更新了拍卖详情。",
+    "promote": "您推广了拍卖。",
+    "view": "{{name}}查看了您的拍卖。",
+    "add_to_fav": "{{name}}将您的拍卖添加到收藏。",
+    "remove_from_fav": "{{name}}从收藏中移除了您的拍卖。",
+    "coins_refunded": "用于创建拍卖的硬币已退还。",
+    "bid_placed": "{{name}}对您的拍卖出价。",
+    "you_accepted_bid": "您接受了拍卖的出价。",
+    "you_rejected_bid": "您拒绝了拍卖的出价。"
+  },
+  "comments": {
+    "count": "评论({{no}})",
+    "be_the_first": "成为第一个留下评论或问题的人",
+    "leave_message": "留下评论或问题",
+    "reply": "回复",
+    "replying_to": "回复{{name}}"
+  },
+  "phone_sign_in": {
+    "title": "使用手机号码登录",
+    "description": "输入您的手机号码以登录",
+    "you_will_receive": "**您将收到一个帮助您登录的验证码",
+    "phone_number": "手机号码",
+    "send_code": "发送验证码",
+    "could_not_sign_in": "无法登录。请稍后重试",
+    "phone_invalid": "手机号码无效",
+    "verify_otp": "验证OTP",
+    "we_sent_code": "我们已向您的手机号码发送验证码。请在下方输入以登录",
+    "otp_invalid": "OTP无效"
+  },
+  "limitations": {
+    "anonymous_post": "匿名用户无法创建拍卖",
+    "anonymous_bid": "匿名用户无法创建出价",
+    "anonymous_description": "请使用您的电子邮箱或其他可用的登录方式登录。"
+  },
+  "verify_email": {
+    "title": "需要验证电子邮箱",
+    "we_sent_email": "我们已向您发送一封包含验证链接的电子邮件。",
+    "didn_t_receive_email": "没有收到电子邮件？",
+    "send_again": "重新发送链接",
+    "verified": "已验证",
+    "link_sent": "验证链接已成功发送。请检查您的电子邮件",
+    "could_not_send_link": "无法发送验证链接。请稍后重试",
+    "your_email_is_not_verified": "您的电子邮箱尚未验证",
+    "email_verified": "电子邮箱已成功验证"
+  },
+  "currencies": {
+    "could_not_update": "无法更新货币。请稍后重试"
+  },
+  "payment": {
+    "success": "支付成功",
+    "success_description": "支付已成功，硬币已添加到您的账户。前往首页查看添加的硬币。",
+    "open_profile": "打开个人资料",
+    "please_wait": "请稍候，我们正在处理您的支付...",
+    "could_not_capture_payment": "无法处理支付。请稍后重试",
+    "no_payment_methods_available": "无可用支付方式",
+    "purchase_this_package_for": "购买此套餐，价格为",
+    "step_1": "1. 选择硬币套餐",
+    "step_2": "2. 选择支付方式",
+    "no_products_available": "应用内暂无可用商品。",
+    "buy_no_coins": "购买{{no}}个硬币"
+  },
+  "ai": {
+    "generate_description": "您想使用人工智能自动生成标题、类别、价格和描述吗？",
+    "generate": "生成",
+    "ai_disabled": "人工智能功能已禁用。请联系系统管理员。",
+    "generate_error": "无法生成。请稍后重试",
+    "max_ai_responses_reached": "您已达到允许的人工智能响应次数上限。请联系系统管理员。",
+    "not_enough_coins": "您没有足够的金币来生成人工智能响应。请购买更多金币。"
+  }
+}

@@ -1,0 +1,1014 @@
+{
+  "coins_for_auction_or_bid": {
+    "reached_max_auctions": "Osiągnąłeś maksymalną liczbę aukcji, które możesz utworzyć za darmo ({{no}}).",
+    "reached_max_auctions_1": "Aby utworzyć nową aukcję, musisz zapłacić {{no}} monet.",
+    "auction_get_back": "Jeśli aukcja wygaśnie i nikt nie złoży oferty, odzyskasz monety.",
+    "not_enough_for_auction": "Nie masz wystarczającej liczby monet, aby utworzyć nową aukcję.",
+    "not_enough_for_bid": "Nie masz wystarczającej liczby monet, aby złożyć nową ofertę.",
+    "you_have_coins_no": "Masz {{no}} monet.",
+    "bid_get_back": "Jeśli aukcja wygaśnie i nie jesteś zwycięzcą, odzyskasz monety."
+  },
+  "starting_soon_auctions": {
+    "starting_soon": "Wkrótce się rozpocznie",
+    "starting_soon_plural": "Aukcje rozpoczynające się wkrótce",
+    "starts_at": "Aukcja rozpoczyna się o:",
+    "add_to_fav": "Dodaj aukcję do ulubionych, aby otrzymać powiadomienie o jej rozpoczęciu",
+    "add_to_fav_multiple": "Dodaj rozpoczynające się aukcje do ulubionych i otrzymuj powiadomienia o ich rozpoczęciu",
+    "custom_start_date": "Niestandardowa data rozpoczęcia",
+    "opted_for_custom": "Wybrałeś niestandardową datę rozpoczęcia i zakończenia tej aukcji. Nie możesz wrócić do automatycznej aktywacji aukcji.",
+    "will_automaticaly_start": "Aukcja rozpocznie się automatycznie po jej utworzeniu. Jeśli chcesz, możesz wyłączyć tę opcję i ustawić niestandardowe daty rozpoczęcia i zakończenia.",
+    "start_date": "Data rozpoczęcia",
+    "end_date": "Data zakończenia",
+    "no_starting_soon": "Nie ma aukcji rozpoczynających się wkrótce"
+  },
+  "auctions_map": {
+    "title": "Zobacz aukcje na mapie",
+    "description": "Szukasz czegoś wyjątkowego? Sprawdź aukcje w Twojej okolicy na mapie!",
+    "see_auction_details": "Zobacz szczegóły",
+    "see_auctions": "Zobacz aukcje"
+  },
+  "auction_details_status": {
+    "closing_at": "Zakończenie o:",
+    "closed_at": "Zakończono o:"
+  },
+  "similar": {
+    "similar_auctions": "Podobne aukcje"
+  },
+  "share": {
+    "button": "Udostępnij",
+    "share_on": "Udostępnij na {{name}}",
+    "check_auction": "Sprawdź tę aukcję na Biddo",
+    "check_account": "Sprawdź to konto na Biddo"
+  },
+  "terms_conditions": {
+    "titles": {
+      "terms_and_conditions": "Regulamin",
+      "cookie_policy": "Polityka cookies",
+      "security_policy": "Polityka bezpieczeństwa",
+      "user_rights": "Prawa użytkownika",
+      "prohibited_activities": "Zabronione działania",
+      "other_information": "Inne ważne informacje"
+    },
+    "terms_and_conditions": {
+      "acceptance_of_terms": {
+        "title": "Akceptacja warunków",
+        "content": "Korzystając z tej aplikacji, zgadzasz się przestrzegać i być związanym niniejszym Regulaminem. Jeśli nie zgadzasz się z tymi warunkami, musisz natychmiast zaprzestać korzystania z Aplikacji."
+      },
+      "user_responsibilities": {
+        "title": "Obowiązki użytkownika",
+        "sections": {
+          "responsible_use": "Użytkownicy są wyłącznie odpowiedzialni za korzystanie z Aplikacji i muszą używać jej w sposób zgodny z prawem, etyczny i odpowiedzialny.",
+          "prohibited_content": "Użytkownicy nie mogą publikować ani udostępniać treści obraźliwych, dla dorosłych, dyskryminujących, rasistowskich, nielegalnych lub szkodliwych. Administrator zastrzega sobie prawo do usunięcia takich treści i zamknięcia powiązanych kont.",
+          "account_security": "Użytkownicy są odpowiedzialni za zachowanie poufności swoich danych logowania i za wszelkie działania, które mają miejsce na ich koncie."
+        }
+      },
+      "sharing_of_information": {
+        "title": "Udostępnianie informacji",
+        "content": "Korzystając z Aplikacji, zgadzasz się, że Twoje informacje mogą być udostępniane usługom zewnętrznym w celu poprawy funkcjonalności i doświadczenia z Aplikacji. Administrator zapewnia, że udostępnianie danych jest zgodne z obowiązującymi standardami prawnymi."
+      },
+      "liability": {
+        "title": "Odpowiedzialność",
+        "sections": {
+          "not_responsible": "Administrator nie ponosi odpowiedzialności za jakiekolwiek szkody, straty lub uszkodzenia wynikające z niewłaściwego użytkowania Aplikacji, problemów technicznych, przestojów lub interakcji użytkowników.",
+          "indemnification": "Użytkownicy zgadzają się zabezpieczyć i zwolnić administratora z odpowiedzialności za wszelkie roszczenia wynikające z korzystania z Aplikacji."
+        }
+      },
+      "account_removal": {
+        "title": "Usunięcie konta",
+        "sections": {
+          "user_right": "Użytkownicy mają prawo usunąć swoje konta w dowolnym momencie. Po usunięciu dane osobowe będą przetwarzane zgodnie z Polityką Prywatności Aplikacji.",
+          "admin_right": "Administrator zastrzega sobie prawo do zawieszenia lub trwałego usunięcia kont, które naruszają zasady lub angażują się w złośliwe działania."
+        }
+      },
+      "modifications": {
+        "title": "Modyfikacje",
+        "content": "Administrator zastrzega sobie prawo do modyfikacji niniejszego Regulaminu w dowolnym momencie. Dalsze korzystanie z Aplikacji oznacza akceptację zmodyfikowanych warunków."
+      }
+    },
+    "cookie_policy": {
+      "title": "Polityka cookies",
+      "use_of_cookies": {
+        "title": "Wykorzystanie cookies",
+        "content": "Aplikacja używa plików cookie w celu poprawy doświadczenia użytkownika, analizy wydajności aplikacji i dostarczania spersonalizowanych treści. Korzystając z Aplikacji, zgadzasz się na używanie plików cookie."
+      },
+      "types_of_cookies": {
+        "title": "Rodzaje plików cookie",
+        "sections": {
+          "essential_cookies": "Niezbędne do działania Aplikacji.",
+          "performance_cookies": "Zbierają dane o tym, jak użytkownicy korzystają z Aplikacji.",
+          "functionality_cookies": "Zapisują preferencje użytkownika w celu poprawy użyteczności.",
+          "third_party_cookies": "Mogą być używane do dostarczania spersonalizowanych reklam lub analityki."
+        }
+      },
+      "user_consent": {
+        "title": "Zgoda użytkownika",
+        "content": "Korzystając z Aplikacji, wyrażasz zgodę na przechowywanie i używanie plików cookie zgodnie z opisem w tej polityce. Możesz wyłączyć pliki cookie w ustawieniach urządzenia, ale może to ograniczyć funkcjonalność Aplikacji."
+      }
+    },
+    "security_policy": {
+      "title": "Polityka bezpieczeństwa",
+      "data_protection": {
+        "title": "Ochrona danych",
+        "content": "Aplikacja stosuje standardowe środki bezpieczeństwa branżowego w celu ochrony danych użytkowników. Jednak administrator nie może zagwarantować całkowitego bezpieczeństwa ze względu na nieodłączne ryzyko usług online."
+      },
+      "user_responsibility": {
+        "title": "Odpowiedzialność użytkownika",
+        "content": "Użytkownicy są odpowiedzialni za zabezpieczenie swoich danych logowania i natychmiastowe zgłaszanie administratorowi wszelkich nieautoryzowanych dostępów lub podejrzanych działań."
+      },
+      "data_sharing": {
+        "title": "Udostępnianie danych",
+        "content": "Chociaż Aplikacja priorytetowo traktuje bezpieczeństwo danych użytkowników, niektóre dane mogą być udostępniane zaufanym dostawcom zewnętrznym w celu poprawy funkcjonalności lub spełnienia wymogów prawnych."
+      }
+    },
+    "prohibited_activities": {
+      "title": "Zabronione działania",
+      "sections": {
+        "prohibited_content": "Użytkownikom nie wolno publikować ani udostępniać treści jawnych, dla dorosłych, dyskryminujących, rasistowskich, nielegalnych lub podżegających do przemocy lub nienawiści.",
+        "misuse_of_app": "Użytkownicy nie mogą używać Aplikacji do działań, które mogłyby zaszkodzić jej reputacji, zakłócić jej działanie lub wykorzystywać innych użytkowników.",
+        "consequences": "Administrator zastrzega sobie prawo do usunięcia bez uprzedzenia wszelkich treści lub kont naruszających te zasady."
+      }
+    },
+    "user_rights": {
+      "title": "Prawa użytkownika",
+      "account_deletion": {
+        "title": "Usunięcie konta",
+        "content": "Użytkownicy mogą w dowolnym momencie zażądać usunięcia konta poprzez ustawienia Aplikacji lub kontaktując się z pomocą techniczną. Po usunięciu dane osobowe zostaną usunięte zgodnie z Polityką Prywatności, ale niektóre dane mogą być zachowane w celach prawnych lub regulacyjnych."
+      },
+      "complaints": {
+        "title": "Skargi i spory",
+        "content": "Użytkownicy mają prawo składać skargi lub spory dotyczące Aplikacji. Takie skargi muszą być składane za pośrednictwem oficjalnych kanałów wsparcia."
+      }
+    },
+    "other_information": {
+      "title": "Inne ważne informacje",
+      "sections": {
+        "no_guarantee": "Aplikacja jest dostarczana 'w stanie, w jakim jest'. Administrator nie gwarantuje nieprzerwanego dostępu, dokładności ani przydatności do określonego celu.",
+        "legal_compliance": "Użytkownicy są odpowiedzialni za zapewnienie zgodności swoich działań z lokalnymi przepisami i regulacjami.",
+        "admin_rights": "Administrator zastrzega sobie prawo do aktualizacji polityk, usuwania treści i modyfikowania funkcji Aplikacji w dowolnym momencie."
+      }
+    }
+  },
+  "pageSEO": {
+    "starting_soon_title": "Aukcje rozpoczynające się wkrótce",
+    "starting_soon_description": "Sprawdź aukcje, które wkrótce się rozpoczną na Biddo",
+    "terms_title": "Regulamin i Polityka Prywatności",
+    "terms_description": "Przeczytaj Regulamin i Politykę Prywatności aplikacji",
+    "login_title": "Strona logowania",
+    "login_description": "Zaloguj się do aplikacji",
+    "forgot_password_title": "Zapomniałem hasła",
+    "forgot_password_description": "Strona odzyskiwania hasła",
+    "phone_login_title": "Logowanie przez telefon",
+    "phone_login_description": "Strona logowania przez telefon",
+    "phone_otp_title": "Kod OTP telefonu",
+    "phone_otp_description": "Strona kodu OTP telefonu",
+    "home_title": "Biddo, Strona główna",
+    "home_description": "Biddo, Strona główna aplikacji",
+    "create_auction_title": "Utwórz aukcję",
+    "create_auction_description": "Utwórz nową aukcję",
+    "not_found_title": "Strona nie znaleziona",
+    "not_found_description": "Strona nie znaleziona",
+    "account_details_description": "Szczegóły konta",
+    "auctions_list_title": "Lista aukcji",
+    "auctions_list_description": "Lista wszystkich aukcji",
+    "recommendations_title": "Rekomendacje",
+    "recommendations_description": "Rekomendacje dla Ciebie",
+    "auctions_map": "Aukcje na mapie",
+    "auctions_map_description": "Aukcje na mapie",
+    "promoted_auctions_title": "Promowane aukcje",
+    "promoted_auctions_description": "Promowane aukcje",
+    "last_seen_auctions_title": "Ostatnio oglądane aukcje",
+    "last_seen_auctions_description": "Ostatnio oglądane aukcje",
+    "payment_success_title": "Płatność udana",
+    "payment_success_description": "Płatność została zrealizowana pomyślnie",
+    "register_title": "Rejestracja",
+    "register_description": "Strona rejestracji"
+  },
+  "404": {
+    "oops": "Ups! Strona nie znaleziona",
+    "page_not_found": "Być może ta strona jest uszkodzona lub nie została utworzona. Wróć do strony głównej.",
+    "back_to_home": "Wróć do strony głównej"
+  },
+  "anonymous": {
+    "login_for_notifications": "Musisz być zalogowany, aby otrzymywać powiadomienia.",
+    "login_for_favourites": "Musisz być zalogowany, aby dodawać aukcje do ulubionych.",
+    "login_for_chat": "Musisz być zalogowany, aby rozmawiać z innymi użytkownikami.",
+    "login_for_search_history": "Musisz być zalogowany, aby mieć historię wyszukiwania.",
+    "login_to_search_accounts": "Musisz być zalogowany, aby wyszukiwać konta.",
+    "login_to_send_user_message": "Musisz być zalogowany, aby wysłać wiadomość do tego użytkownika.",
+    "login_to_bid": "Musisz być zalogowany, aby złożyć ofertę.",
+    "login_to_report": "Musisz być zalogowany, aby utworzyć zgłoszenie.",
+    "login_to_follow": "Musisz być zalogowany, aby obserwować tego użytkownika."
+  },
+  "header": {
+    "profile": "Profil",
+    "all_around_the_world": "Na całym świecie",
+    "see_my_profile": "Zobacz mój profil",
+    "my_auctions": "Moje aukcje",
+    "my_bids": "Moje oferty"
+  },
+  "footer": {
+    "follow_us": "Obserwuj nas na",
+    "tutorial": "Samouczek",
+    "create_auction": "Utwórz aukcję",
+    "create_bid": "Złóż ofertę",
+    "about": "O nas",
+    "privacy_policy": "Polityka prywatności",
+    "terms_of_service": "Regulamin",
+    "faq": "FAQ",
+    "mobile_app": "Aplikacja mobilna",
+    "enjoy_better_experience": "Ciesz się lepszym doświadczeniem z naszą aplikacją mobilną",
+    "about_motto": "Biddo to platforma, gdzie możesz sprzedawać rzeczy, których już nie potrzebujesz i kupować te, których chcesz."
+  },
+  "cookie": {
+    "message": "Ta strona używa plików cookie, aby poprawić doświadczenie użytkownika. Korzystając z naszej strony, wyrażasz zgodę na wszystkie pliki cookie zgodnie z naszą Polityką Cookie.",
+    "readMore": "Przeczytaj Politykę Cookie",
+    "accept": "Akceptuj"
+  },
+  "info": {
+    "no_locations_found": "Nie znaleziono lokalizacji",
+    "condition_required": "Stan jest wymagany",
+    "location_needed": "Lokalizacja jest potrzebna, ponieważ ktoś może licytować Twój przedmiot w zależności od odległości między wami",
+    "add_more_to_search": "Dodaj co najmniej 2 znaki, aby wyszukać lokalizację",
+    "see_all_my_auctions": "Zobacz wszystkie moje aukcje",
+    "see_all_auctions_from_user": "Zobacz wszystkie aukcje tego użytkownika",
+    "min_price_for_bid_is": "Minimalna cena oferty to {{no}}",
+    "max_price_for_bid_is": "Maksymalna cena oferty to {{no}}",
+    "price_must_be_number": "Cena musi być liczbą między {{min}} a {{max}}",
+    "status": "Status",
+    "you_see_page": "Strona {{page}} z {{total}}",
+    "main_category": "Kategoria główna",
+    "sub_category": "Podkategoria",
+    "saved_filters": "Zapisane filtry",
+    "search_auctions": "Szukaj aukcji",
+    "sort_auctions": "Sortuj aukcje",
+    "no_filter_applied": "Nie masz zastosowanych filtrów",
+    "manage_preferences": "Zarządzaj preferencjami",
+    "you_dont_have_any_reviews": "Nie masz jeszcze żadnych opinii",
+    "see_how_others_see_you": "Zobacz jak inni widzą Twój profil",
+    "settings": "Ustawienia",
+    "credentials_exist": "Podane dane uwierzytelniające już istnieją",
+    "need_to_accept_terms": "Musisz zaakceptować regulamin, aby kontynuować",
+    "no_chat_to_match": "Nie ma czatów spełniających Twoje kryteria",
+    "preferences_updated": "Preferencje kategorii zostały zaktualizowane",
+    "sign_in_for_recommendations": "Musisz się zalogować, aby otrzymywać rekomendacje aukcji",
+    "buy_coins_description": "Kup monety, aby tworzyć więcej aukcji, ofert i promować swoje aukcje.",
+    "payment_success": "Płatność zakończona sukcesem",
+    "sign_in_for_last_seen": "Musisz się zalogować, aby zobaczyć ostatnio oglądane aukcje"
+  },
+  "ads": {
+    "win_coins": "Wygrywasz {{no}} monet(y) za każdą obejrzaną reklamę. Jak to brzmi?",
+    "watch_ad": "Obejrzyj reklamę"
+  },
+  "intro": {
+    "would_you_like_to_see": "Czy chciałbyś zobaczyć jak działa ",
+    "would_you_like_to_see_2": "?",
+    "a_guid_on_how_it_words": "Zobaczysz przewodnik jak działa aplikacja i jak jej używać",
+    "see_intro": "Zobacz intro",
+    "not_now": "Nie teraz",
+    "want_to_skip": "Czy na pewno chcesz pominąć intro?",
+    "how_it_works": "Jak to działa?",
+    "skip_intro": "Pomiń intro",
+    "on": "Na ",
+    "can_easily_trade": " możesz sprzedawać rzeczy, których już nie potrzebujesz i kupować te, których chcesz.",
+    "steps": {
+      "create_auction": "1. Utwórz aukcję",
+      "wait_for_bids": "2. Czekaj na oferty",
+      "accept_bid": "3. Zaakceptuj ofertę",
+      "review": "4. Dodaj opinię"
+    },
+    "create_auction": {
+      "become_visible": "Twoja aukcja stanie się widoczna dla innych i społeczność będzie miała ",
+      "hours_active": "{{no}} godzin ",
+      "to_bid": "na składanie ofert na Twoje przedmioty.",
+      "simply": "Po prostu ",
+      "create_an_auction": "utwórz aukcję ",
+      "using_the_books": "używając dowolnego przedmiotu, który chcesz sprzedać, a ",
+      "other_users": "inni użytkownicy mogą składać oferty ",
+      "for_them": "na nie."
+    },
+    "wait_for_bid": {
+      "can_wait": "Możesz czekać tak długo, jak chcesz, aż znajdziesz idealną ofertę dla swojej aukcji."
+    },
+    "chose_bid": {
+      "if_you_pick": "Jeśli wybrałeś zwycięską ofertę, będziesz miał możliwość ",
+      "to_chat": "czatowania ze zwycięzcą ",
+      "to_arrange_settlement": "aby ustalić rozliczenie.",
+      "full_control": "Masz pełną kontrolę nad wyborem zwycięskiej oferty lub odrzuceniem ofert."
+    },
+    "review": {
+      "after_the_auction": "Po zakończeniu aukcji możesz ",
+      "leave_a_review": "zostawić opinię ",
+      "for_the_winner": "dla zwycięzcy aukcji.",
+      "help_other_users": "To pomoże innym użytkownikom dowiedzieć się więcej o zwycięzcy."
+    }
+  },
+  "home": {
+    "discounts": {
+      "first15": "Otrzymaj 15% zniżki na pierwsze zamówienie",
+      "use_code": "Użyj kodu: ",
+      "every_weekend": "Samochody mają 5% zniżki w każdy weekend",
+      "car_accessories": "Do 30% zniżki na akcesoria samochodowe",
+      "shop_now": "Kup teraz"
+    },
+    "preferred_categories": {
+      "title": "Wybierz preferowane kategorie",
+      "info": "Będziesz otrzymywać powiadomienia i spersonalizowane rekomendacje na podstawie preferowanych kategorii.",
+      "update": "Zaktualizuj preferowane kategorie"
+    },
+    "search": {
+      "search": "Czego szukasz?",
+      "recent_searches": "Ostatnie wyszukiwania",
+      "users": "Użytkownicy",
+      "no_recent_search_found": "Nie znaleziono ostatnich wyszukiwań",
+      "auctions_count_singular": "{{no}} aukcja",
+      "auctions_count_plural": "{{no}} aukcji",
+      "no_auction_that_match": "Nie ma aukcji spełniających Twoje kryteria...",
+      "no_users_that_match": "Nie ma użytkowników spełniających Twoje kryteria..."
+    },
+    "filter": {
+      "filtered_auctions": "Filtrowane aukcje",
+      "no_data_found": "Nie znaleziono danych",
+      "all_auctions": "Wszystkie aukcje {{no}}",
+      "auctions_count": "{{no}} aukcji",
+      "categories": "Kategorie",
+      "price": "Cena",
+      "min_price_value": "Min. cena: {{no}}",
+      "max_price_value": "Maks. cena: {{no}}",
+      "min_price": "Min. cena",
+      "max_price": "Maks. cena",
+      "invalid_number": "Nieprawidłowa cena",
+      "apply_filter": "Zastosuj filtr",
+      "apply_sub_filter": "Zastosuj podfiltr",
+      "see_all": "Zobacz wszystkie",
+      "auctions_count_parant": "({{no}} aukcji)",
+      "selected_items": "({{no}} wybranych)",
+      "filter": "Filtruj",
+      "clear_all": "Wyczyść wszystko",
+      "location": "Lokalizacja",
+      "locations": "Lokalizacje",
+      "include_my_auctions": "Uwzględnij moje aukcje",
+      "without_my_auctions": "Bez moich aukcji",
+      "max_locations_error": "Można wybrać maksymalnie {{no}} lokalizacji",
+      "no_locations_for_criteria": "Brak dostępnych lokalizacji spełniających Twoje kryteria",
+      "no_categories_for_criteria": "Brak dostępnych kategorii spełniających Twoje kryteria",
+      "save_filter_title": "Zapisz filtr",
+      "save_filter_name": "Nazwa filtru",
+      "you_dont_have_saved_filters": "Nie masz żadnych zapisanych filtrów",
+      "you_can_have_max": "Możesz mieć maksymalnie {{no}} zapisanych filtrów",
+      "sure_you_want_to_remove": "Czy na pewno chcesz usunąć ten filtr?",
+      "filter_remove_error": "Nie można usunąć filtru. Spróbuj ponownie",
+      "about_saved_filters_title": "O zapisanych filtrach",
+      "about_saved_filters_descr": "Możesz zapisywać filtry, aby szybko uzyskać do nich dostęp później.\n\nBędziesz mógł zapisać filtr tylko wtedy, gdy nie jest pusty."
+    },
+    "auctions": {
+      "auctions": "Aukcje",
+      "last_seen": "Ostatnio oglądane aukcje",
+      "no_last_seen": "Nie masz jeszcze żadnych ostatnio oglądanych aukcji",
+      "no_auctions": "W tej chwili nie ma żadnych aukcji w aplikacji. Spróbuj ponownie później",
+      "see_all": "Zobacz wszystkie aukcje ({{no}})",
+      "no_auctions_to_match_criteria": "Nie ma aukcji spełniających Twoje kryteria",
+      "no_auctions_to_display": "W tej chwili nie ma żadnych aukcji",
+      "all_auctions": "Wszystkie aukcje ({{no}})"
+    },
+    "notifications": {
+      "notifications": "Powiadomienia",
+      "mark_as_seen": "Oznacz wszystkie jako przeczytane",
+      "dont_have_notifications": "Nie masz jeszcze żadnych powiadomień",
+      "mark_as_seen_success": "Wszystkie powiadomienia zostały oznaczone jako przeczytane",
+      "mark_as_seen_error": "Nie można oznaczyć wszystkich powiadomień jako przeczytane",
+      "permission_not_granted": "Uprawnienie nie zostało przyznane",
+      "permission_not_granted_msg": "Aby otrzymywać powiadomienia, musisz nadać aplikacji odpowiednie uprawnienia",
+      "give_permission": "Nadaj uprawnienie",
+      "permission_granted": "Uprawnienie przyznane",
+      "permission_rejected": "Uprawnienie odrzucone"
+    },
+    "categories": {
+      "categories": "Kategorie",
+      "all": "Wszystkie",
+      "sub_categories": "Podkategorie",
+      "no_auctions_for": "Nie ma aukcji dla {{name}}",
+      "no_auctions_to_match": "Nie ma aukcji pasujących do Twojego wyszukiwania w {{name}}",
+      "auctions_by_categories": "Aukcje według kategorii",
+      "alphabetical": "Alfabetycznie",
+      "count_desc": "Liczba aukcji (malejąco)",
+      "count_asc": "Liczba aukcji (rosnąco)",
+      "search_categories": "Szukaj kategorii",
+      "search_sub_categories": "Szukaj w {{category}}",
+      "filter": "Dodaj dodatkowy filtr"
+    }
+  },
+  "favourites": {
+    "app_bar": {
+      "no_closed_auctions": "Nie masz zamkniętych aukcji na liście ulubionych",
+      "no_active_auctions": "Nie masz aktywnych aukcji na liście ulubionych",
+      "tap_on_the": "Aby dodać aukcję do ulubionych, musisz kliknąć ikonę ",
+      "available_icon": " dostępną przy wszystkich aukcjach",
+      "favourites": "Ulubione aukcje",
+      "active": "Aktywne ({{no}})",
+      "closed": "Zamknięte ({{no}})"
+    },
+    "users_who_added_to_favourites": "Użytkownicy, którzy dodali tę aukcję do ulubionych",
+    "nobody_added_to_favourites": "Nikt nie dodał tej aukcji do ulubionych"
+  },
+  "create_auction": {
+    "create_auction": "Utwórz aukcję",
+    "create_a_new_auction": "Utwórz nową aukcję",
+    "title": "Tytuł",
+    "enter_title": "Wprowadź tytuł aukcji",
+    "youtube_link": "Link do YouTube",
+    "enter_youtube_link": "Wprowadź link do YouTube",
+    "description": "Opis",
+    "enter_description": "Wprowadź opis aukcji",
+    "another_starting_price": "Inna",
+    "starting_price": "Cena wywoławcza",
+    "price_cannot_be_empty": "Cena nie może być pusta",
+    "starting_price_condition": "Cena wywoławcza musi być między 1 a {{maxPrice}}",
+    "invalid_starting_price": "Nieprawidłowa cena wywoławcza",
+    "add_starting_price": "Dodaj cenę wywoławczą",
+    "category": "Kategoria",
+    "select_category": "Wybierz kategorię",
+    "new": "Nowy",
+    "used": "Używany",
+    "condition": "Stan",
+    "title_required": "Tytuł jest wymagany",
+    "category_required": "Kategoria jest wymagana",
+    "location_required": "Lokalizacja jest wymagana",
+    "price_required": "Cena jest wymagana",
+    "repository": {
+      "too_many_assets": "Przesłano zbyt wiele plików",
+      "asset_too_big": "Przesłany plik jest zbyt duży",
+      "asset_not_supported": "Typ przesłanego pliku nie jest obsługiwany",
+      "could_not_create": "Nie można utworzyć aukcji. Spróbuj ponownie",
+      "could_not_update": "Nie można zaktualizować aukcji. Spróbuj ponownie"
+    }
+  },
+  "promote_auction": {
+    "promote_auction": "Promuj",
+    "don_t_have_enough_coins": "Nie masz wystarczającej liczby monet, aby promować tę aukcję",
+    "could_not_promote": "Nie można promować aukcji. Spróbuj ponownie",
+    "auction_promoted": "Aukcja została pomyślnie wypromowana",
+    "sure_you_want_to_promote": "Czy na pewno chcesz promować tę aukcję?",
+    "promoted_will_show": "Promowana aukcja będzie pokazywana na górze listy aukcji. Możesz promować aukcję wielokrotnie.",
+    "can_be_pushed_down": "Promocja sprawi, że Twoja aukcja przeskoczy na górę listy, ale nowe promowane aukcje będą ją spychać w dół.",
+    "promotion_cost": "Każda promocja kosztuje {{no}} monet",
+    "promoted_at": "Promowane",
+    "promoted": "Promowane"
+  },
+  "auction_details": {
+    "auction_ends_in": "Aukcja kończy się za",
+    "auction_does_not_exit": "Aukcja już nie istnieje lub nie można uzyskać do niej dostępu",
+    "auction_data_reloaded": "Dane aukcji zostały pomyślnie odświeżone",
+    "auction_images": "Zdjęcia aukcji",
+    "does_not_have_images": "Ta aukcja nie ma żadnych zdjęć",
+    "no_active_bids": "Nie ma aktywnych ofert dla tej aukcji",
+    "no_description_provided": "Nie podano opisu",
+    "bids_count": "Oferty ({{no}})",
+    "accepted_bid": "Zaakceptowana oferta",
+    "closed": "Zamknięta",
+    "create_bid": {
+      "title": "Utwórz ofertę",
+      "price_hint": "Cena",
+      "location_is_required": "Lokalizacja jest wymagana",
+      "message_description": "Czy chcesz dodać wiadomość do swojej oferty",
+      "starting_price": "Cena wywoławcza",
+      "highest_bid": "Najwyższa oferta",
+      "cannot_place_bid_lower": "*Nie możesz złożyć oferty niższej niż cena wywoławcza",
+      "cannot_place_bid_lower_than_bid": "Nie możesz złożyć oferty niższej niż najwyższa oferta",
+      "select_price": "Wybierz cenę, którą chcesz zaoferować",
+      "leave_a_message": "Zostaw wiadomość (Opcjonalne)",
+      "bid_created": "Oferta została pomyślnie utworzona",
+      "error_creating": "Nie można utworzyć oferty. Spróbuj ponownie",
+      "this_is_user_bid": "To jest oferta, którą użytkownik złożył w tej aukcji",
+      "already_have_highest_bid": "Masz już najwyższą ofertę w tej aukcji",
+      "cannot_create_on_your_auction": "Nie możesz składać ofert w swojej własnej aukcji",
+      "cannot_create_on_expired": "Nie możesz składać ofert w zamkniętej aukcji"
+    },
+    "update": {
+      "title": "Aktualizuj aukcję",
+      "update": "Aktualizuj",
+      "update_successful": "Aukcja została pomyślnie zaktualizowana"
+    },
+    "long_distance": {
+      "title": "Twoja lokalizacja jest daleko",
+      "description": "Wygląda na to, że tworzysz ofertę do aukcji, a Twoja lokalizacja jest daleko od lokalizacji właściciela aukcji."
+    },
+    "app_bar": {
+      "report_auction": "Zgłoś aukcję",
+      "remove_auction": "Usuń aukcję",
+      "update_auction": "Aktualizuj aukcję",
+      "bids_count": "Oferty ({{no}})"
+    },
+    "details": {
+      "created_by": "Utworzone przez",
+      "views": "Wyświetlenia: ",
+      "created_at": "Utworzone: "
+    },
+    "dialogs": {
+      "auction_removed": "Aukcja została usunięta",
+      "sure_to_remove_auction": "Czy na pewno chcesz usunąć tę aukcję?",
+      "bidders_will_be_notified_after_remove": "*Oferenci tej aukcji zostaną powiadomieni o jej usunięciu"
+    },
+    "bids": {
+      "bid_was_removed": "Oferta została usunięta z aukcji",
+      "sure_to_remove_bid": "Czy na pewno chcesz usunąć tę ofertę z aukcji?",
+      "auction_owner_will_be_notified": "*Właściciel aukcji zostanie powiadomiony o tej zmianie",
+      "bid_rejected": "Oferta została odrzucona, a oferent zostanie powiadomiony.",
+      "sure_to_reject": "Czy na pewno chcesz odrzucić tę ofertę?",
+      "enter_rejection_reason": "Wprowadź powód odrzucenia",
+      "cannot_undo_or_see": "*Nie będziesz mógł cofnąć tej operacji ani zobaczyć szczegółów oferty",
+      "reject_bid": "Odrzuć ofertę",
+      "bid_accepted": "Oferta została zaakceptowana, a oferent zostanie powiadomiony",
+      "sure_to_accept": "Czy na pewno chcesz zaakceptować tę ofertę?",
+      "auction_will_be_closed": "Aukcja zostanie automatycznie zamknięta",
+      "cannot_undo": "*Nie będziesz mógł cofnąć tej operacji",
+      "accept_bid": "Zaakceptuj ofertę",
+      "rejected": "Odrzucona",
+      "see_your_profile": "Zobacz swój profil",
+      "see_bidder": "Zobacz profil oferenta",
+      "report": "Zgłoś ofertę",
+      "remove": "Usuń ofertę",
+      "unknown_location": "Nieznana lokalizacja"
+    },
+    "reviews": {
+      "review_updated": "Recenzja została zaktualizowana",
+      "review_created": "Recenzja została utworzona",
+      "could_not_update_review": "Nie można zaktualizować recenzji",
+      "could_not_create_review": "Nie można utworzyć recenzji",
+      "would_you_leave_review": "Czy chciałbyś zostawić recenzję dla ",
+      "review_details": "Szczegóły recenzji",
+      "save_review": "Zapisz recenzję",
+      "added_a_review": " dodał(a) recenzję"
+    }
+  },
+  "map_auctions": {
+    "auctions_count": "{{no}} aukcji w tej lokalizacji",
+    "auctions_loaded": "Załadowano {{no}} aukcji",
+    "location_disabled": "Usługi lokalizacji są wyłączone",
+    "location_denied": "Uprawnienia lokalizacji są odrzucone",
+    "location_permanent_denied": "Uprawnienia lokalizacji są trwale odrzucone, nie możemy poprosić o uprawnienia",
+    "auctions_count_simple": "{{no}} aukcji",
+    "search_locations": "Szukaj lokalizacji",
+    "select_location": "Wybierz lokalizację",
+    "need_to_zoom_in": "Aby aukcje były widoczne na mapie, musisz przybliżyć widok",
+    "loading_auctions": "Ładowanie aukcji",
+    "no_auction_loaded": "Nie załadowano aukcji. Spróbuj wybrać inną lokalizację lub kategorię",
+    "long_tap": "Przytrzymaj długo na mapie, aby wybrać inną lokalizację",
+    "select_category": "Wybierz kategorię do wyświetlenia na mapie",
+    "show_on_map": "Pokaż na mapie",
+    "need_permission_from_settings": "Musisz nadać to uprawnienie w ustawieniach systemu"
+  },
+  "recommendations": {
+    "no_recommendations_for_you": "W tej chwili nie ma dla Ciebie rekomendacji.",
+    "no_recommendation_details": "Upewnij się, że dodałeś jakieś aukcje do ulubionych lub wybrałeś przynajmniej jedną kategorię jako preferowaną.",
+    "you_might_like": "Może Ci się spodobać"
+  },
+  "buy_coins": {
+    "buy_coins": "Kup monety",
+    "coins_no": "{{no}} monet",
+    "buy_coins_and_promote": "Kup monety i promuj swoje aukcje, aby zwiększyć ich widoczność.",
+    "no_products": "W tej chwili nie ma dostępnych produktów",
+    "success_purchase": "Monety zostały pomyślnie zakupione",
+    "error_purchase": "Nie można zakupić monet. Spróbuj ponownie",
+    "having_trouble": "Masz problemy z zakupem monet?",
+    "send_us_a_message": "Wyślij nam wiadomość, a skontaktujemy się z Tobą jak najszybciej.",
+    "buy_coins_to_create_more_auctions": "Kup monety, aby tworzyć więcej aukcji i promować je dla większej widoczności."
+  },
+  "location": {
+    "location": "Lokalizacja",
+    "your_location": "Twoja lokalizacja",
+    "select_location": "Wybierz lokalizację",
+    "location_disabled": "Usługi lokalizacji są wyłączone",
+    "location_denied": "Uprawnienia lokalizacji są odrzucone",
+    "location_permanent_denied": "Uprawnienia lokalizacji są trwale odrzucone, nie możemy poprosić o uprawnienia",
+    "long_tap": "Przytrzymaj długo na mapie, aby wybrać inną lokalizację",
+    "search_by_city": "Szukaj według miasta",
+    "to_create_pin": "Wyszukaj nową lokalizację lub przytrzymaj długo mapę, aby utworzyć nowy pin",
+    "map_not_available": "Mini-Mapa jest niedostępna",
+    "need_to_give_permissions": "Musisz nadać uprawnienia lokalizacji, aby korzystać z tej funkcji",
+    "distance": "{{no}}km od Ciebie"
+  },
+  "reports": {
+    "was_reported": "Zgłoszenie zostało pomyślnie utworzone. Wkrótce je przeanalizujemy",
+    "misleading_or_scam": "Wprowadzające w błąd lub oszustwo",
+    "sexually_inappropriate": "Nieodpowiednie treści seksualne",
+    "offensive_content": "Obraźliwe treści",
+    "other": "Inne",
+    "like_to_give_details": "Czy chcesz podać więcej szczegółów?",
+    "sure_to_report": "Czy na pewno chcesz zgłosić {{name}}?",
+    "sure_to_report_2": "Czy na pewno chcesz zgłosić {{name}}?",
+    "sure_to_report_auction": "aukcję",
+    "sure_to_report_bid": "ofertę",
+    "sure_to_report_account": "konto",
+    "report_action": "Zgłoś"
+  },
+  "errors": {
+    "no_internet": "Wygląda na to, że nie masz połączenia z internetem",
+    "try_again": "Spróbuj ponownie"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Hasło",
+    "sign_in": {
+      "sign_in": "Zaloguj się",
+      "enter_credentials": "Wprowadź swoje dane logowania, aby kontynuować",
+      "enter_email": "Wprowadź swój email",
+      "enter_password": "Wprowadź swoje hasło",
+      "forgot_password": "Zapomniałeś hasła?",
+      "continue_with": "Lub kontynuuj z",
+      "not_a_member": "Nie masz konta? ",
+      "register_now": "Zarejestruj się teraz",
+      "continue_as_anon": "Kontynuuj jako gość",
+      "email_empty": "Email nie może być pusty",
+      "email_invalid": "Email jest nieprawidłowy",
+      "password_empty": "Hasło nie może być puste",
+      "cannot_facebook_login": "Nie można zalogować się przez Facebook. Spróbuj ponownie",
+      "cannot_google_login": "Nie można zalogować się przez Google. Spróbuj ponownie",
+      "cannot_email_login": "Nie można zalogować się przy użyciu tych danych. Upewnij się, że masz aktywne konto i dane są poprawne."
+    },
+    "sign_up": {
+      "email_empty": "Email nie może być pusty",
+      "email_invalid": "Email jest nieprawidłowy",
+      "password_empty": "Hasło nie może być puste",
+      "password_min_len": "Hasło musi mieć co najmniej 6 znaków",
+      "need_to_accept": "Musisz zaakceptować ",
+      "terms_of_service": "Regulamin",
+      "to_continue": " aby kontynuować",
+      "sign_up": "Zarejestruj się",
+      "lets_create_acc": "Utwórzmy nowe konto",
+      "email_placeholder": "Wprowadź swój email",
+      "password_placeholder": "Ustaw hasło",
+      "already_member": "Masz już konto? ",
+      "sign_in": "Zaloguj się"
+    },
+    "forgot_password": {
+      "title": "Zapomniałeś hasła",
+      "reset": "Zresetuj hasło",
+      "enter_email": "Wprowadź adres email użyty do utworzenia konta",
+      "return_to": "Wróć do ",
+      "you_will_receive": "**Otrzymasz email, który pomoże Ci zresetować hasło",
+      "user_was_not_found": "Nie znaleźliśmy użytkownika z tym adresem email",
+      "could_not_send_email": "Nie mogliśmy wysłać emaila z resetowaniem hasła. Spróbuj ponownie później",
+      "email_sent": "Email został wysłany na Twój adres. Postępuj zgodnie z instrukcjami w emailu, aby zresetować hasło"
+    },
+    "terms": {
+      "continue": "Kontynuuj",
+      "almost_there": "Prawie gotowe",
+      "accept": "Akceptuję warunki ",
+      "terms_of_service": "Regulaminu",
+      "processing": " i zgadzam się na przetwarzanie moich danych osobowych zgodnie z ",
+      "privacy": "Polityką prywatności"
+    }
+  },
+  "generic": {
+    "days_no": "{{no}} dni",
+    "see_video": "Zobacz wideo",
+    "online": "Online",
+    "offline": "Offline",
+    "translate": "Przetłumacz",
+    "see_original": "Zobacz oryginał",
+    "change_tab": "Zmień zakładkę",
+    "promoted_auctions": "Promowane aukcje",
+    "open_settings": "Otwórz ustawienia",
+    "give_permission": "Nadaj uprawnienie",
+    "permission_denied": "Odmowa uprawnień",
+    "image_not_found": "Nie znaleziono obrazu",
+    "choose": "Wybierz",
+    "unknown": "Nieznany",
+    "search": "Szukaj",
+    "by": "przez {{name}}",
+    "undo": "Cofnij",
+    "remove": "Usuń",
+    "see_all": "Zobacz wszystkie",
+    "done": "Gotowe",
+    "newest": "Najnowsze",
+    "oldest": "Najstarsze",
+    "newest_accepted_bid": "Najnowsza zaakceptowana oferta",
+    "oldest_accepted_bid": "Najstarsza zaakceptowana oferta",
+    "ascending_price": "Cena rosnąco",
+    "descending_price": "Cena malejąco",
+    "skip": "Pomiń",
+    "back": "Wróć",
+    "continue": "Kontynuuj",
+    "finish": "Zakończ",
+    "closed": "Zamknięte",
+    "cancel": "Anuluj",
+    "face_to_face": "Osobiście",
+    "delivery": "Dostawa",
+    "custom": "Niestandardowe",
+    "save": "Zapisz",
+    "see_less": " Zobacz mniej",
+    "see_more": " Zobacz więcej",
+    "optional": "(Opcjonalne)",
+    "details": "Szczegóły",
+    "clear": "Wyczyść",
+    "clear_all": "Wyczyść wszystko",
+    "refresh": "Odśwież",
+    "yes": "Tak",
+    "no": "Nie",
+    "auction": "aukcja",
+    "auction2": "aukcja",
+    "ok": "Ok",
+    "offer": "oferta",
+    "offer2": "oferta",
+    "loading": "Ładowanie...",
+    "don_t_show_again": "Nie pokazuj ponownie",
+    "something_went_wrong": "Coś poszło nie tak. Spróbuj ponownie",
+    "info": "Informacja",
+    "your_auction": "Twoja aukcja",
+    "bids_count_singular": "1 oferta",
+    "bids_count_plural": "{{no}} ofert",
+    "auction_count_singular": "1 aukcja",
+    "auction_count_plural": "{{no}} aukcji"
+  },
+  "bottom_nav": {
+    "home": "Strona główna",
+    "favourites": "Ulubione",
+    "create": "Utwórz",
+    "chat": "Czat",
+    "more": "Więcej"
+  },
+  "permissions": {
+    "camera_permissions": "Uprawnienia kamery",
+    "need_to_request_camera": "Musimy poprosić o Twoją zgodę na dostęp do kamery",
+    "from_settings": "Musisz nadać to uprawnienie w ustawieniach systemu",
+    "open_settings": "Otwórz ustawienia",
+    "allow_access": "Zezwól na dostęp",
+    "storage_permissions": "Uprawnienia pamięci",
+    "need_to_request_files": "Musimy poprosić o Twoją zgodę na odczyt plików lokalnych, aby załadować je w aplikacji",
+    "need_to_request_notifications": "Aby ta funkcja działała, musimy poprosić o Twoją zgodę na wysyłanie powiadomień"
+  },
+  "assets": {
+    "selected_images": "Wybrane zdjęcia",
+    "no_selected": "Nie masz więcej wybranych zdjęć",
+    "image_singular": "{{no}} zdjęcie",
+    "image_plural": "{{no}} zdjęć",
+    "remove_image": "Usuń zdjęcie",
+    "all_images_folder": "Wszystkie zdjęcia",
+    "max_allowed": "Można wybrać maksymalnie {{no}} plików",
+    "select": "Wybierz",
+    "no_images_in_folder": "Brak zdjęć w tym folderze",
+    "add_images": "Dodaj zdjęcia"
+  },
+  "profile": {
+    "legal_info": "Informacje prawne",
+    "terms_of_service": "Regulamin",
+    "privacy_policy": "Polityka prywatności",
+    "cookies_policy": "Polityka cookies",
+    "about": "O nas",
+    "sign_out": "Wyloguj się",
+    "version": "Wersja {{no}}",
+    "preferences": "Preferencje",
+    "languages": "Języki aplikacji",
+    "report": "Zgłoś",
+    "language": "Język aplikacji",
+    "no_reviews": "(Brak opinii)",
+    "update_account": "Aktualizuj",
+    "all_auctions_for": "Aukcje utworzone przez {{name}} ({{no}})",
+    "currencies": "Waluty",
+    "see_review_auction": "Zobacz powiązaną aukcję",
+    "no_auctions": "Brak dostępnych aukcji",
+    "send_message": "Wyślij wiadomość",
+    "follow": "Obserwuj",
+    "unfollow": "Przestań obserwować",
+    "following": "Obserwowani",
+    "followers": "Obserwujący",
+    "congratulations_follow": "🚀 Gratulacje!",
+    "you_are_now_following": "Teraz obserwujesz {{name}}.\n\nOtrzymasz powiadomienie, gdy {{name}} utworzy nową aukcję.",
+    "could_not_follow": "Nie można obserwować {{name}}. Spróbuj ponownie później",
+    "could_not_unfollow": "Nie można przestać obserwować {{name}}. Spróbuj ponownie później",
+    "unfollow_success": "Nie obserwujesz już {{name}}",
+    "no_followers": "{{name}} nie ma jeszcze obserwujących",
+    "no_following": "{{name}} nikogo jeszcze nie obserwuje",
+    "cannot_load_chat_group": "Nie można załadować czatu z kontem. Spróbuj ponownie.",
+    "your_auctions": "Twoje aukcje",
+    "your_bids": "Twoje oferty",
+    "all_your_bids": {
+      "title": "Wszystkie Twoje oferty",
+      "all_bids": "Wszystkie Twoje oferty ({{no}})",
+      "no_bids": "Nie masz jeszcze żadnych ofert"
+    },
+    "accepted_bids": {
+      "title": "Zaakceptowane oferty",
+      "accepted_bids": "Zaakceptowane oferty ({{no}})",
+      "no_bids": "Nie masz jeszcze żadnych zaakceptowanych ofert"
+    },
+    "rejected_bids": {
+      "title": "Odrzucone oferty",
+      "rejected_bids": "Odrzucone oferty ({{no}})",
+      "no_bids": "Nie masz jeszcze żadnych odrzuconych ofert"
+    },
+    "closed_auctions": {
+      "title": "Zamknięte aukcje",
+      "closed_auctions": "Zamknięte aukcje ({{no}})",
+      "no_auctions": "Nie masz jeszcze żadnych zamkniętych aukcji"
+    },
+    "active_auctions": {
+      "title": "Aktywne aukcje",
+      "active_auctions": "Aktywne aukcje ({{no}})",
+      "no_auctions": "Nie masz aktywnych aukcji"
+    },
+    "sign_out_dialog": {
+      "title": "Wyloguj się",
+      "description": "Czy na pewno chcesz się wylogować?"
+    },
+    "update": {
+      "update_account": "Aktualizuj konto",
+      "application_name": "Twoja nazwa w aplikacji",
+      "email": "Email",
+      "cannot_update_email": "*Adres email nie może zostać zmieniony",
+      "update_error": "Nie można zaktualizować Twojej nazwy w aplikacji",
+      "update_success": "Twoje konto zostało pomyślnie zaktualizowane",
+      "what_name_do_you_want": "Jakiej nazwy chcesz używać?",
+      "change_profile_picture": "Zmień zdjęcie profilowe",
+      "delete_account": "Usuń konto",
+      "are_you_sure_to_delete": "Czy na pewno chcesz usunąć swoje konto?",
+      "delete_account_details": "Usunięcie konta spowoduje usunięcie wszystkich Twoich aukcji, ofert, opinii i innych danych z aplikacji.\n\n*** Tej akcji nie można cofnąć",
+      "delete_account_error": "Nie można usunąć Twojego konta",
+      "save_location_to": "Jeśli zapiszesz swoją lokalizację, będzie ona domyślnie używana za każdym razem, gdy utworzysz aukcję lub ofertę",
+      "cannot_update_phone_number": "Numer telefonu nie może zostać zmieniony"
+    },
+    "notifications": {
+      "notifications": "Powiadomienia",
+      "permission_not_granted": "Uprawnienie nie zostało przyznane",
+      "permission_not_granted_msg": "Aby otrzymywać powiadomienia, musisz nadać aplikacji odpowiednie uprawnienia",
+      "give_permission": "Nadaj uprawnienie",
+      "permission_granted": "Uprawnienie przyznane",
+      "permission_rejected": "Uprawnienie odrzucone",
+      "auctions": "Aukcje",
+      "bids": "Oferty",
+      "generic": "Ogólne",
+      "favourites": "Ulubione",
+      "my_auction_started": "Twoja aukcja się rozpoczęła",
+      "my_auction_started_descr": "Otrzymasz powiadomienie, gdy jedna z Twoich aukcji się rozpocznie",
+      "fav_auction_started": "Ulubiona aukcja się rozpoczęła",
+      "fav_auction_started_descr": "Otrzymasz powiadomienie, gdy jedna z Twoich ulubionych aukcji się rozpocznie",
+      "auction_updated_title": "Aukcja, w której złożyłeś ofertę, została zaktualizowana",
+      "auction_updated_descr": "Otrzymasz powiadomienie, jeśli właściciel aukcji, w której złożyłeś ofertę, zaktualizuje aukcję",
+      "bid_added_title": "Dodano ofertę do Twojej aukcji",
+      "bid_added_descr": "Otrzymasz powiadomienie, gdy ktoś doda nową ofertę do jednej z Twoich aukcji",
+      "bid_removed_title": "Usunięto ofertę z Twojej aukcji",
+      "bid_removed_descr": "Otrzymasz powiadomienie, gdy ktoś usunie ofertę z jednej z Twoich aukcji",
+      "bid_accepted_title": "Oferta została zaakceptowana",
+      "bid_accepted_descr": "Otrzymasz powiadomienie, gdy jedna z Twoich ofert zostanie zaakceptowana",
+      "bid_rejected_title": "Oferta została odrzucona",
+      "bid_rejected_descr": "Otrzymasz powiadomienie, gdy jedna z Twoich ofert zostanie odrzucona",
+      "bid_seen": "Oferta została zobaczona",
+      "bid_seen_descr": "Otrzymasz powiadomienie, gdy właściciel aukcji, w której złożyłeś ofertę, zobaczy Twoją ofertę",
+      "same_auction_bid": "Nowa oferta w tej samej aukcji co Ty",
+      "same_auction_bid_descr": "Otrzymasz powiadomienie, gdy ktoś złoży ofertę w aukcji, w której Ty już złożyłeś ofertę",
+      "auction_added_to_favourites": "Aukcja dodana do ulubionych",
+      "auction_added_to_favourites_descr": "Otrzymasz powiadomienie, gdy ktoś doda jedną z Twoich aukcji do swoich ulubionych",
+      "bid_on_favourites_auction": "Oferta w jednej z Twoich ulubionych aukcji",
+      "bid_on_favourites_auction_descr": "Otrzymasz powiadomienie, gdy ktoś złoży ofertę w aukcji, którą dodałeś do ulubionych",
+      "favourite_price_change": "Zmiana ceny w jednej z Twoich ulubionych aukcji",
+      "favourite_price_change_descr": "Otrzymasz powiadomienie, gdy zmieni się cena aukcji, którą dodałeś do ulubionych",
+      "review_title": "Opinia / Feedback",
+      "review_descr": "Otrzymasz powiadomienie, gdy inni użytkownicy zostawią opinię na Twoim profilu",
+      "new_message_title": "Nowa wiadomość",
+      "new_message_descr": "Otrzymasz powiadomienie, gdy otrzymasz nową wiadomość od innego użytkownika",
+      "new_follower": "Nowy obserwujący",
+      "new_follower_descr": "Otrzymasz powiadomienie, gdy ktoś zacznie Cię obserwować",
+      "new_auction_from_followed": "Nowa aukcja od obserwowanego użytkownika",
+      "new_auction_from_followed_descr": "Otrzymasz powiadomienie, gdy ktoś, kogo obserwujesz, doda nową aukcję",
+      "new_comment_title": "Nowy komentarz",
+      "new_comment_descr": "Otrzymasz powiadomienie, gdy ktoś skomentuje jedną z Twoich aukcji",
+      "reply_title": "Odpowiedź na komentarz",
+      "reply_descr": "Otrzymasz powiadomienie, gdy ktoś odpowie na jeden z Twoich komentarzy",
+      "same_auction_comment": "Nowy komentarz w tej samej aukcji",
+      "same_auction_comment_descr": "Otrzymasz powiadomienie, gdy ktoś skomentuje aukcję, którą już skomentowałeś"
+    },
+    "block": {
+      "title": "Zablokuj konto",
+      "unblock": "Odblokuj konto",
+      "are_you_sure": "Czy na pewno chcesz zablokować to konto?",
+      "are_you_sure_to_unblock": "Czy na pewno chcesz odblokować to konto?",
+      "blocked_cannot_bid": "Zablokowani użytkownicy nie będą mogli składać ofert w żadnej z Twoich aukcji.",
+      "block": "Zablokuj",
+      "unblock_2": "Odblokuj",
+      "was_blocked": "{{name}} został zablokowany",
+      "was_unblocked": "{{name}} został odblokowany"
+    },
+    "reviews": {
+      "info_msg": "Będziesz mógł dodawać opinie o tym użytkowniku tylko po wygraniu jednej z jego aukcji lub gdy on wygra jedną z Twoich",
+      "no_reviews": "Brak dostępnych opinii",
+      "no_reviews_for_you": "Brak dostępnych opinii dla Ciebie",
+      "reviews": "Opinie",
+      "no_reviews_for_account": "Ten użytkownik nie ma jeszcze żadnych opinii",
+      "see_all_reviews": "Zobacz wszystkie opinie ({{no}})"
+    },
+    "more": {
+      "title": "Więcej informacji",
+      "send_message": {
+        "title": "Wyślij wiadomość lub propozycję",
+        "input_placeholder": "Napisz tutaj wiadomość lub propozycję",
+        "send_message": "Wyślij wiadomość",
+        "could_not_send": "Nie można wysłać wiadomości. Spróbuj ponownie",
+        "message_sent": "Wiadomość została wysłana pomyślnie i przeczytamy ją jak najszybciej",
+        "send_message_and_well_be_back": "Wyślij nam wiadomość, a odpowiemy tak szybko, jak to możliwe."
+      }
+    }
+  },
+  "dialogs": {
+    "discard_changes": "Odrzuć",
+    "sure_to_go_back": "Czy na pewno chcesz wrócić?",
+    "changes_will_be_discarded": "Wszystkie Twoje zmiany zostaną odrzucone"
+  },
+  "chat": {
+    "chat_images": "Zdjęcia z czatu",
+    "chat": "Czat",
+    "delete": "Usuń",
+    "single_message_copied": "Wiadomość skopiowana",
+    "messages_copied": "Skopiowano {{no}} wiadomości",
+    "send_message": "Wyślij wiadomość",
+    "search": "Przeszukaj konwersację",
+    "no_more_messages": "Brak więcej dostępnych wiadomości",
+    "no_recent_emojis": "Brak ostatnio używanych emoji",
+    "no_conversations_available": "Brak dostępnych konwersacji",
+    "chat_data_reloaded": "Dane czatu zostały pomyślnie odświeżone",
+    "could_not_reload_data": "Nie można odświeżyć danych czatu",
+    "sure_you_want_to_delete": "Czy na pewno chcesz usunąć wybrane wiadomości?",
+    "permanently_deleted": "Zostaną one trwale usunięte i nie będzie można ich odzyskać"
+  },
+  "verification": {
+    "account_verification": "Weryfikacja konta",
+    "verified_info": "To konto zostało zweryfikowane przez system.",
+    "account_was_verified": "Twoje konto zostało zweryfikowane: ",
+    "ask_verification": "Możesz poprosić o weryfikację, klikając dostępny przycisk.",
+    "ask_verification_button": "Poproś o weryfikację",
+    "already_asked_for_verification": "Już poprosiłeś o weryfikację. Poczekaj, aż system zweryfikuje Twoje konto.",
+    "verified_have_icon": "Zweryfikowane konta mają specjalną ikonę obok awatara.",
+    "could_not_ask_for_verification": "Nie można poprosić o weryfikację. Spróbuj ponownie później.",
+    "verification_asked": "Prośba o weryfikację została wysłana pomyślnie. Poczekaj, aż system zweryfikuje Twoje konto."
+  },
+  "auction_history": {
+    "auction_history": "Historia aukcji",
+    "update": "Zaktualizowałeś szczegóły swojej aukcji.",
+    "promote": "Wypromowałeś swoją aukcję.",
+    "view": "{{name}} obejrzał Twoją aukcję.",
+    "add_to_fav": "{{name}} dodał Twoją aukcję do ulubionych.",
+    "remove_from_fav": "{{name}} usunął Twoją aukcję z ulubionych.",
+    "coins_refunded": "Monety użyte do utworzenia aukcji zostały zwrócone.",
+    "bid_placed": "{{name}} złożył ofertę w Twojej aukcji.",
+    "you_accepted_bid": "Zaakceptowałeś ofertę w swojej aukcji.",
+    "you_rejected_bid": "Odrzuciłeś ofertę w swojej aukcji."
+  },
+  "comments": {
+    "count": "Komentarze ({{no}})",
+    "be_the_first": "Bądź pierwszym, który zostawi komentarz lub pytanie",
+    "leave_message": "Zostaw komentarz lub pytanie",
+    "reply": "Odpowiedz",
+    "replying_to": "Odpowiadasz użytkownikowi {{name}}"
+  },
+  "phone_sign_in": {
+    "title": "Zaloguj się używając numeru telefonu",
+    "description": "Wprowadź swój numer telefonu, aby się zalogować",
+    "you_will_receive": "**Otrzymasz kod, który pomoże Ci się zalogować",
+    "phone_number": "Numer telefonu",
+    "send_code": "Wyślij kod",
+    "could_not_sign_in": "Nie można się zalogować. Spróbuj ponownie później",
+    "phone_invalid": "Numer telefonu jest nieprawidłowy",
+    "verify_otp": "Zweryfikuj kod OTP",
+    "we_sent_code": "Wysłaliśmy kod na Twój numer telefonu. Wprowadź go poniżej, aby się zalogować",
+    "otp_invalid": "Kod OTP jest nieprawidłowy"
+  },
+  "limitations": {
+    "anonymous_post": "Anonimowi użytkownicy nie mogą tworzyć aukcji",
+    "anonymous_bid": "Anonimowi użytkownicy nie mogą składać ofert",
+    "anonymous_description": "Zaloguj się używając adresu email lub innych dostępnych metod logowania."
+  },
+  "verify_email": {
+    "title": "Wymagana weryfikacja emaila",
+    "we_sent_email": "Wysłaliśmy Ci email z linkiem do weryfikacji Twojego adresu email.",
+    "didn_t_receive_email": "Nie otrzymałeś emaila?",
+    "send_again": "Wyślij link ponownie",
+    "verified": "Zweryfikowany",
+    "link_sent": "Link weryfikacyjny został wysłany pomyślnie. Sprawdź swoją skrzynkę email",
+    "could_not_send_link": "Nie można wysłać linku weryfikacyjnego. Spróbuj ponownie później",
+    "your_email_is_not_verified": "Twój adres email nie jest zweryfikowany",
+    "email_verified": "Adres email został pomyślnie zweryfikowany"
+  },
+  "currencies": {
+    "could_not_update": "Nie można zaktualizować waluty. Spróbuj ponownie później"
+  },
+  "payment": {
+    "success": "Płatność udana",
+    "success_description": "Płatność została zrealizowana pomyślnie i monety zostały dodane do Twojego konta. Przejdź do strony głównej, aby zobaczyć dodane monety.",
+    "open_profile": "Otwórz profil",
+    "please_wait": "Proszę czekać, przetwarzamy Twoją płatność...",
+    "could_not_capture_payment": "Nie można przetworzyć płatności. Spróbuj ponownie później",
+    "no_payment_methods_available": "Brak dostępnych metod płatności",
+    "purchase_this_package_for": "Kup ten pakiet za",
+    "step_1": "1. Wybierz pakiet monet",
+    "step_2": "2. Wybierz metodę płatności",
+    "no_products_available": "Brak dostępnych produktów w aplikacji.",
+    "buy_no_coins": "Kup {{no}} monet"
+  },
+  "ai": {
+    "generate_description": "Czy chcesz użyć AI do automatycznego wygenerowania tytułu, kategorii, ceny i opisu?",
+    "generate": "Generuj",
+    "ai_disabled": "AI jest wyłączone. Skontaktuj się z administratorem systemu.",
+    "generate_error": "Nie udało się wygenerować. Spróbuj ponownie później",
+    "max_ai_responses_reached": "Osiągnąłeś maksymalną dozwoloną liczbę odpowiedzi AI. Skontaktuj się z administratorem systemu.",
+    "not_enough_coins": "Nie masz wystarczającej liczby monet, aby wygenerować odpowiedź AI. Kup więcej monet."
+  }
+}

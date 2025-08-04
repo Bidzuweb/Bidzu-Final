@@ -1,0 +1,1014 @@
+{
+  "coins_for_auction_or_bid": {
+    "reached_max_auctions": "Elérted az ingyenesen létrehozható aukciók maximális számát ({{no}}).",
+    "reached_max_auctions_1": "Új aukció létrehozásához {{no}} érmére van szükséged.",
+    "auction_get_back": "Ha az aukció lejár és senki nem licitál, visszakapod az érméket.",
+    "not_enough_for_auction": "Nincs elég érméd új aukció létrehozásához.",
+    "not_enough_for_bid": "Nincs elég érméd új licit létrehozásához.",
+    "you_have_coins_no": "{{no}} érméd van.",
+    "bid_get_back": "Ha az aukció lejár és nem te vagy a nyertes, visszakapod az érméket."
+  },
+  "starting_soon_auctions": {
+    "starting_soon": "Hamarosan kezdődik",
+    "starting_soon_plural": "Hamarosan kezdődő aukciók",
+    "starts_at": "Az aukció kezdete:",
+    "add_to_fav": "Add hozzá az aukciót a kedvencekhez, hogy értesítést kapj a kezdésről",
+    "add_to_fav_multiple": "Add hozzá a hamarosan kezdődő aukciókat a kedvencekhez és értesítést kapsz amikor kezdődnek",
+    "custom_start_date": "Egyéni kezdési időpont",
+    "opted_for_custom": "Egyéni kezdési és befejezési időpontot választottál ehhez az aukcióhoz. Nem lehet visszaállítani az automatikus aktiválásra.",
+    "will_automaticaly_start": "Az aukció automatikusan elindul a létrehozás után. Ha szeretnéd, kikapcsolhatod ezt az opciót és beállíthatsz egyéni kezdési és befejezési időpontokat.",
+    "start_date": "Kezdési időpont",
+    "end_date": "Befejezési időpont",
+    "no_starting_soon": "Nincsenek hamarosan kezdődő aukciók"
+  },
+  "auctions_map": {
+    "title": "Aukciók megtekintése térképen",
+    "description": "Valami különlegeset keresel? Nézd meg a közeledben lévő aukciókat a térképen!",
+    "see_auction_details": "Részletek megtekintése",
+    "see_auctions": "Aukciók megtekintése"
+  },
+  "auction_details_status": {
+    "closing_at": "Lezárás időpontja:",
+    "closed_at": "Lezárva:"
+  },
+  "similar": {
+    "similar_auctions": "Hasonló aukciók"
+  },
+  "share": {
+    "button": "Megosztás",
+    "share_on": "Megosztás itt: {{name}}",
+    "check_auction": "Nézd meg ezt az aukciót a Biddo-n",
+    "check_account": "Nézd meg ezt a profilt a Biddo-n"
+  },
+  "terms_conditions": {
+    "titles": {
+      "terms_and_conditions": "Általános Szerződési Feltételek",
+      "cookie_policy": "Cookie Szabályzat",
+      "security_policy": "Biztonsági Szabályzat",
+      "user_rights": "Felhasználói Jogok",
+      "prohibited_activities": "Tiltott Tevékenységek",
+      "other_information": "Egyéb Fontos Információk"
+    },
+    "terms_and_conditions": {
+      "acceptance_of_terms": {
+        "title": "Feltételek Elfogadása",
+        "content": "Az alkalmazás használatával elfogadod és magadra nézve kötelezőnek tekinted ezeket az Általános Szerződési Feltételeket. Ha nem értesz egyet ezekkel a feltételekkel, azonnal hagyd abba az alkalmazás használatát."
+      },
+      "user_responsibilities": {
+        "title": "Felhasználói Felelősségek",
+        "sections": {
+          "responsible_use": "A felhasználók kizárólagosan felelősek az alkalmazás használatáért és kötelesek azt törvényes, etikus és felelősségteljes módon használni.",
+          "prohibited_content": "A felhasználók nem tehetnek közzé sértő, felnőtt tartalmú, diszkriminatív, rasszista, illegális vagy káros tartalmakat. Az adminisztrátor fenntartja a jogot az ilyen tartalmak eltávolítására és az érintett fiókok megszüntetésére.",
+          "account_security": "A felhasználók felelősek a fiókadataik bizalmas kezeléséért és minden fiókjuk alatt történő tevékenységért."
+        }
+      },
+      "sharing_of_information": {
+        "title": "Információ Megosztása",
+        "content": "Az alkalmazás használatával hozzájárulsz, hogy információidat harmadik féllel megosszuk az alkalmazás funkcionalitásának és élményének javítása érdekében. Az adminisztrátor biztosítja, hogy az adatmegosztás megfelel a vonatkozó jogi előírásoknak."
+      },
+      "liability": {
+        "title": "Felelősség",
+        "sections": {
+          "not_responsible": "Az adminisztrátor nem felelős semmilyen kárért, sérülésért vagy veszteségért, ami az alkalmazás helytelen használatából, technikai problémákból, leállásokból vagy felhasználói interakciókból ered.",
+          "indemnification": "A felhasználók beleegyeznek, hogy kártalanítják és mentesítik az adminisztrátort minden olyan követelés alól, ami az alkalmazás használatából ered."
+        }
+      },
+      "account_removal": {
+        "title": "Fiók Törlése",
+        "sections": {
+          "user_right": "A felhasználóknak jogukban áll bármikor törölni fiókjukat. Törlés után a személyes adatokat az Adatvédelmi Szabályzatban leírtak szerint kezeljük.",
+          "admin_right": "Az adminisztrátor fenntartja a jogot a szabályokat megsértő vagy rosszindulatú tevékenységet folytató fiókok felfüggesztésére vagy végleges törlésére."
+        }
+      },
+      "modifications": {
+        "title": "Módosítások",
+        "content": "Az adminisztrátor fenntartja a jogot ezen Általános Szerződési Feltételek bármikori módosítására. Az alkalmazás további használata a módosított feltételek elfogadását jelenti."
+      }
+    },
+    "cookie_policy": {
+      "title": "Cookie Szabályzat",
+      "use_of_cookies": {
+        "title": "Cookie-k Használata",
+        "content": "Az alkalmazás cookie-kat használ a felhasználói élmény javítása, az alkalmazás teljesítményének elemzése és személyre szabott tartalom biztosítása érdekében. Az alkalmazás használatával hozzájárulsz a cookie-k használatához."
+      },
+      "types_of_cookies": {
+        "title": "Cookie Típusok",
+        "sections": {
+          "essential_cookies": "Az alkalmazás működéséhez szükségesek.",
+          "performance_cookies": "Adatokat gyűjtenek arról, hogyan használják a felhasználók az alkalmazást.",
+          "functionality_cookies": "Felhasználói beállításokat mentenek a használhatóság javítása érdekében.",
+          "third_party_cookies": "Személyre szabott hirdetések vagy elemzések biztosítására használhatók."
+        }
+      },
+      "user_consent": {
+        "title": "Felhasználói Hozzájárulás",
+        "content": "Az alkalmazás használatával hozzájárulsz a cookie-k tárolásához és használatához a leírtak szerint. A cookie-kat letilthatod az eszközöd beállításaiban, de ez korlátozhatja az alkalmazás funkcionalitását."
+      }
+    },
+    "security_policy": {
+      "title": "Biztonsági Szabályzat",
+      "data_protection": {
+        "title": "Adatvédelem",
+        "content": "Az alkalmazás iparági szabványnak megfelelő biztonsági intézkedéseket alkalmaz a felhasználói adatok védelmére. Az adminisztrátor azonban nem garantálhatja a teljes biztonságot az online szolgáltatások természetéből adódó kockázatok miatt."
+      },
+      "user_responsibility": {
+        "title": "Felhasználói Felelősség",
+        "content": "A felhasználók felelősek bejelentkezési adataik védelméért és kötelesek azonnal jelenteni az adminisztrátornak minden jogosulatlan hozzáférést vagy gyanús tevékenységet."
+      },
+      "data_sharing": {
+        "title": "Adatmegosztás",
+        "content": "Bár az alkalmazás prioritásként kezeli a felhasználói adatok biztonságát, bizonyos adatok megosztásra kerülhetnek megbízható harmadik felekkel a funkcionalitás javítása vagy jogi követelmények teljesítése érdekében."
+      }
+    },
+    "prohibited_activities": {
+      "title": "Tiltott Tevékenységek",
+      "sections": {
+        "prohibited_content": "A felhasználók nem tehetnek közzé explicit, felnőtt tartalmú, diszkriminatív, rasszista, illegális vagy erőszakra, gyűlöletre buzdító tartalmakat.",
+        "misuse_of_app": "A felhasználók nem használhatják az alkalmazást olyan tevékenységre, ami károsíthatja annak hírnevét, zavarhatja működését vagy kihasználhatja más felhasználókat.",
+        "consequences": "Az adminisztrátor fenntartja a jogot bármely tartalom vagy fiók előzetes értesítés nélküli eltávolítására, amely megsérti ezeket a szabályokat."
+      }
+    },
+    "user_rights": {
+      "title": "Felhasználói Jogok",
+      "account_deletion": {
+        "title": "Fiók Törlése",
+        "content": "A felhasználók bármikor kérhetik fiókjuk törlését az alkalmazás beállításain keresztül vagy az ügyfélszolgálat megkeresésével. Törlés után a személyes adatokat az Adatvédelmi Szabályzat szerint kezeljük, de bizonyos adatokat jogi vagy szabályozási célból megőrizhetünk."
+      },
+      "complaints": {
+        "title": "Panaszok és Viták",
+        "content": "A felhasználóknak jogukban áll panaszt tenni vagy vitát kezdeményezni az alkalmazással kapcsolatban. Az ilyen panaszokat a hivatalos támogatási csatornákon keresztül kell benyújtani."
+      }
+    },
+    "other_information": {
+      "title": "Egyéb Fontos Információk",
+      "sections": {
+        "no_guarantee": "Az alkalmazást 'ahogy van' biztosítjuk. Az adminisztrátor nem garantálja a folyamatos hozzáférést, pontosságot vagy bármely specifikus célra való alkalmasságot.",
+        "legal_compliance": "A felhasználók felelősek azért, hogy tevékenységeik megfeleljenek a helyi törvényeknek és szabályozásoknak.",
+        "admin_rights": "Az adminisztrátor fenntartja a jogot a szabályzatok frissítésére, tartalmak eltávolítására és az alkalmazás funkcióinak módosítására bármikor."
+      }
+    }
+  },
+  "pageSEO": {
+    "starting_soon_title": "Hamarosan kezdődő aukciók",
+    "starting_soon_description": "Nézd meg a hamarosan kezdődő aukciókat a Biddo-n",
+    "terms_title": "Általános Szerződési Feltételek & Adatvédelmi Szabályzat",
+    "terms_description": "Olvasd el az alkalmazás Általános Szerződési Feltételeit és Adatvédelmi Szabályzatát",
+    "login_title": "Bejelentkezés",
+    "login_description": "Bejelentkezés az alkalmazásba",
+    "forgot_password_title": "Elfelejtett jelszó",
+    "forgot_password_description": "Elfelejtett jelszó oldal",
+    "phone_login_title": "Telefonos bejelentkezés",
+    "phone_login_description": "Telefonos bejelentkezési oldal",
+    "phone_otp_title": "Telefonos OTP",
+    "phone_otp_description": "Telefonos OTP oldal",
+    "home_title": "Biddo, Kezdőlap",
+    "home_description": "Biddo, az alkalmazás kezdőlapja",
+    "create_auction_title": "Aukció létrehozása",
+    "create_auction_description": "Új aukció létrehozása",
+    "not_found_title": "Az oldal nem található",
+    "not_found_description": "Az oldal nem található",
+    "account_details_description": "Fiók részletei",
+    "auctions_list_title": "Aukciók listája",
+    "auctions_list_description": "Összes aukció listája",
+    "recommendations_title": "Ajánlások",
+    "recommendations_description": "Ajánlások neked",
+    "auctions_map": "Aukciók térképen",
+    "auctions_map_description": "Aukciók térképen",
+    "promoted_auctions_title": "Kiemelt aukciók",
+    "promoted_auctions_description": "Kiemelt aukciók",
+    "last_seen_auctions_title": "Utoljára megtekintett aukciók",
+    "last_seen_auctions_description": "Utoljára megtekintett aukciók",
+    "payment_success_title": "Sikeres fizetés",
+    "payment_success_description": "A fizetés sikeres volt",
+    "register_title": "Regisztráció",
+    "register_description": "Regisztrációs oldal"
+  },
+  "404": {
+    "oops": "Hoppá! Az oldal nem található",
+    "page_not_found": "Lehet, hogy ez az oldal hibás vagy nem létezik. Térj vissza a kezdőlapra.",
+    "back_to_home": "Vissza a kezdőlapra"
+  },
+  "anonymous": {
+    "login_for_notifications": "Be kell jelentkezned az értesítések fogadásához.",
+    "login_for_favourites": "Be kell jelentkezned az aukciók kedvencekhez adásához.",
+    "login_for_chat": "Be kell jelentkezned más felhasználókkal való csevegéshez.",
+    "login_for_search_history": "Be kell jelentkezned a keresési előzmények használatához.",
+    "login_to_search_accounts": "Be kell jelentkezned fiókok kereséséhez.",
+    "login_to_send_user_message": "Be kell jelentkezned üzenet küldéséhez ennek a felhasználónak.",
+    "login_to_bid": "Be kell jelentkezned licit leadásához.",
+    "login_to_report": "Be kell jelentkezned jelentés létrehozásához.",
+    "login_to_follow": "Be kell jelentkezned ennek a felhasználónak a követéséhez."
+  },
+  "header": {
+    "profile": "Profil",
+    "all_around_the_world": "Világszerte",
+    "see_my_profile": "Profilom megtekintése",
+    "my_auctions": "Aukcióim",
+    "my_bids": "Licitjeim"
+  },
+  "footer": {
+    "follow_us": "Kövess minket itt",
+    "tutorial": "Útmutató",
+    "create_auction": "Aukció létrehozása",
+    "create_bid": "Licit létrehozása",
+    "about": "Rólunk",
+    "privacy_policy": "Adatvédelmi szabályzat",
+    "terms_of_service": "Szolgáltatási feltételek",
+    "faq": "GYIK",
+    "mobile_app": "Mobil alkalmazás",
+    "enjoy_better_experience": "Élvezd a jobb élményt mobil alkalmazásunkkal",
+    "about_motto": "A Biddo egy platform, ahol eladhatod a már nem használt tárgyaidat és megveheted, amire szükséged van."
+  },
+  "cookie": {
+    "message": "Ez a weboldal cookie-kat használ a felhasználói élmény javítása érdekében. Weboldalunk használatával elfogadod a cookie-k használatát Cookie Szabályzatunknak megfelelően.",
+    "readMore": "Cookie Szabályzat olvasása",
+    "accept": "Elfogadom"
+  },
+  "info": {
+    "no_locations_found": "Nem található helyszín",
+    "condition_required": "Az állapot megadása kötelező",
+    "location_needed": "A helyszín megadása szükséges, mert valaki a távolság alapján licitálhat a tárgyaidra",
+    "add_more_to_search": "Adj meg legalább 2 karaktert a helyszín kereséséhez",
+    "see_all_my_auctions": "Összes aukcióm megtekintése",
+    "see_all_auctions_from_user": "A felhasználó összes aukciójának megtekintése",
+    "min_price_for_bid_is": "A minimális licitár {{no}}",
+    "max_price_for_bid_is": "A maximális licitár {{no}}",
+    "price_must_be_number": "Az árnak {{min}} és {{max}} közötti számnak kell lennie",
+    "status": "Állapot",
+    "you_see_page": "{{total}} oldalból a {{page}}. oldalt látod",
+    "main_category": "Fő kategória",
+    "sub_category": "Alkategória",
+    "saved_filters": "Mentett szűrők",
+    "search_auctions": "Aukciók keresése",
+    "sort_auctions": "Aukciók rendezése",
+    "no_filter_applied": "Nincs alkalmazott szűrő",
+    "manage_preferences": "Beállítások kezelése",
+    "you_dont_have_any_reviews": "Még nincsenek értékeléseid",
+    "see_how_others_see_you": "Nézd meg, hogyan látnak mások",
+    "settings": "Beállítások",
+    "credentials_exist": "A megadott hitelesítő adatok már léteznek",
+    "need_to_accept_terms": "El kell fogadnod a szolgáltatási feltételeket a folytatáshoz",
+    "no_chat_to_match": "Nincsenek a kritériumoknak megfelelő csevegések",
+    "preferences_updated": "A kategória beállítások frissítve",
+    "sign_in_for_recommendations": "Be kell jelentkezned az aukció ajánlások fogadásához",
+    "buy_coins_description": "Vásárolj érméket több aukció és licit létrehozásához, valamint aukcióid kiemeléséhez.",
+    "payment_success": "A fizetés sikeres volt",
+    "sign_in_for_last_seen": "Be kell jelentkezned az utoljára megtekintett aukciók megtekintéséhez"
+  },
+  "ads": {
+    "win_coins": "Minden megtekintett hirdetésért {{no}} érmét nyersz. Hogy hangzik?",
+    "watch_ad": "Hirdetés megtekintése"
+  },
+  "intro": {
+    "would_you_like_to_see": "Szeretnéd látni, hogyan működik a ",
+    "would_you_like_to_see_2": "?",
+    "a_guid_on_how_it_words": "Egy útmutatót fogsz látni arról, hogyan működik az alkalmazás és hogyan kell használni",
+    "see_intro": "Bemutató megtekintése",
+    "not_now": "Most nem",
+    "want_to_skip": "Biztosan ki szeretnéd hagyni a bemutatót?",
+    "how_it_works": "Hogyan működik?",
+    "skip_intro": "Bemutató kihagyása",
+    "on": "A ",
+    "can_easily_trade": "-n könnyen eladhatod a már nem használt tárgyaidat és megveheted, amire szükséged van.",
+    "steps": {
+      "create_auction": "1. Aukció létrehozása",
+      "wait_for_bids": "2. Várakozás licitekre",
+      "accept_bid": "3. Licit elfogadása",
+      "review": "4. Értékelés hozzáadása"
+    },
+    "create_auction": {
+      "become_visible": "Az aukciód láthatóvá válik mások számára és a közösségnek ",
+      "hours_active": "{{no}} órája ",
+      "to_bid": "lesz licitálni a tárgyaidra.",
+      "simply": "Egyszerűen ",
+      "create_an_auction": "hozz létre egy aukciót ",
+      "using_the_books": "bármilyen tárggyal, amit el szeretnél adni, és ",
+      "other_users": "más felhasználók licitálhatnak ",
+      "for_them": "rájuk."
+    },
+    "wait_for_bid": {
+      "can_wait": "Addig várhatsz, amíg meg nem találod a tökéletes licitet az aukciódon."
+    },
+    "chose_bid": {
+      "if_you_pick": "Ha kiválasztottál egy nyertes licitet, lehetőséged lesz ",
+      "to_chat": "csevegni a nyertessel ",
+      "to_arrange_settlement": "a részletek egyeztetéséhez.",
+      "full_control": "Teljes mértékben te döntöd el, hogy melyik licitet választod nyertesnek vagy utasítod el."
+    },
+    "review": {
+      "after_the_auction": "Az aukció befejezése után ",
+      "leave_a_review": "értékelést hagyhatsz ",
+      "for_the_winner": "az aukció nyertesének.",
+      "help_other_users": "Ez segít más felhasználóknak többet megtudni a nyertesről."
+    }
+  },
+  "home": {
+    "discounts": {
+      "first15": "15% kedvezmény az első rendelésedre",
+      "use_code": "Használd a kódot: ",
+      "every_weekend": "Autókra 5% kedvezmény minden hétvégén",
+      "car_accessories": "Akár 30% kedvezmény autós kiegészítőkre",
+      "shop_now": "Vásárolj most"
+    },
+    "preferred_categories": {
+      "title": "Válassz kedvenc kategóriákat",
+      "info": "Értesítéseket és személyre szabott ajánlásokat kapsz a kedvenc kategóriáid alapján.",
+      "update": "Kedvenc kategóriák frissítése"
+    },
+    "search": {
+      "search": "Mit keresel?",
+      "recent_searches": "Legutóbbi keresések",
+      "users": "Felhasználók",
+      "no_recent_search_found": "Nincsenek legutóbbi keresések",
+      "auctions_count_singular": "{{no}} aukció",
+      "auctions_count_plural": "{{no}} aukció",
+      "no_auction_that_match": "Nincsenek a kritériumoknak megfelelő aukciók...",
+      "no_users_that_match": "Nincsenek a kritériumoknak megfelelő felhasználók..."
+    },
+    "filter": {
+      "filtered_auctions": "Szűrt aukciók",
+      "no_data_found": "Nincs találat",
+      "all_auctions": "Összes aukció {{no}}",
+      "auctions_count": "{{no}} aukció",
+      "categories": "Kategóriák",
+      "price": "Ár",
+      "min_price_value": "Minimum ár: {{no}}",
+      "max_price_value": "Maximum ár: {{no}}",
+      "min_price": "Minimum ár",
+      "max_price": "Maximum ár",
+      "invalid_number": "Érvénytelen ár",
+      "apply_filter": "Szűrő alkalmazása",
+      "apply_sub_filter": "Alszűrő alkalmazása",
+      "see_all": "Összes megtekintése",
+      "auctions_count_parant": "({{no}} aukció)",
+      "selected_items": "({{no}} kiválasztva)",
+      "filter": "Szűrő",
+      "clear_all": "Összes törlése",
+      "location": "Helyszín",
+      "locations": "Helyszínek",
+      "include_my_auctions": "Saját aukcióim is",
+      "without_my_auctions": "Saját aukcióim nélkül",
+      "max_locations_error": "Maximum {{no}} helyszín választható ki",
+      "no_locations_for_criteria": "Nincsenek a feltételeknek megfelelő helyszínek",
+      "no_categories_for_criteria": "Nincsenek a feltételeknek megfelelő kategóriák",
+      "save_filter_title": "Szűrő mentése",
+      "save_filter_name": "Szűrő neve",
+      "you_dont_have_saved_filters": "Nincsenek mentett szűrőid",
+      "you_can_have_max": "Maximum {{no}} mentett szűrőd lehet",
+      "sure_you_want_to_remove": "Biztosan törölni szeretnéd ezt a szűrőt?",
+      "filter_remove_error": "Nem sikerült törölni a szűrőt. Kérjük, próbáld újra",
+      "about_saved_filters_title": "A mentett szűrőkről",
+      "about_saved_filters_descr": "Elmentheted a szűrőket, hogy később gyorsan elérd őket.\n\nCsak akkor menthetsz el egy szűrőt, ha az nem üres."
+    },
+    "auctions": {
+      "auctions": "Aukciók",
+      "last_seen": "Utoljára megtekintett aukciók",
+      "no_last_seen": "Még nem tekintettél meg aukciókat",
+      "no_auctions": "Jelenleg nincsenek aukciók az alkalmazásban. Próbáld újra később",
+      "see_all": "Összes aukció megtekintése ({{no}})",
+      "no_auctions_to_match_criteria": "Nincsenek a feltételeknek megfelelő aukciók",
+      "no_auctions_to_display": "Jelenleg nincsenek aukciók",
+      "all_auctions": "Összes aukció ({{no}})"
+    },
+    "notifications": {
+      "notifications": "Értesítések",
+      "mark_as_seen": "Összes megjelölése olvasottként",
+      "dont_have_notifications": "Még nincsenek értesítéseid",
+      "mark_as_seen_success": "Minden értesítés megjelölve olvasottként",
+      "mark_as_seen_error": "Nem sikerült megjelölni az értesítéseket olvasottként",
+      "permission_not_granted": "Az engedély nincs megadva",
+      "permission_not_granted_msg": "Az értesítések fogadásához engedélyt kell adnod az alkalmazásnak",
+      "give_permission": "Engedély megadása",
+      "permission_granted": "Engedély megadva",
+      "permission_rejected": "Engedély elutasítva"
+    },
+    "categories": {
+      "categories": "Kategóriák",
+      "all": "Összes",
+      "sub_categories": "Alkategóriák",
+      "no_auctions_for": "Nincsenek aukciók a következő kategóriában: {{name}}",
+      "no_auctions_to_match": "Nincsenek a keresésnek megfelelő aukciók a következő kategóriában: {{name}}",
+      "auctions_by_categories": "Aukciók kategóriák szerint",
+      "alphabetical": "Betűrendben",
+      "count_desc": "Aukciók száma (csökkenő)",
+      "count_asc": "Aukciók száma (növekvő)",
+      "search_categories": "Kategóriák keresése",
+      "search_sub_categories": "Keresés a következőben: {{category}}",
+      "filter": "Extra szűrő hozzáadása"
+    }
+  },
+  "favourites": {
+    "app_bar": {
+      "no_closed_auctions": "Nincsenek lezárt aukciók a kedvenceid között",
+      "no_active_auctions": "Nincsenek aktív aukciók a kedvenceid között",
+      "tap_on_the": "Egy aukció kedvencekhez adásához kattints a ",
+      "available_icon": " ikonra, amely minden aukciónál megtalálható",
+      "favourites": "Kedvenc aukciók",
+      "active": "Aktív ({{no}})",
+      "closed": "Lezárt ({{no}})"
+    },
+    "users_who_added_to_favourites": "Felhasználók, akik kedvencnek jelölték ezt az aukciót",
+    "nobody_added_to_favourites": "Senki nem jelölte kedvencnek ezt az aukciót"
+  },
+  "create_auction": {
+    "create_auction": "Aukció létrehozása",
+    "create_a_new_auction": "Új aukció létrehozása",
+    "title": "Cím",
+    "enter_title": "Add meg az aukció címét",
+    "youtube_link": "YouTube link",
+    "enter_youtube_link": "Add meg a YouTube linket",
+    "description": "Leírás",
+    "enter_description": "Add meg az aukció leírását",
+    "another_starting_price": "Másik",
+    "starting_price": "Kezdő ár",
+    "price_cannot_be_empty": "Az ár nem lehet üres",
+    "starting_price_condition": "A kezdő árnak 1 és {{maxPrice}} között kell lennie",
+    "invalid_starting_price": "Érvénytelen kezdő ár",
+    "add_starting_price": "Kezdő ár hozzáadása",
+    "category": "Kategória",
+    "select_category": "Válassz kategóriát",
+    "new": "Új",
+    "used": "Használt",
+    "condition": "Állapot",
+    "title_required": "A cím kötelező",
+    "category_required": "A kategória kötelező",
+    "location_required": "A helyszín kötelező",
+    "price_required": "Az ár kötelező",
+    "repository": {
+      "too_many_assets": "Túl sok fájl feltöltve",
+      "asset_too_big": "A feltöltött fájl túl nagy",
+      "asset_not_supported": "A feltöltött fájltípus nem támogatott",
+      "could_not_create": "Nem sikerült létrehozni az aukciót. Kérjük, próbáld újra",
+      "could_not_update": "Nem sikerült frissíteni az aukciót. Kérjük, próbáld újra"
+    }
+  },
+  "promote_auction": {
+    "promote_auction": "Promótálás",
+    "don_t_have_enough_coins": "Nincs elég érméd az aukció promótálásához",
+    "could_not_promote": "Nem sikerült promótálni az aukciót. Kérjük, próbáld újra",
+    "auction_promoted": "Az aukció sikeresen promótálva",
+    "sure_you_want_to_promote": "Biztosan promótálni szeretnéd ezt az aukciót?",
+    "promoted_will_show": "A promótált aukció az aukciók lista tetején jelenik meg. Egy aukciót többször is promótálhatsz.",
+    "can_be_pushed_down": "A promótálás az aukciót a lista tetejére helyezi, de az új promótált aukciók lejjebb tolhatják.",
+    "promotion_cost": "Minden promótálás {{no}} érmébe kerül",
+    "promoted_at": "Promótálva",
+    "promoted": "Promótált"
+  },
+  "auction_details": {
+    "auction_ends_in": "Az aukció lejár",
+    "auction_does_not_exit": "Az aukció már nem létezik vagy nem elérhető",
+    "auction_data_reloaded": "Az aukció adatai sikeresen frissültek",
+    "auction_images": "Aukció képei",
+    "does_not_have_images": "Ehhez az aukcióhoz nem tartoznak képek",
+    "no_active_bids": "Nincsenek aktív licitek erre az aukcióra",
+    "no_description_provided": "Nincs megadva leírás",
+    "bids_count": "Licitek ({{no}})",
+    "accepted_bid": "Elfogadott licit",
+    "closed": "Lezárt",
+    "create_bid": {
+      "title": "Licit létrehozása",
+      "price_hint": "Ár",
+      "location_is_required": "A helyszín megadása kötelező",
+      "message_description": "Szeretnél üzenetet hagyni a liciteddel",
+      "starting_price": "Kezdő ár",
+      "highest_bid": "Legmagasabb licit",
+      "cannot_place_bid_lower": "*Nem adhatsz meg a kezdő árnál alacsonyabb licitet",
+      "cannot_place_bid_lower_than_bid": "Nem adhatsz meg a legmagasabb licitnél alacsonyabb licitet",
+      "select_price": "Válaszd ki a licitálni kívánt árat",
+      "leave_a_message": "Üzenet hagyása (Opcionális)",
+      "bid_created": "A licit sikeresen létrejött",
+      "error_creating": "Nem sikerült létrehozni a licitet. Kérjük, próbáld újra",
+      "this_is_user_bid": "Ez az a licit, amit a felhasználó tett erre az aukcióra",
+      "already_have_highest_bid": "Már te tetted a legmagasabb licitet erre az aukcióra",
+      "cannot_create_on_your_auction": "Nem licitálhatsz a saját aukciódon",
+      "cannot_create_on_expired": "Nem licitálhatsz lezárt aukción"
+    },
+    "update": {
+      "title": "Aukció frissítése",
+      "update": "Frissítés",
+      "update_successful": "Az aukció sikeresen frissült"
+    },
+    "long_distance": {
+      "title": "A helyszíned távol van",
+      "description": "Úgy tűnik, hogy olyan aukcióra teszel ajánlatot, ahol az eladó helyszíne távol van a te helyszínedtől."
+    },
+    "app_bar": {
+      "report_auction": "Aukció jelentése",
+      "remove_auction": "Aukció törlése",
+      "update_auction": "Aukció frissítése",
+      "bids_count": "Licitek ({{no}})"
+    },
+    "details": {
+      "created_by": "Létrehozta",
+      "views": "Megtekintések: ",
+      "created_at": "Létrehozva: "
+    },
+    "dialogs": {
+      "auction_removed": "Az aukció törölve lett",
+      "sure_to_remove_auction": "Biztosan törölni szeretnéd ezt az aukciót?",
+      "bidders_will_be_notified_after_remove": "*A licitálók értesítést kapnak az aukció törléséről"
+    },
+    "bids": {
+      "bid_was_removed": "A licit törölve lett az aukcióról",
+      "sure_to_remove_bid": "Biztosan törölni szeretnéd ezt a licitet az aukcióról?",
+      "auction_owner_will_be_notified": "*Az aukció tulajdonosa értesítést kap erről a változásról",
+      "bid_rejected": "A licit elutasítva és a licitáló értesítést kap.",
+      "sure_to_reject": "Biztosan elutasítod ezt a licitet?",
+      "enter_rejection_reason": "Add meg az elutasítás okát",
+      "cannot_undo_or_see": "*Ezt a műveletet nem lehet visszavonni és a licit részleteit többé nem lehet megtekinteni",
+      "reject_bid": "Licit elutasítása",
+      "bid_accepted": "A licit elfogadva és a licitáló értesítést kap",
+      "sure_to_accept": "Biztosan elfogadod ezt a licitet?",
+      "auction_will_be_closed": "Az aukció automatikusan lezárul",
+      "cannot_undo": "*Ezt a műveletet nem lehet visszavonni",
+      "accept_bid": "Licit elfogadása",
+      "rejected": "Elutasítva",
+      "see_your_profile": "Profilod megtekintése",
+      "see_bidder": "Licitáló profiljának megtekintése",
+      "report": "Licit jelentése",
+      "remove": "Licit törlése",
+      "unknown_location": "Ismeretlen helyszín"
+    },
+    "reviews": {
+      "review_updated": "Az értékelés frissült",
+      "review_created": "Az értékelés létrejött",
+      "could_not_update_review": "Nem sikerült frissíteni az értékelést",
+      "could_not_create_review": "Nem sikerült létrehozni az értékelést",
+      "would_you_leave_review": "Szeretnél értékelést írni neki: ",
+      "review_details": "Értékelés részletei",
+      "save_review": "Értékelés mentése",
+      "added_a_review": " értékelést adott"
+    }
+  },
+  "map_auctions": {
+    "auctions_count": "{{no}} aukció ezen a helyszínen",
+    "auctions_loaded": "{{no}} aukció betöltve",
+    "location_disabled": "A helymeghatározás ki van kapcsolva",
+    "location_denied": "A helymeghatározási engedélyek megtagadva",
+    "location_permanent_denied": "A helymeghatározási engedélyek véglegesen megtagadva, nem kérhetünk engedélyt",
+    "auctions_count_simple": "{{no}} aukció",
+    "search_locations": "Helyszínek keresése",
+    "select_location": "Kérjük, válassz helyszínt",
+    "need_to_zoom_in": "Az aukciók térképen való megjelenítéséhez közelítened kell",
+    "loading_auctions": "Aukciók betöltése",
+    "no_auction_loaded": "Nincsenek betöltött aukciók. Próbálj másik helyszínt vagy kategóriát választani",
+    "long_tap": "Hosszan nyomd meg a térképet másik helyszín kiválasztásához",
+    "select_category": "Válassz kategóriát a térképen való megjelenítéshez",
+    "show_on_map": "Mutatás térképen",
+    "need_permission_from_settings": "Ezt az engedélyt a rendszerbeállításokban kell megadnod"
+  },
+  "recommendations": {
+    "no_recommendations_for_you": "Jelenleg nincsenek ajánlások számodra.",
+    "no_recommendation_details": "Győződj meg róla, hogy hozzáadtál néhány aukciót a kedvenceidhez vagy legalább egy kategóriát kiválasztottál preferáltként.",
+    "you_might_like": "Ezek tetszhetnek"
+  },
+  "buy_coins": {
+    "buy_coins": "Érmék vásárlása",
+    "coins_no": "{{no}} érme",
+    "buy_coins_and_promote": "Vásárolj érméket és promótáld aukcióidat a nagyobb láthatóságért.",
+    "no_products": "Jelenleg nincsenek elérhető termékek",
+    "success_purchase": "Érmék sikeresen megvásárolva",
+    "error_purchase": "Nem sikerült megvásárolni az érméket. Kérjük, próbáld újra",
+    "having_trouble": "Problémád van az érmék vásárlásával?",
+    "send_us_a_message": "Küldj nekünk üzenetet és a lehető leghamarabb felvesszük veled a kapcsolatot.",
+    "buy_coins_to_create_more_auctions": "Vásárolj érméket több aukció létrehozásához és promótálásához a nagyobb láthatóságért."
+  },
+  "location": {
+    "location": "Helyszín",
+    "your_location": "A te helyszíned",
+    "select_location": "Helyszín kiválasztása",
+    "location_disabled": "A helymeghatározás ki van kapcsolva",
+    "location_denied": "A helymeghatározási engedélyek megtagadva",
+    "location_permanent_denied": "A helymeghatározási engedélyek véglegesen megtagadva, nem kérhetünk engedélyt",
+    "long_tap": "Hosszan nyomd meg a térképet másik helyszín kiválasztásához",
+    "search_by_city": "Keresés város szerint",
+    "to_create_pin": "Keress új helyszínt vagy hosszan nyomd meg a térképet új jelölő létrehozásához",
+    "map_not_available": "Mini-Térkép nem elérhető",
+    "need_to_give_permissions": "A funkció használatához helymeghatározási engedélyeket kell adnod",
+    "distance": "{{no}}km tőled"
+  },
+  "reports": {
+    "was_reported": "A jelentés sikeresen létrejött. Hamarosan átnézzük",
+    "misleading_or_scam": "Félrevezető vagy csalás",
+    "sexually_inappropriate": "Szexuálisan nem megfelelő",
+    "offensive_content": "Sértő tartalom",
+    "other": "Egyéb",
+    "like_to_give_details": "Szeretnél több részletet megadni?",
+    "sure_to_report": "Biztosan jelenteni szeretnéd ezt: {{name}}?",
+    "sure_to_report_2": "Biztosan jelenteni szeretnéd ezt: {{name}}?",
+    "sure_to_report_auction": "aukció",
+    "sure_to_report_bid": "licit",
+    "sure_to_report_account": "fiók",
+    "report_action": "Jelentés"
+  },
+  "errors": {
+    "no_internet": "Úgy tűnik, nem vagy csatlakozva az internethez",
+    "try_again": "Próbáld újra"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Jelszó",
+    "sign_in": {
+      "sign_in": "Bejelentkezés",
+      "enter_credentials": "Add meg a belépési adataidat a folytatáshoz",
+      "enter_email": "Add meg az email címed",
+      "enter_password": "Add meg a jelszavad",
+      "forgot_password": "Elfelejtett jelszó?",
+      "continue_with": "Vagy folytasd ezzel",
+      "not_a_member": "Még nem vagy tag? ",
+      "register_now": "Regisztrálj most",
+      "continue_as_anon": "Folytatás névtelenül",
+      "email_empty": "Az email cím nem lehet üres",
+      "email_invalid": "Érvénytelen email cím",
+      "password_empty": "A jelszó nem lehet üres",
+      "cannot_facebook_login": "Nem sikerült bejelentkezni Facebook-kal. Kérjük, próbáld újra",
+      "cannot_google_login": "Nem sikerült bejelentkezni Google-lal. Kérjük, próbáld újra",
+      "cannot_email_login": "Nem sikerült bejelentkezni ezekkel az adatokkal. Győződj meg róla, hogy van aktív fiókod és az adatok helyesek."
+    },
+    "sign_up": {
+      "email_empty": "Az email cím nem lehet üres",
+      "email_invalid": "Érvénytelen email cím",
+      "password_empty": "A jelszó nem lehet üres",
+      "password_min_len": "A jelszónak legalább 6 karakter hosszúnak kell lennie",
+      "need_to_accept": "El kell fogadnod a ",
+      "terms_of_service": "Felhasználási feltételeket",
+      "to_continue": " a folytatáshoz",
+      "sign_up": "Regisztráció",
+      "lets_create_acc": "Hozzunk létre egy új fiókot",
+      "email_placeholder": "Add meg az email címed",
+      "password_placeholder": "Állíts be egy jelszót",
+      "already_member": "Már van fiókod? ",
+      "sign_in": "Jelentkezz be"
+    },
+    "forgot_password": {
+      "title": "Elfelejtett jelszó",
+      "reset": "Jelszó visszaállítása",
+      "enter_email": "Add meg a fiókod létrehozásához használt email címet",
+      "return_to": "Vissza a ",
+      "you_will_receive": "**Kapsz egy emailt, ami segít visszaállítani a jelszavad",
+      "user_was_not_found": "Nem találtunk felhasználót ezzel az email címmel",
+      "could_not_send_email": "Nem tudtuk elküldeni a jelszó-visszaállító emailt. Kérjük, próbáld újra később",
+      "email_sent": "Elküldtünk egy emailt a címedre. Kövesd az emailben található utasításokat a jelszavad visszaállításához"
+    },
+    "terms": {
+      "continue": "Folytatás",
+      "almost_there": "Már majdnem kész",
+      "accept": "Elfogadom a ",
+      "terms_of_service": "Felhasználási feltételeket",
+      "processing": " és hozzájárulok a személyes adataim feldolgozásához az ",
+      "privacy": "Adatvédelmi szabályzat"
+    }
+  },
+  "generic": {
+    "days_no": "{{no}} nap",
+    "see_video": "Videó megtekintése",
+    "online": "Online",
+    "offline": "Offline",
+    "translate": "Fordítás",
+    "see_original": "Eredeti megtekintése",
+    "change_tab": "Fül váltása",
+    "promoted_auctions": "Promótált aukciók",
+    "open_settings": "Beállítások megnyitása",
+    "give_permission": "Engedély megadása",
+    "permission_denied": "Engedély megtagadva",
+    "image_not_found": "Kép nem található",
+    "choose": "Választás",
+    "unknown": "Ismeretlen",
+    "search": "Keresés",
+    "by": "{{name}} által",
+    "undo": "Visszavonás",
+    "remove": "Törlés",
+    "see_all": "Összes megtekintése",
+    "done": "Kész",
+    "newest": "Legújabb",
+    "oldest": "Legrégebbi",
+    "newest_accepted_bid": "Legújabb elfogadott licit",
+    "oldest_accepted_bid": "Legrégebbi elfogadott licit",
+    "ascending_price": "Növekvő ár",
+    "descending_price": "Csökkenő ár",
+    "skip": "Kihagyás",
+    "back": "Vissza",
+    "continue": "Folytatás",
+    "finish": "Befejezés",
+    "closed": "Lezárt",
+    "cancel": "Mégse",
+    "face_to_face": "Személyes",
+    "delivery": "Szállítás",
+    "custom": "Egyéni",
+    "save": "Mentés",
+    "see_less": " Kevesebb mutatása",
+    "see_more": " Több mutatása",
+    "optional": "(Opcionális)",
+    "details": "Részletek",
+    "clear": "Törlés",
+    "clear_all": "Összes törlése",
+    "refresh": "Frissítés",
+    "yes": "Igen",
+    "no": "Nem",
+    "auction": "aukció",
+    "auction2": "aukció",
+    "ok": "Ok",
+    "offer": "ajánlat",
+    "offer2": "ajánlat",
+    "loading": "Betöltés...",
+    "don_t_show_again": "Ne mutasd újra",
+    "something_went_wrong": "Valami hiba történt. Kérjük, próbáld újra",
+    "info": "Információ",
+    "your_auction": "A te aukciód",
+    "bids_count_singular": "1 licit",
+    "bids_count_plural": "{{no}} licit",
+    "auction_count_singular": "1 aukció",
+    "auction_count_plural": "{{no}} aukció"
+  },
+  "bottom_nav": {
+    "home": "Kezdőlap",
+    "favourites": "Kedvencek",
+    "create": "Létrehozás",
+    "chat": "Chat",
+    "more": "Több"
+  },
+  "permissions": {
+    "camera_permissions": "Kamera engedélyek",
+    "need_to_request_camera": "Engedélyt kell kérnünk a kamera használatához",
+    "from_settings": "Ezt az engedélyt a rendszerbeállításokban kell megadnod",
+    "open_settings": "Beállítások megnyitása",
+    "allow_access": "Hozzáférés engedélyezése",
+    "storage_permissions": "Tárhely engedélyek",
+    "need_to_request_files": "Engedélyt kell kérnünk a helyi fájlok olvasásához, hogy betölthessük őket az alkalmazásba",
+    "need_to_request_notifications": "Ehhez a funkcióhoz engedélyt kell kérnünk az értesítések küldéséhez"
+  },
+  "assets": {
+    "selected_images": "Kiválasztott képek",
+    "no_selected": "Nincs több kiválasztott képed",
+    "image_singular": "{{no}} kép",
+    "image_plural": "{{no}} kép",
+    "remove_image": "Kép törlése",
+    "all_images_folder": "Összes kép",
+    "max_allowed": "Maximum {{no}} elem választható ki",
+    "select": "Kiválasztás",
+    "no_images_in_folder": "Nincsenek képek ebben a mappában",
+    "add_images": "Képek hozzáadása"
+  },
+  "profile": {
+    "legal_info": "Jogi információk",
+    "terms_of_service": "Felhasználási feltételek",
+    "privacy_policy": "Adatvédelmi szabályzat",
+    "cookies_policy": "Cookie szabályzat",
+    "about": "Rólunk",
+    "sign_out": "Kijelentkezés",
+    "version": "Verzió {{no}}",
+    "preferences": "Beállítások",
+    "languages": "Alkalmazás nyelvei",
+    "report": "Jelentés",
+    "language": "Alkalmazás nyelve",
+    "no_reviews": "(Nincs értékelés)",
+    "update_account": "Frissítés",
+    "all_auctions_for": "{{name}} által létrehozott aukciók ({{no}})",
+    "currencies": "Pénznemek",
+    "see_review_auction": "Kapcsolódó aukció megtekintése",
+    "no_auctions": "Nincsenek elérhető aukciók",
+    "send_message": "Üzenet küldése",
+    "follow": "Követés",
+    "unfollow": "Követés megszüntetése",
+    "following": "Követések",
+    "followers": "Követők",
+    "congratulations_follow": "🚀 Gratulálunk!",
+    "you_are_now_following": "Most már követed {{name}}-t.\n\nÉrtesítést fogsz kapni, amikor {{name}} új aukciót hoz létre.",
+    "could_not_follow": "Nem sikerült követni {{name}}-t. Kérjük, próbáld újra később",
+    "could_not_unfollow": "Nem sikerült megszüntetni {{name}} követését. Kérjük, próbáld újra később",
+    "unfollow_success": "Már nem követed {{name}}-t",
+    "no_followers": "{{name}}-nek még nincsenek követői",
+    "no_following": "{{name}} még nem követ senkit",
+    "cannot_load_chat_group": "Nem sikerült betölteni a csevegést a fiókkal. Kérjük, próbáld újra.",
+    "your_auctions": "Aukcióid",
+    "your_bids": "Licitjeid",
+    "all_your_bids": {
+      "title": "Összes licited",
+      "all_bids": "Összes licited ({{no}})",
+      "no_bids": "Még nincsenek licitjeid"
+    },
+    "accepted_bids": {
+      "title": "Elfogadott licitek",
+      "accepted_bids": "Elfogadott licitek ({{no}})",
+      "no_bids": "Még nincsenek elfogadott licitjeid"
+    },
+    "rejected_bids": {
+      "title": "Elutasított licitek",
+      "rejected_bids": "Elutasított licitek ({{no}})",
+      "no_bids": "Még nincsenek elutasított licitjeid"
+    },
+    "closed_auctions": {
+      "title": "Lezárt aukciók",
+      "closed_auctions": "Lezárt aukciók ({{no}})",
+      "no_auctions": "Még nincsenek lezárt aukcióid"
+    },
+    "active_auctions": {
+      "title": "Aktív aukciók",
+      "active_auctions": "Aktív aukciók ({{no}})",
+      "no_auctions": "Nincsenek aktív aukcióid"
+    },
+    "sign_out_dialog": {
+      "title": "Kijelentkezés",
+      "description": "Biztosan ki szeretnél jelentkezni?"
+    },
+    "update": {
+      "update_account": "Fiók frissítése",
+      "application_name": "Neved az alkalmazásban",
+      "email": "Email",
+      "cannot_update_email": "*Az email cím nem módosítható",
+      "update_error": "Nem sikerült frissíteni a nevedet az alkalmazásban",
+      "update_success": "A fiókod sikeresen frissült",
+      "what_name_do_you_want": "Milyen nevet szeretnél használni?",
+      "change_profile_picture": "Profilkép módosítása",
+      "delete_account": "Fiók törlése",
+      "are_you_sure_to_delete": "Biztosan törölni szeretnéd a fiókodat?",
+      "delete_account_details": "A fiókod törlésével minden aukciód, licited, értékelésed és egyéb adatod törlődik az alkalmazásból.\n\n*** Ez a művelet nem vonható vissza",
+      "delete_account_error": "Nem sikerült törölni a fiókodat",
+      "save_location_to": "Ha elmented a helyszínedet, az alapértelmezetten használva lesz minden alkalommal, amikor aukciót vagy licitet hozol létre",
+      "cannot_update_phone_number": "A telefonszám nem módosítható"
+    },
+    "notifications": {
+      "notifications": "Értesítések",
+      "permission_not_granted": "Az engedély nincs megadva",
+      "permission_not_granted_msg": "Az értesítések fogadásához speciális engedélyeket kell adnod az alkalmazásnak",
+      "give_permission": "Engedély megadása",
+      "permission_granted": "Engedély megadva",
+      "permission_rejected": "Engedély elutasítva",
+      "auctions": "Aukciók",
+      "bids": "Licitek",
+      "generic": "Általános",
+      "favourites": "Kedvencek",
+      "my_auction_started": "Az aukciód elkezdődött",
+      "my_auction_started_descr": "Értesítést kapsz, amikor valamelyik aukciód elindul",
+      "fav_auction_started": "Kedvenc aukció elkezdődött",
+      "fav_auction_started_descr": "Értesítést kapsz, amikor valamelyik kedvenc aukciód elindul",
+      "auction_updated_title": "Az aukció, amire licitáltál, frissült",
+      "auction_updated_descr": "Értesítést kapsz, ha az aukció tulajdonosa frissíti az aukciót, amire licitáltál",
+      "bid_added_title": "Új licit érkezett az aukcióra",
+      "bid_added_descr": "Értesítést kapsz, amikor valaki új licitet ad valamelyik aukciódon",
+      "bid_removed_title": "Licit törlése az aukcióról",
+      "bid_removed_descr": "Értesítést kapsz, amikor valaki töröl egy licitet valamelyik aukciódon",
+      "bid_accepted_title": "Licit elfogadva",
+      "bid_accepted_descr": "Értesítést kapsz, amikor valamelyik licitedet elfogadják",
+      "bid_rejected_title": "Licit elutasítva",
+      "bid_rejected_descr": "Értesítést kapsz, amikor valamelyik licitedet elutasítják",
+      "bid_seen": "A licitet megtekintették",
+      "bid_seen_descr": "Értesítést kapsz, amikor az aukció tulajdonosa megtekinti a licitedet",
+      "same_auction_bid": "Új ajánlat ugyanarra az aukcióra",
+      "same_auction_bid_descr": "Értesítést kapsz, amikor valaki licitet tesz egy olyan aukcióra, amire te is licitáltál",
+      "auction_added_to_favourites": "Aukció hozzáadva a kedvencekhez",
+      "auction_added_to_favourites_descr": "Értesítést kapsz, amikor valaki hozzáadja valamelyik aukciódat a kedvenceihez",
+      "bid_on_favourites_auction": "Licit érkezett egy kedvenc aukcióra",
+      "bid_on_favourites_auction_descr": "Értesítést kapsz, amikor valaki licitet tesz egy olyan aukcióra, amit kedvencnek jelöltél",
+      "favourite_price_change": "Árváltozás egy kedvenc aukción",
+      "favourite_price_change_descr": "Értesítést kapsz, amikor változik az ára egy olyan aukciónak, amit kedvencnek jelöltél",
+      "review_title": "Értékelés / Visszajelzés",
+      "review_descr": "Értesítést kapsz, amikor más felhasználók visszajelzést hagynak a profilodon",
+      "new_message_title": "Új üzenet",
+      "new_message_descr": "Értesítést kapsz, amikor új üzenetet kapsz egy másik felhasználótól",
+      "new_follower": "Új követő",
+      "new_follower_descr": "Értesítést kapsz, amikor valaki követni kezd",
+      "new_auction_from_followed": "Új aukció egy követett felhasználótól",
+      "new_auction_from_followed_descr": "Értesítést kapsz, amikor valaki, akit követsz, új aukciót hoz létre",
+      "new_comment_title": "Új hozzászólás",
+      "new_comment_descr": "Értesítést kapsz, amikor valaki hozzászól valamelyik aukciódon",
+      "reply_title": "Válasz a hozzászólásra",
+      "reply_descr": "Értesítést kapsz, amikor valaki válaszol valamelyik hozzászólásodra",
+      "same_auction_comment": "Új hozzászólás ugyanazon az aukción",
+      "same_auction_comment_descr": "Értesítést kapsz, amikor valaki hozzászól egy olyan aukcióhoz, amihez te is hozzászóltál"
+    },
+    "block": {
+      "title": "Fiók letiltása",
+      "unblock": "Fiók feloldása",
+      "are_you_sure": "Biztosan le szeretnéd tiltani ezt a fiókot?",
+      "are_you_sure_to_unblock": "Biztosan fel szeretnéd oldani ezt a fiókot?",
+      "blocked_cannot_bid": "A letiltott felhasználók nem tudnak licitálni az aukcióidra.",
+      "block": "Letiltás",
+      "unblock_2": "Feloldás",
+      "was_blocked": "{{name}} letiltva",
+      "was_unblocked": "{{name}} feloldva"
+    },
+    "reviews": {
+      "info_msg": "Csak akkor tudsz értékelést adni ennek a felhasználónak, ha megnyersz egy aukciót tőle, vagy ő nyer meg egyet tőled",
+      "no_reviews": "Nincsenek értékelések",
+      "no_reviews_for_you": "Nincsenek értékeléseid",
+      "reviews": "Értékelések",
+      "no_reviews_for_account": "Ennek a felhasználónak még nincsenek értékelései",
+      "see_all_reviews": "Összes értékelés megtekintése ({{no}})"
+    },
+    "more": {
+      "title": "További információk",
+      "send_message": {
+        "title": "Üzenet vagy javaslat küldése",
+        "input_placeholder": "Írj ide egy üzenetet vagy javaslatot",
+        "send_message": "Üzenet küldése",
+        "could_not_send": "Nem sikerült elküldeni az üzenetet. Kérjük, próbáld újra",
+        "message_sent": "Az üzenet sikeresen elküldve, amint lehet, elolvassuk",
+        "send_message_and_well_be_back": "Küldj nekünk üzenetet és amint lehet, válaszolunk."
+      }
+    }
+  },
+  "dialogs": {
+    "discard_changes": "Elvetés",
+    "sure_to_go_back": "Biztosan vissza szeretnél lépni?",
+    "changes_will_be_discarded": "Minden változtatás elvész"
+  },
+  "chat": {
+    "chat_images": "Chat képek",
+    "chat": "Chat",
+    "delete": "Törlés",
+    "single_message_copied": "Üzenet másolva",
+    "messages_copied": "{{no}} üzenet másolva",
+    "send_message": "Üzenet küldése",
+    "search": "Beszélgetés keresése",
+    "no_more_messages": "Nincs több üzenet",
+    "no_recent_emojis": "Nincsenek nemrég használt emojik",
+    "no_conversations_available": "Még nincsenek beszélgetések",
+    "chat_data_reloaded": "Chat adatok sikeresen újratöltve",
+    "could_not_reload_data": "Nem sikerült újratölteni a chat adatokat",
+    "sure_you_want_to_delete": "Biztosan törölni szeretnéd a kiválasztott üzeneteket?",
+    "permanently_deleted": "Véglegesen törlődnek és nem állíthatók vissza"
+  },
+  "verification": {
+    "account_verification": "Fiók ellenőrzése",
+    "verified_info": "Ezt a fiókot a rendszer ellenőrizte.",
+    "account_was_verified": "A fiókod ellenőrzésének időpontja: ",
+    "ask_verification": "Az elérhető gombra kattintva kérheted a fiókod ellenőrzését.",
+    "ask_verification_button": "Ellenőrzés kérése",
+    "already_asked_for_verification": "Már kérted a fiókod ellenőrzését. Kérjük, várj, amíg a rendszer ellenőrzi a fiókodat.",
+    "verified_have_icon": "Az ellenőrzött fiókok speciális ikont kapnak az avatárjuk mellett.",
+    "could_not_ask_for_verification": "Nem sikerült kérni az ellenőrzést. Kérjük, próbáld újra később.",
+    "verification_asked": "Az ellenőrzési kérelem sikeresen elküldve. Kérjük, várj, amíg a rendszer ellenőrzi a fiókodat."
+  },
+  "auction_history": {
+    "auction_history": "Aukció előzmények",
+    "update": "Frissítetted az aukciód adatait.",
+    "promote": "Népszerűsítetted az aukciódat.",
+    "view": "{{name}} megtekintette az aukciódat.",
+    "add_to_fav": "{{name}} kedvencnek jelölte az aukciódat.",
+    "remove_from_fav": "{{name}} eltávolította az aukciódat a kedvencek közül.",
+    "coins_refunded": "Az aukció létrehozásához használt érmék visszatérítve.",
+    "bid_placed": "{{name}} licitet tett az aukciódon.",
+    "you_accepted_bid": "Elfogadtál egy licitet az aukciódon.",
+    "you_rejected_bid": "Elutasítottál egy licitet az aukciódon."
+  },
+  "comments": {
+    "count": "Hozzászólások ({{no}})",
+    "be_the_first": "Legyél az első, aki hozzászól vagy kérdez",
+    "leave_message": "Írj hozzászólást vagy kérdést",
+    "reply": "Válasz",
+    "replying_to": "Válasz neki: {{name}}"
+  },
+  "phone_sign_in": {
+    "title": "Bejelentkezés telefonszámmal",
+    "description": "Add meg a telefonszámodat a bejelentkezéshez",
+    "you_will_receive": "**Kapsz egy kódot, amivel bejelentkezhetsz",
+    "phone_number": "Telefonszám",
+    "send_code": "Kód küldése",
+    "could_not_sign_in": "Nem sikerült bejelentkezni. Kérjük, próbáld újra később",
+    "phone_invalid": "Érvénytelen telefonszám",
+    "verify_otp": "OTP ellenőrzése",
+    "we_sent_code": "Küldtünk egy kódot a telefonszámodra. Kérjük, írd be a bejelentkezéshez",
+    "otp_invalid": "Érvénytelen OTP"
+  },
+  "limitations": {
+    "anonymous_post": "Névtelen felhasználók nem hozhatnak létre aukciókat",
+    "anonymous_bid": "Névtelen felhasználók nem tehetnek licitet",
+    "anonymous_description": "Kérjük, jelentkezz be az email címeddel vagy a többi elérhető bejelentkezési módszerrel."
+  },
+  "verify_email": {
+    "title": "Email cím ellenőrzése szükséges",
+    "we_sent_email": "Küldtünk egy emailt egy linkkel az email címed ellenőrzéséhez.",
+    "didn_t_receive_email": "Nem kaptad meg az emailt?",
+    "send_again": "Link újraküldése",
+    "verified": "Ellenőrizve",
+    "link_sent": "Az ellenőrző link sikeresen elküldve. Kérjük, ellenőrizd az email fiókodat",
+    "could_not_send_link": "Nem sikerült elküldeni az ellenőrző linket. Kérjük, próbáld újra később",
+    "your_email_is_not_verified": "Az email címed nincs ellenőrizve",
+    "email_verified": "Az email cím sikeresen ellenőrizve"
+  },
+  "currencies": {
+    "could_not_update": "Nem sikerült frissíteni a pénznemet. Kérjük, próbáld újra később"
+  },
+  "payment": {
+    "success": "Sikeres fizetés",
+    "success_description": "A fizetés sikeres volt és az érmék hozzáadva a fiókodhoz. Menj a főoldalra, hogy lásd a hozzáadott érméket.",
+    "open_profile": "Profil megnyitása",
+    "please_wait": "Kérjük, várj, amíg feldolgozzuk a fizetésedet...",
+    "could_not_capture_payment": "Nem sikerült feldolgozni a fizetést. Kérjük, próbáld újra később",
+    "no_payment_methods_available": "Nincsenek elérhető fizetési módok",
+    "purchase_this_package_for": "Vásárold meg ezt a csomagot ennyiért:",
+    "step_1": "1. Válassz érme csomagot",
+    "step_2": "2. Válassz fizetési módot",
+    "no_products_available": "Nincsenek elérhető termékek az alkalmazásban.",
+    "buy_no_coins": "{{no}} érme vásárlása"
+  },
+  "ai": {
+    "generate_description": "Szeretnéd, hogy a mesterséges intelligencia automatikusan generáljon címet, kategóriát, árat és leírást?",
+    "generate": "Generálás",
+    "ai_disabled": "A mesterséges intelligencia ki van kapcsolva. Kérjük, vedd fel a kapcsolatot a rendszergazdával.",
+    "generate_error": "Nem sikerült a generálás. Kérjük, próbáld újra később",
+    "max_ai_responses_reached": "Elérted a mesterséges intelligencia által generált válaszok maximális számát. Vedd fel a kapcsolatot a rendszergazdával.",
+    "not_enough_coins": "Nincs elég érméd a mesterséges intelligencia által generált válasz létrehozásához. Kérjük, vásárolj több érmét."
+  }
+}

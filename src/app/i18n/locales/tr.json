@@ -1,0 +1,1014 @@
+{
+  "coins_for_auction_or_bid": {
+    "reached_max_auctions": "Ücretsiz oluşturabileceğiniz maksimum açık artırma sayısına ulaştınız ({{no}}).",
+    "reached_max_auctions_1": "Yeni bir açık artırma oluşturmak için {{no}} jeton ödemeniz gerekiyor.",
+    "auction_get_back": "Açık artırma süresi dolduğunda ve teklif veren olmazsa, jetonlarınızı geri alacaksınız.",
+    "not_enough_for_auction": "Yeni bir açık artırma oluşturmak için yeterli jetonunuz yok.",
+    "not_enough_for_bid": "Yeni bir teklif oluşturmak için yeterli jetonunuz yok.",
+    "you_have_coins_no": "{{no}} jetonunuz var.",
+    "bid_get_back": "Açık artırma süresi dolduğunda ve kazanan siz değilseniz, jetonlarınızı geri alacaksınız."
+  },
+  "starting_soon_auctions": {
+    "starting_soon": "Yakında başlıyor",
+    "starting_soon_plural": "Yakında başlayacak açık artırmalar",
+    "starts_at": "Açık artırma başlangıç zamanı:",
+    "add_to_fav": "Başladığında bildirim almak için açık artırmayı favorilere ekleyin",
+    "add_to_fav_multiple": "Başladıklarında bildirim almak için yakında başlayacak açık artırmaları favorilere ekleyin",
+    "custom_start_date": "Özel başlangıç tarihi",
+    "opted_for_custom": "Bu açık artırma için özel başlangıç ve bitiş tarihi seçtiniz. Açık artırmanın otomatik olarak aktifleştirilmesine geri dönemezsiniz.",
+    "will_automaticaly_start": "Açık artırma oluşturulduktan sonra otomatik olarak başlayacak. İsterseniz bu seçeneği devre dışı bırakıp özel başlangıç ve bitiş tarihleri belirleyebilirsiniz.",
+    "start_date": "Başlangıç tarihi",
+    "end_date": "Bitiş tarihi",
+    "no_starting_soon": "Yakında başlayacak açık artırma bulunmuyor"
+  },
+  "auctions_map": {
+    "title": "Açık artırmaları haritada gör",
+    "description": "Özel bir şey mi arıyorsunuz? Yakınınızdaki açık artırmaları haritada kontrol edin!",
+    "see_auction_details": "Detayları gör",
+    "see_auctions": "Açık artırmaları gör"
+  },
+  "auction_details_status": {
+    "closing_at": "Kapanış zamanı:",
+    "closed_at": "Kapandığı zaman:"
+  },
+  "similar": {
+    "similar_auctions": "Benzer açık artırmalar"
+  },
+  "share": {
+    "button": "Paylaş",
+    "share_on": "{{name}} üzerinde paylaş",
+    "check_auction": "Bu açık artırmayı Biddo'da incele",
+    "check_account": "Bu hesabı Biddo'da incele"
+  },
+  "terms_conditions": {
+    "titles": {
+      "terms_and_conditions": "Kullanım Şartları",
+      "cookie_policy": "Çerez Politikası",
+      "security_policy": "Güvenlik Politikası",
+      "user_rights": "Kullanıcı Hakları",
+      "prohibited_activities": "Yasaklı Faaliyetler",
+      "other_information": "Diğer Önemli Bilgiler"
+    },
+    "terms_and_conditions": {
+      "acceptance_of_terms": {
+        "title": "Şartların Kabulü",
+        "content": "Bu uygulamayı kullanarak, bu Kullanım Şartlarına uymayı ve bunlarla bağlı olmayı kabul etmiş olursunuz. Bu şartları kabul etmiyorsanız, Uygulamayı kullanmayı derhal bırakmalısınız."
+      },
+      "user_responsibilities": {
+        "title": "Kullanıcı Sorumlulukları",
+        "sections": {
+          "responsible_use": "Kullanıcılar Uygulamayı kullanımlarından tek başına sorumludur ve uygulamayı yasal, etik ve sorumlu bir şekilde kullanmalıdır.",
+          "prohibited_content": "Kullanıcılar saldırgan, yetişkinlere yönelik, ayrımcı, ırkçı, yasa dışı veya zararlı içerik paylaşamaz. Yönetici bu tür içerikleri kaldırma ve ilgili hesapları sonlandırma hakkını saklı tutar.",
+          "account_security": "Kullanıcılar hesap bilgilerinin gizliliğini korumaktan ve hesapları altında gerçekleşen her türlü aktiviteden sorumludur."
+        }
+      },
+      "sharing_of_information": {
+        "title": "Bilgi Paylaşımı",
+        "content": "Uygulamayı kullanarak, bilgilerinizin Uygulamanın işlevselliğini ve deneyimini geliştirmek için üçüncü taraf hizmetlerle paylaşılabileceğini kabul edersiniz. Yönetici, veri paylaşımının geçerli yasal standartlara uygun olmasını sağlar."
+      },
+      "liability": {
+        "title": "Sorumluluk",
+        "sections": {
+          "not_responsible": "Yönetici, Uygulamanın yanlış kullanımı, teknik sorunlar, kesintiler veya kullanıcı etkileşimlerinden kaynaklanan herhangi bir zarar, hasar veya kayıptan sorumlu değildir.",
+          "indemnification": "Kullanıcılar, Uygulamayı kullanımlarından kaynaklanan herhangi bir talepten yöneticiyi tazmin etmeyi ve zarar görmesini önlemeyi kabul eder."
+        }
+      },
+      "account_removal": {
+        "title": "Hesap Silme",
+        "sections": {
+          "user_right": "Kullanıcılar hesaplarını istedikleri zaman silme hakkına sahiptir. Silme işleminden sonra kişisel veriler Uygulamanın Gizlilik Politikasında belirtildiği şekilde işlenecektir.",
+          "admin_right": "Yönetici, kuralları ihlal eden veya kötü niyetli faaliyetlerde bulunan hesapları askıya alma veya kalıcı olarak kaldırma hakkını saklı tutar."
+        }
+      },
+      "modifications": {
+        "title": "Değişiklikler",
+        "content": "Yönetici bu Kullanım Şartlarını herhangi bir zamanda değiştirme hakkını saklı tutar. Uygulamayı kullanmaya devam etmeniz, değiştirilen şartları kabul ettiğiniz anlamına gelir."
+      }
+    },
+    "cookie_policy": {
+      "title": "Çerez Politikası",
+      "use_of_cookies": {
+        "title": "Çerez Kullanımı",
+        "content": "Uygulama, kullanıcı deneyimini geliştirmek, uygulama performansını analiz etmek ve kişiselleştirilmiş içerik sağlamak için çerezler kullanır. Uygulamayı kullanarak çerezlerin kullanımını kabul etmiş olursunuz."
+      },
+      "types_of_cookies": {
+        "title": "Çerez Türleri",
+        "sections": {
+          "essential_cookies": "Uygulamanın çalışması için gerekli çerezler.",
+          "performance_cookies": "Kullanıcıların Uygulama ile nasıl etkileşimde bulunduğuna dair veri toplayan çerezler.",
+          "functionality_cookies": "Kullanılabilirliği artırmak için kullanıcı tercihlerini kaydeden çerezler.",
+          "third_party_cookies": "Kişiselleştirilmiş reklam veya analitik sağlamak için kullanılabilecek üçüncü taraf çerezleri."
+        }
+      },
+      "user_consent": {
+        "title": "Kullanıcı Onayı",
+        "content": "Uygulamayı kullanarak, bu politikada açıklandığı şekilde çerezlerin depolanmasına ve kullanılmasına onay vermiş olursunuz. Cihaz ayarlarınızdan çerezleri devre dışı bırakabilirsiniz, ancak bu Uygulamanın işlevselliğini sınırlayabilir."
+      }
+    },
+    "security_policy": {
+      "title": "Güvenlik Politikası",
+      "data_protection": {
+        "title": "Veri Koruma",
+        "content": "Uygulama, kullanıcı verilerini korumak için endüstri standardı güvenlik önlemleri kullanır. Ancak yönetici, çevrimiçi hizmetlerin doğasında var olan riskler nedeniyle tam güvenliği garanti edemez."
+      },
+      "user_responsibility": {
+        "title": "Kullanıcı Sorumluluğu",
+        "content": "Kullanıcılar, giriş bilgilerini korumaktan ve yetkisiz erişim veya şüpheli aktiviteleri derhal yöneticiye bildirmekten sorumludur."
+      },
+      "data_sharing": {
+        "title": "Veri Paylaşımı",
+        "content": "Uygulama kullanıcı veri güvenliğine öncelik verse de, bazı veriler işlevselliği artırmak veya yasal gerekliliklere uymak için güvenilir üçüncü taraf sağlayıcılarla paylaşılabilir."
+      }
+    },
+    "prohibited_activities": {
+      "title": "Yasaklı Faaliyetler",
+      "sections": {
+        "prohibited_content": "Kullanıcılar açık, yetişkinlere yönelik, ayrımcı, ırkçı, yasa dışı veya şiddet ya da nefret içeren içerik paylaşamaz.",
+        "misuse_of_app": "Kullanıcılar Uygulamayı itibarına zarar verebilecek, işleyişini engelleyebilecek veya diğer kullanıcıları istismar edebilecek herhangi bir faaliyet için kullanamaz.",
+        "consequences": "Yönetici, bu kuralları ihlal eden herhangi bir içeriği veya hesabı önceden bildirimde bulunmaksızın kaldırma hakkını saklı tutar."
+      }
+    },
+    "user_rights": {
+      "title": "Kullanıcı Hakları",
+      "account_deletion": {
+        "title": "Hesap Silme",
+        "content": "Kullanıcılar hesaplarının silinmesini Uygulama ayarlarından veya destek ile iletişime geçerek isteyebilir. Silme işleminden sonra kişisel veriler Gizlilik Politikası uyarınca kaldırılacak, ancak bazı veriler yasal veya düzenleyici amaçlar için saklanabilir."
+      },
+      "complaints": {
+        "title": "Şikayetler ve Anlaşmazlıklar",
+        "content": "Kullanıcılar Uygulama ile ilgili şikayet veya anlaşmazlık bildirme hakkına sahiptir. Bu şikayetler resmi destek kanalları aracılığıyla iletilmelidir."
+      }
+    },
+    "other_information": {
+      "title": "Diğer Önemli Bilgiler",
+      "sections": {
+        "no_guarantee": "Uygulama 'olduğu gibi' sunulur. Yönetici kesintisiz erişim, doğruluk veya belirli bir amaca uygunluk garantisi vermez.",
+        "legal_compliance": "Kullanıcılar eylemlerinin yerel yasa ve düzenlemelere uygun olmasını sağlamaktan sorumludur.",
+        "admin_rights": "Yönetici politikaları güncelleme, içeriği kaldırma ve Uygulama özelliklerini herhangi bir zamanda değiştirme hakkını saklı tutar."
+      }
+    }
+  },
+  "pageSEO": {
+    "starting_soon_title": "Yakında Başlayacak Açık Artırmalar",
+    "starting_soon_description": "Biddo'da yakında başlayacak açık artırmaları inceleyin",
+    "terms_title": "Kullanım Şartları ve Gizlilik Politikası",
+    "terms_description": "Uygulamanın Kullanım Şartları ve Gizlilik Politikasını okuyun",
+    "login_title": "Giriş Sayfası",
+    "login_description": "Uygulamaya giriş yapın",
+    "forgot_password_title": "Şifremi Unuttum",
+    "forgot_password_description": "Şifremi unuttum sayfası",
+    "phone_login_title": "Telefon ile Giriş",
+    "phone_login_description": "Telefon ile giriş sayfası",
+    "phone_otp_title": "Telefon OTP",
+    "phone_otp_description": "Telefon OTP sayfası",
+    "home_title": "Biddo, Ana Sayfa",
+    "home_description": "Biddo, uygulamanın ana sayfası",
+    "create_auction_title": "Açık Artırma Oluştur",
+    "create_auction_description": "Yeni bir açık artırma oluştur",
+    "not_found_title": "Sayfa bulunamadı",
+    "not_found_description": "Sayfa bulunamadı",
+    "account_details_description": "Hesap detayları",
+    "auctions_list_title": "Açık artırma listesi",
+    "auctions_list_description": "Tüm açık artırmaların listesi",
+    "recommendations_title": "Öneriler",
+    "recommendations_description": "Sizin için öneriler",
+    "auctions_map": "Haritada açık artırmalar",
+    "auctions_map_description": "Haritada açık artırmalar",
+    "promoted_auctions_title": "Öne çıkan açık artırmalar",
+    "promoted_auctions_description": "Öne çıkan açık artırmalar",
+    "last_seen_auctions_title": "Son görüntülenen açık artırmalar",
+    "last_seen_auctions_description": "Son görüntülenen açık artırmalar",
+    "payment_success_title": "Ödeme başarılı",
+    "payment_success_description": "Ödeme başarılı oldu",
+    "register_title": "Kayıt Ol",
+    "register_description": "Kayıt sayfası"
+  },
+  "404": {
+    "oops": "Ups! Sayfa Bulunamadı",
+    "page_not_found": "Bu sayfa bozulmuş veya oluşturulmamış olabilir. Ana Sayfaya dönün.",
+    "back_to_home": "Ana Sayfaya Dön"
+  },
+  "anonymous": {
+    "login_for_notifications": "Bildirim almak için giriş yapmanız gerekiyor.",
+    "login_for_favourites": "Açık artırmaları favorilerinize eklemek için giriş yapmanız gerekiyor.",
+    "login_for_chat": "Diğer kullanıcılarla sohbet etmek için giriş yapmanız gerekiyor.",
+    "login_for_search_history": "Arama geçmişine sahip olmak için giriş yapmanız gerekiyor.",
+    "login_to_search_accounts": "Hesap aramak için giriş yapmanız gerekiyor.",
+    "login_to_send_user_message": "Bu kullanıcıya mesaj göndermek için giriş yapmanız gerekiyor.",
+    "login_to_bid": "Teklif vermek için giriş yapmanız gerekiyor.",
+    "login_to_report": "Rapor oluşturmak için giriş yapmanız gerekiyor.",
+    "login_to_follow": "Bu kullanıcıyı takip etmek için giriş yapmanız gerekiyor."
+  },
+  "header": {
+    "profile": "Profil",
+    "all_around_the_world": "Tüm dünyada",
+    "see_my_profile": "Profilimi gör",
+    "my_auctions": "Açık artırmalarım",
+    "my_bids": "Tekliflerim"
+  },
+  "footer": {
+    "follow_us": "Bizi takip edin",
+    "tutorial": "Öğretici",
+    "create_auction": "Açık artırma oluştur",
+    "create_bid": "Teklif ver",
+    "about": "Hakkında",
+    "privacy_policy": "Gizlilik politikası",
+    "terms_of_service": "Kullanım şartları",
+    "faq": "SSS",
+    "mobile_app": "Mobil uygulama",
+    "enjoy_better_experience": "Mobil uygulamamızla daha iyi bir deneyim yaşayın",
+    "about_motto": "Biddo, artık ihtiyacınız olmayan eşyaları satabileceğiniz ve istediğiniz eşyaları satın alabileceğiniz bir platformdur."
+  },
+  "cookie": {
+    "message": "Bu web sitesi kullanıcı deneyimini geliştirmek için çerezler kullanır. Web sitemizi kullanarak Çerez Politikamızdaki tüm çerezleri kabul etmiş olursunuz.",
+    "readMore": "Çerez Politikasını Oku",
+    "accept": "Kabul Et"
+  },
+  "info": {
+    "no_locations_found": "Konum bulunamadı",
+    "condition_required": "Durum gereklidir",
+    "location_needed": "Konum gereklidir çünkü birileri sizinle arasındaki mesafeye bağlı olarak eşyanıza teklif verebilir",
+    "add_more_to_search": "Konum aramak için en az 2 karakter ekleyin",
+    "see_all_my_auctions": "Tüm açık artırmalarımı gör",
+    "see_all_auctions_from_user": "Bu kullanıcının tüm açık artırmalarını gör",
+    "min_price_for_bid_is": "Minimum teklif fiyatı {{no}}",
+    "max_price_for_bid_is": "Maksimum teklif fiyatı {{no}}",
+    "price_must_be_number": "Fiyat {{min}} ile {{max}} arasında bir sayı olmalıdır",
+    "status": "Durum",
+    "you_see_page": "Sayfa {{page}} / {{total}}",
+    "main_category": "Ana kategori",
+    "sub_category": "Alt kategori",
+    "saved_filters": "Kayıtlı filtreler",
+    "search_auctions": "Açık artırma ara",
+    "sort_auctions": "Açık artırmaları sırala",
+    "no_filter_applied": "Uygulanmış filtreniz yok",
+    "manage_preferences": "Tercihleri yönet",
+    "you_dont_have_any_reviews": "Henüz değerlendirmeniz yok",
+    "see_how_others_see_you": "Başkalarının profilinizi nasıl gördüğünü görün",
+    "settings": "Ayarlar",
+    "credentials_exist": "Girdiğiniz kimlik bilgileri zaten mevcut",
+    "need_to_accept_terms": "Devam etmek için kullanım şartlarını kabul etmeniz gerekiyor",
+    "no_chat_to_match": "Kriterlerinize uyan sohbet yok",
+    "preferences_updated": "Kategori tercihleri güncellendi",
+    "sign_in_for_recommendations": "Açık artırma önerileri almak için giriş yapmanız gerekiyor",
+    "buy_coins_description": "Daha fazla açık artırma oluşturmak, teklif vermek ve açık artırmalarınızı öne çıkarmak için jeton satın alın.",
+    "payment_success": "Ödeme başarılı oldu",
+    "sign_in_for_last_seen": "Son görüntülenen açık artırmaları görmek için giriş yapmanız gerekiyor"
+  },
+  "ads": {
+    "win_coins": "İzlediğiniz her reklam için {{no}} jeton kazanırsınız. Nasıl kulağa geliyor?",
+    "watch_ad": "Reklam izle"
+  },
+  "intro": {
+    "would_you_like_to_see": "Nasıl ",
+    "would_you_like_to_see_2": " çalıştığını görmek ister misiniz?",
+    "a_guid_on_how_it_words": "Uygulamanın nasıl çalıştığı ve nasıl kullanılacağı hakkında bir rehber göreceksiniz",
+    "see_intro": "Tanıtımı gör",
+    "not_now": "Şimdi değil",
+    "want_to_skip": "Tanıtımı atlamak istediğinizden emin misiniz?",
+    "how_it_works": "Nasıl çalışır?",
+    "skip_intro": "Tanıtımı atla",
+    "on": "",
+    "can_easily_trade": "'da artık ihtiyacınız olmayan eşyaları satabilir ve istediğiniz eşyaları satın alabilirsiniz.",
+    "steps": {
+      "create_auction": "1. Açık artırma oluştur",
+      "wait_for_bids": "2. Teklifleri bekle",
+      "accept_bid": "3. Teklifi kabul et",
+      "review": "4. Değerlendirme ekle"
+    },
+    "create_auction": {
+      "become_visible": "Açık artırmanız diğerlerine görünür olacak ve topluluk ",
+      "hours_active": "{{no}} saat ",
+      "to_bid": "boyunca eşyalarınız için teklif verebilecek.",
+      "simply": "Basitçe ",
+      "create_an_auction": "bir açık artırma oluşturun ",
+      "using_the_books": "satmak istediğiniz herhangi bir eşyayı kullanarak, ve ",
+      "other_users": "diğer kullanıcılar ",
+      "for_them": "bunlar için teklif verebilir."
+    },
+    "wait_for_bid": {
+      "can_wait": "Açık artırmanız için mükemmel teklifi bulana kadar istediğiniz kadar bekleyebilirsiniz."
+    },
+    "chose_bid": {
+      "if_you_pick": "Kazanan bir teklif seçerseniz, ",
+      "to_chat": "kazanan ile sohbet etme ",
+      "to_arrange_settlement": "ve anlaşmayı düzenleme imkanınız olacak.",
+      "full_control": "Kazanan teklifi seçmek veya teklifleri reddetmek tamamen sizin kontrolünüzdedir."
+    },
+    "review": {
+      "after_the_auction": "Açık artırma tamamlandıktan sonra, ",
+      "leave_a_review": "kazanan için bir değerlendirme ",
+      "for_the_winner": "bırakabilirsiniz.",
+      "help_other_users": "Bu, diğer kullanıcıların kazanan hakkında daha fazla bilgi edinmesine yardımcı olacaktır."
+    }
+  },
+  "home": {
+    "discounts": {
+      "first15": "İlk siparişinizde %15 indirim kazanın",
+      "use_code": "Kodu kullanın: ",
+      "every_weekend": "Arabalarda her hafta sonu %5 indirim",
+      "car_accessories": "Araba aksesuarlarında %30'a varan indirim",
+      "shop_now": "Şimdi alışveriş yap"
+    },
+    "preferred_categories": {
+      "title": "Tercih edilen kategorileri seçin",
+      "info": "Tercih ettiğiniz kategorilere göre bildirimler ve kişiselleştirilmiş öneriler alacaksınız.",
+      "update": "Tercih edilen kategorileri güncelle"
+    },
+    "search": {
+      "search": "Ne arıyorsunuz?",
+      "recent_searches": "Son aramalar",
+      "users": "Kullanıcılar",
+      "no_recent_search_found": "Son arama bulunamadı",
+      "auctions_count_singular": "{{no}} açık artırma",
+      "auctions_count_plural": "{{no}} açık artırma",
+      "no_auction_that_match": "Kriterlerinize uyan açık artırma yok...",
+      "no_users_that_match": "Kriterlerinize uyan kullanıcı yok..."
+    },
+    "filter": {
+      "filtered_auctions": "Filtrelenmiş açık artırmalar",
+      "no_data_found": "Veri bulunamadı",
+      "all_auctions": "Tüm açık artırmalar {{no}}",
+      "auctions_count": "{{no}} açık artırma",
+      "categories": "Kategoriler",
+      "price": "Fiyat",
+      "min_price_value": "Min fiyat: {{no}}",
+      "max_price_value": "Max fiyat: {{no}}",
+      "min_price": "Min fiyat",
+      "max_price": "Max fiyat",
+      "invalid_number": "Geçersiz fiyat",
+      "apply_filter": "Filtreyi uygula",
+      "apply_sub_filter": "Alt filtreyi uygula",
+      "see_all": "Tümünü gör",
+      "auctions_count_parant": "({{no}} açık artırma)",
+      "selected_items": "({{no}} seçildi)",
+      "filter": "Filtre",
+      "clear_all": "Tümünü temizle",
+      "location": "Konum",
+      "locations": "Konumlar",
+      "include_my_auctions": "Açık artırmalarımı dahil et",
+      "without_my_auctions": "Açık artırmalarım olmadan",
+      "max_locations_error": "En fazla {{no}} konum seçilebilir",
+      "no_locations_for_criteria": "Kriterlerinize uygun konum bulunamadı",
+      "no_categories_for_criteria": "Kriterlerinize uygun kategori bulunamadı",
+      "save_filter_title": "Filtreyi kaydet",
+      "save_filter_name": "Filtre adı",
+      "you_dont_have_saved_filters": "Kaydedilmiş filtreniz yok",
+      "you_can_have_max": "En fazla {{no}} kaydedilmiş filtreniz olabilir",
+      "sure_you_want_to_remove": "Bu filtreyi kaldırmak istediğinizden emin misiniz?",
+      "filter_remove_error": "Filtre kaldırılamadı. Lütfen tekrar deneyin",
+      "about_saved_filters_title": "Kaydedilmiş filtreler hakkında",
+      "about_saved_filters_descr": "Daha sonra hızlıca erişmek için filtreleri kaydedebilirsiniz.\n\nBir filtreyi yalnızca boş değilse kaydedebilirsiniz."
+    },
+    "auctions": {
+      "auctions": "Açık artırmalar",
+      "last_seen": "Son görülen açık artırmalar",
+      "no_last_seen": "Henüz son görülen açık artırmanız yok",
+      "no_auctions": "Şu anda uygulamada açık artırma yok. Daha sonra tekrar deneyin",
+      "see_all": "Tüm açık artırmaları gör ({{no}})",
+      "no_auctions_to_match_criteria": "Kriterlerinize uyan açık artırma yok",
+      "no_auctions_to_display": "Şu anda açık artırma yok",
+      "all_auctions": "Tüm açık artırmalar ({{no}})"
+    },
+    "notifications": {
+      "notifications": "Bildirimler",
+      "mark_as_seen": "Tümünü görüldü olarak işaretle",
+      "dont_have_notifications": "Henüz bildiriminiz yok",
+      "mark_as_seen_success": "Tüm bildirimler görüldü olarak işaretlendi",
+      "mark_as_seen_error": "Tüm bildirimler görüldü olarak işaretlenemedi",
+      "permission_not_granted": "İzin verilmedi",
+      "permission_not_granted_msg": "Bildirimleri almak için uygulamaya özel izinler vermeniz gerekiyor",
+      "give_permission": "İzin ver",
+      "permission_granted": "İzin verildi",
+      "permission_rejected": "İzin reddedildi"
+    },
+    "categories": {
+      "categories": "Kategoriler",
+      "all": "Tümü",
+      "sub_categories": "Alt kategoriler",
+      "no_auctions_for": "{{name}} için açık artırma yok",
+      "no_auctions_to_match": "{{name}} içinde aramanızla eşleşen açık artırma yok",
+      "auctions_by_categories": "Kategorilere göre açık artırmalar",
+      "alphabetical": "Alfabetik",
+      "count_desc": "Açık artırma sayısı (azalan)",
+      "count_asc": "Açık artırma sayısı (artan)",
+      "search_categories": "Kategorilerde ara",
+      "search_sub_categories": "{{category}} içinde ara",
+      "filter": "Ekstra filtre ekle"
+    }
+  },
+  "favourites": {
+    "app_bar": {
+      "no_closed_auctions": "Favorilerinizde kapalı açık artırma yok",
+      "no_active_auctions": "Favorilerinizde aktif açık artırma yok",
+      "tap_on_the": "Bir açık artırmayı favorilere eklemek için tüm açık artırmalarda bulunan ",
+      "available_icon": " simgesine dokunmanız gerekiyor",
+      "favourites": "Favori açık artırmalar",
+      "active": "Aktif ({{no}})",
+      "closed": "Kapalı ({{no}})"
+    },
+    "users_who_added_to_favourites": "Bu açık artırmayı favorilere ekleyen kullanıcılar",
+    "nobody_added_to_favourites": "Kimse bu açık artırmayı favorilere eklemedi"
+  },
+  "create_auction": {
+    "create_auction": "Açık artırma oluştur",
+    "create_a_new_auction": "Yeni bir açık artırma oluştur",
+    "title": "Başlık",
+    "enter_title": "Açık artırma başlığını buraya girin",
+    "youtube_link": "YouTube bağlantısı",
+    "enter_youtube_link": "YouTube bağlantısını buraya girin",
+    "description": "Açıklama",
+    "enter_description": "Açık artırma açıklamasını buraya girin",
+    "another_starting_price": "Başka",
+    "starting_price": "Başlangıç fiyatı",
+    "price_cannot_be_empty": "Fiyat boş olamaz",
+    "starting_price_condition": "Başlangıç fiyatı 1 ile {{maxPrice}} arasında olmalıdır",
+    "invalid_starting_price": "Geçersiz başlangıç fiyatı",
+    "add_starting_price": "Başlangıç fiyatı ekle",
+    "category": "Kategori",
+    "select_category": "Kategori seç",
+    "new": "Yeni",
+    "used": "Kullanılmış",
+    "condition": "Durum",
+    "title_required": "Başlık gerekli",
+    "category_required": "Kategori gerekli",
+    "location_required": "Konum gerekli",
+    "price_required": "Fiyat gerekli",
+    "repository": {
+      "too_many_assets": "Çok fazla dosya yüklendi",
+      "asset_too_big": "Yüklenen dosya çok büyük",
+      "asset_not_supported": "Yüklenen dosya türü desteklenmiyor",
+      "could_not_create": "Açık artırma oluşturulamadı. Lütfen tekrar deneyin",
+      "could_not_update": "Açık artırma güncellenemedi. Lütfen tekrar deneyin"
+    }
+  },
+  "promote_auction": {
+    "promote_auction": "Öne çıkar",
+    "don_t_have_enough_coins": "Bu açık artırmayı öne çıkarmak için yeterli jetonunuz yok",
+    "could_not_promote": "Açık artırma öne çıkarılamadı. Lütfen tekrar deneyin",
+    "auction_promoted": "Açık artırma başarıyla öne çıkarıldı",
+    "sure_you_want_to_promote": "Bu açık artırmayı öne çıkarmak istediğinizden emin misiniz?",
+    "promoted_will_show": "Öne çıkarılan açık artırma, açık artırma listesinin en üstünde gösterilecektir. Bir açık artırmayı birden fazla kez öne çıkarabilirsiniz.",
+    "can_be_pushed_down": "Öne çıkarma, açık artırmanızı listenin en üstüne taşıyacak, ancak yeni öne çıkarılan açık artırmalar onu aşağı itecektir.",
+    "promotion_cost": "Her öne çıkarma {{no}} jeton maliyetindedir",
+    "promoted_at": "Öne çıkarılma tarihi",
+    "promoted": "Öne çıkarıldı"
+  },
+  "auction_details": {
+    "auction_ends_in": "Açık artırmanın bitimine kalan süre",
+    "auction_does_not_exit": "Açık artırma artık mevcut değil veya erişilemiyor",
+    "auction_data_reloaded": "Açık artırma verileri başarıyla yenilendi",
+    "auction_images": "Açık artırma görselleri",
+    "does_not_have_images": "Bu açık artırmada hiç görsel yok",
+    "no_active_bids": "Bu açık artırma için aktif teklif yok",
+    "no_description_provided": "Açıklama girilmemiş",
+    "bids_count": "Teklifler ({{no}})",
+    "accepted_bid": "Kabul edilen teklif",
+    "closed": "Kapalı",
+    "create_bid": {
+      "title": "Teklif oluştur",
+      "price_hint": "Fiyat",
+      "location_is_required": "Konum gerekli",
+      "message_description": "Teklifinize bir mesaj eklemek ister misiniz",
+      "starting_price": "Başlangıç fiyatı",
+      "highest_bid": "En yüksek teklif",
+      "cannot_place_bid_lower": "*Başlangıç fiyatından daha düşük bir teklif veremezsiniz",
+      "cannot_place_bid_lower_than_bid": "En yüksek tekliften daha düşük bir teklif veremezsiniz",
+      "select_price": "Teklif vermek istediğiniz fiyatı seçin",
+      "leave_a_message": "Mesaj bırakın (İsteğe bağlı)",
+      "bid_created": "Teklif başarıyla oluşturuldu",
+      "error_creating": "Teklif oluşturulamadı. Lütfen tekrar deneyin",
+      "this_is_user_bid": "Bu, kullanıcının bu açık artırma için verdiği tekliftir",
+      "already_have_highest_bid": "Bu açık artırma için zaten en yüksek teklife sahipsiniz",
+      "cannot_create_on_your_auction": "Kendi açık artırmanıza teklif veremezsiniz",
+      "cannot_create_on_expired": "Kapalı bir açık artırmaya teklif veremezsiniz"
+    },
+    "update": {
+      "title": "Açık artırmayı güncelle",
+      "update": "Güncelle",
+      "update_successful": "Açık artırma başarıyla güncellendi"
+    },
+    "long_distance": {
+      "title": "Konumunuz uzakta",
+      "description": "Bir açık artırmaya teklif veriyorsunuz ve konumunuz açık artırma sahibinin konumundan uzak görünüyor."
+    },
+    "app_bar": {
+      "report_auction": "Açık artırmayı bildir",
+      "remove_auction": "Açık artırmayı kaldır",
+      "update_auction": "Açık artırmayı güncelle",
+      "bids_count": "Teklifler ({{no}})"
+    },
+    "details": {
+      "created_by": "Oluşturan",
+      "views": "Görüntülenme: ",
+      "created_at": "Oluşturulma tarihi: "
+    },
+    "dialogs": {
+      "auction_removed": "Açık artırma kaldırıldı",
+      "sure_to_remove_auction": "Bu açık artırmayı kaldırmak istediğinizden emin misiniz?",
+      "bidders_will_be_notified_after_remove": "*Bu açık artırmadaki teklif sahiplerine açık artırmanın kaldırıldığı bildirilecektir"
+    },
+    "bids": {
+      "bid_was_removed": "Teklif açık artırmadan kaldırıldı",
+      "sure_to_remove_bid": "Bu teklifi açık artırmadan kaldırmak istediğinizden emin misiniz?",
+      "auction_owner_will_be_notified": "*Açık artırma sahibi bu değişiklik hakkında bilgilendirilecektir",
+      "bid_rejected": "Teklif reddedildi ve teklif sahibi bilgilendirilecek.",
+      "sure_to_reject": "Bu teklifi reddetmek istediğinizden emin misiniz?",
+      "enter_rejection_reason": "Reddetme nedenini girin",
+      "cannot_undo_or_see": "*Bu işlemi geri alamazsınız ve teklif detaylarını artık göremezsiniz",
+      "reject_bid": "Teklifi reddet",
+      "bid_accepted": "Teklif kabul edildi ve teklif sahibi bilgilendirilecek",
+      "sure_to_accept": "Bu teklifi kabul etmek istediğinizden emin misiniz?",
+      "auction_will_be_closed": "Açık artırma otomatik olarak kapanacaktır",
+      "cannot_undo": "*Bu işlemi geri alamazsınız",
+      "accept_bid": "Teklifi kabul et",
+      "rejected": "Reddedildi",
+      "see_your_profile": "Profilinizi görüntüleyin",
+      "see_bidder": "Teklif veren profilini gör",
+      "report": "Teklifi bildir",
+      "remove": "Teklifi kaldır",
+      "unknown_location": "Bilinmeyen konum"
+    },
+    "reviews": {
+      "review_updated": "Değerlendirme güncellendi",
+      "review_created": "Değerlendirme oluşturuldu",
+      "could_not_update_review": "Değerlendirme güncellenemedi",
+      "could_not_create_review": "Değerlendirme oluşturulamadı",
+      "would_you_leave_review": "Değerlendirme bırakmak ister misiniz ",
+      "review_details": "Değerlendirme detayları",
+      "save_review": "Değerlendirmeyi kaydet",
+      "added_a_review": " bir değerlendirme ekledi"
+    }
+  },
+  "map_auctions": {
+    "auctions_count": "Bu konumda {{no}} açık artırma",
+    "auctions_loaded": "{{no}} açık artırma yüklendi",
+    "location_disabled": "Konum servisleri devre dışı",
+    "location_denied": "Konum izinleri reddedildi",
+    "location_permanent_denied": "Konum izinleri kalıcı olarak reddedildi, izin isteyemiyoruz",
+    "auctions_count_simple": "{{no}} açık artırma",
+    "search_locations": "Konum ara",
+    "select_location": "Lütfen bir konum seçin",
+    "need_to_zoom_in": "Açık artırmaların haritada görünmesi için yakınlaştırmanız gerekiyor",
+    "loading_auctions": "Açık artırmalar yükleniyor",
+    "no_auction_loaded": "Açık artırma yüklenmedi. Farklı bir konum veya kategori seçmeyi deneyin",
+    "long_tap": "Farklı bir konum seçmek için haritaya uzun basın",
+    "select_category": "Haritada gösterilecek bir kategori seçin",
+    "show_on_map": "Haritada göster",
+    "need_permission_from_settings": "Bu izni sistem ayarlarından vermeniz gerekiyor"
+  },
+  "recommendations": {
+    "no_recommendations_for_you": "Şu anda sizin için önerimiz yok.",
+    "no_recommendation_details": "Favorilerinize bazı açık artırmalar eklediğinizden veya tercih edilen olarak en az bir kategori seçtiğinizden emin olun.",
+    "you_might_like": "Beğenebilirsiniz"
+  },
+  "buy_coins": {
+    "buy_coins": "Jeton satın al",
+    "coins_no": "{{no}} jeton",
+    "buy_coins_and_promote": "Jeton satın alın ve açık artırmalarınızı daha fazla görünürlük için tanıtın.",
+    "no_products": "Şu anda mevcut ürün bulunmamaktadır",
+    "success_purchase": "Jetonlar başarıyla satın alındı",
+    "error_purchase": "Jetonlar satın alınamadı. Lütfen tekrar deneyin",
+    "having_trouble": "Jeton satın almada sorun mu yaşıyorsunuz?",
+    "send_us_a_message": "Bize mesaj gönderin, en kısa sürede sizinle iletişime geçeceğiz.",
+    "buy_coins_to_create_more_auctions": "Daha fazla açık artırma oluşturmak ve daha fazla görünürlük için tanıtmak için jeton satın alın."
+  },
+  "location": {
+    "location": "Konum",
+    "your_location": "Konumunuz",
+    "select_location": "Konum seçin",
+    "location_disabled": "Konum servisleri devre dışı",
+    "location_denied": "Konum izinleri reddedildi",
+    "location_permanent_denied": "Konum izinleri kalıcı olarak reddedildi, izin isteyemiyoruz",
+    "long_tap": "Farklı bir konum seçmek için haritaya uzun basın",
+    "search_by_city": "Şehre göre ara",
+    "to_create_pin": "Yeni bir konum arayın veya yeni bir pin oluşturmak için haritaya uzun basın",
+    "map_not_available": "Mini-Harita kullanılamıyor",
+    "need_to_give_permissions": "Bu özelliği kullanmak için konum izinlerini vermeniz gerekiyor",
+    "distance": "Sizden {{no}}km uzakta"
+  },
+  "reports": {
+    "was_reported": "Rapor başarıyla oluşturuldu. En kısa sürede inceleyeceğiz",
+    "misleading_or_scam": "Yanıltıcı veya dolandırıcılık",
+    "sexually_inappropriate": "Cinsel açıdan uygunsuz",
+    "offensive_content": "Rahatsız edici içerik",
+    "other": "Diğer",
+    "like_to_give_details": "Bize daha fazla detay vermek ister misiniz?",
+    "sure_to_report": "Bu {{name}} raporlamak istediğinizden emin misiniz?",
+    "sure_to_report_2": "Bu {{name}} raporlamak istediğinizden emin misiniz?",
+    "sure_to_report_auction": "açık artırmayı",
+    "sure_to_report_bid": "teklifi",
+    "sure_to_report_account": "hesabı",
+    "report_action": "Raporla"
+  },
+  "errors": {
+    "no_internet": "İnternete bağlı görünmüyorsunuz",
+    "try_again": "Tekrar deneyin"
+  },
+  "auth": {
+    "email": "E-posta",
+    "password": "Şifre",
+    "sign_in": {
+      "sign_in": "Giriş yap",
+      "enter_credentials": "Devam etmek için bilgilerinizi girin",
+      "enter_email": "E-posta adresinizi girin",
+      "enter_password": "Şifrenizi girin",
+      "forgot_password": "Şifremi unuttum?",
+      "continue_with": "Veya şununla devam et",
+      "not_a_member": "Üye değil misiniz? ",
+      "register_now": "Şimdi kaydolun",
+      "continue_as_anon": "Anonim olarak devam et",
+      "email_empty": "E-posta boş olamaz",
+      "email_invalid": "E-posta geçersiz",
+      "password_empty": "Şifre boş olamaz",
+      "cannot_facebook_login": "Facebook ile giriş yapılamadı. Lütfen tekrar deneyin",
+      "cannot_google_login": "Google ile giriş yapılamadı. Lütfen tekrar deneyin",
+      "cannot_email_login": "Bu bilgilerle giriş yapılamadı. Aktif bir hesabınız olduğundan ve bilgilerin doğru olduğundan emin olun."
+    },
+    "sign_up": {
+      "email_empty": "E-posta boş olamaz",
+      "email_invalid": "E-posta geçersiz",
+      "password_empty": "Şifre boş olamaz",
+      "password_min_len": "Şifre en az 6 karakter uzunluğunda olmalıdır",
+      "need_to_accept": "Devam etmek için ",
+      "terms_of_service": "Kullanım Koşullarını",
+      "to_continue": " kabul etmeniz gerekiyor",
+      "sign_up": "Kaydol",
+      "lets_create_acc": "Yeni bir hesap oluşturalım",
+      "email_placeholder": "E-posta adresinizi girin",
+      "password_placeholder": "Bir şifre belirleyin",
+      "already_member": "Zaten hesabınız var mı? ",
+      "sign_in": "Giriş yapın"
+    },
+    "forgot_password": {
+      "title": "Şifremi unuttum",
+      "reset": "Şifreyi sıfırla",
+      "enter_email": "Hesabınızı oluştururken kullandığınız e-posta adresini girin",
+      "return_to": "Geri dön ",
+      "you_will_receive": "**Şifrenizi sıfırlamanıza yardımcı olacak bir e-posta alacaksınız",
+      "user_was_not_found": "Bu e-posta adresiyle bir kullanıcı bulamadık",
+      "could_not_send_email": "Şifre sıfırlama e-postası gönderilemedi. Lütfen daha sonra tekrar deneyin",
+      "email_sent": "E-posta adresinize bir e-posta gönderildi. Şifrenizi sıfırlamak için e-postadaki talimatları takip edin"
+    },
+    "terms": {
+      "continue": "Devam et",
+      "almost_there": "Neredeyse bitti",
+      "accept": "Kabul ediyorum ",
+      "terms_of_service": "Kullanım Koşulları",
+      "processing": " ve kişisel verilerimin işlenmesini ",
+      "privacy": "Gizlilik politikası"
+    }
+  },
+  "generic": {
+    "days_no": "{{no}} gün",
+    "see_video": "Videoyu gör",
+    "online": "Çevrimiçi",
+    "offline": "Çevrimdışı",
+    "translate": "Çevir",
+    "see_original": "Orijinali gör",
+    "change_tab": "Sekme değiştir",
+    "promoted_auctions": "Öne çıkan açık artırmalar",
+    "open_settings": "Ayarları aç",
+    "give_permission": "İzin ver",
+    "permission_denied": "İzin reddedildi",
+    "image_not_found": "Resim bulunamadı",
+    "choose": "Seç",
+    "unknown": "Bilinmiyor",
+    "search": "Ara",
+    "by": "{{name}} tarafından",
+    "undo": "Geri al",
+    "remove": "Kaldır",
+    "see_all": "Tümünü gör",
+    "done": "Tamam",
+    "newest": "En yeni",
+    "oldest": "En eski",
+    "newest_accepted_bid": "En yeni kabul edilen teklif",
+    "oldest_accepted_bid": "En eski kabul edilen teklif",
+    "ascending_price": "Artan fiyat",
+    "descending_price": "Azalan fiyat",
+    "skip": "Atla",
+    "back": "Geri",
+    "continue": "Devam et",
+    "finish": "Bitir",
+    "closed": "Kapalı",
+    "cancel": "İptal",
+    "face_to_face": "Yüz yüze",
+    "delivery": "Teslimat",
+    "custom": "Özel",
+    "save": "Kaydet",
+    "see_less": " Daha az gör",
+    "see_more": " Daha fazla gör",
+    "optional": "(İsteğe bağlı)",
+    "details": "Detaylar",
+    "clear": "Temizle",
+    "clear_all": "Tümünü temizle",
+    "refresh": "Yenile",
+    "yes": "Evet",
+    "no": "Hayır",
+    "auction": "açık artırma",
+    "auction2": "açık artırma",
+    "ok": "Tamam",
+    "offer": "teklif",
+    "offer2": "teklif",
+    "loading": "Yükleniyor...",
+    "don_t_show_again": "Bir daha gösterme",
+    "something_went_wrong": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin",
+    "info": "Bilgi",
+    "your_auction": "Açık artırmanız",
+    "bids_count_singular": "1 teklif",
+    "bids_count_plural": "{{no}} teklif",
+    "auction_count_singular": "1 açık artırma",
+    "auction_count_plural": "{{no}} açık artırma"
+  },
+  "bottom_nav": {
+    "home": "Ana sayfa",
+    "favourites": "Favoriler",
+    "create": "Oluştur",
+    "chat": "Sohbet",
+    "more": "Daha fazla"
+  },
+  "permissions": {
+    "camera_permissions": "Kamera izinleri",
+    "need_to_request_camera": "Kamerayı açmak için izninizi istememiz gerekiyor",
+    "from_settings": "Bu izni sistem ayarlarından vermeniz gerekiyor",
+    "open_settings": "Ayarları aç",
+    "allow_access": "Erişime izin ver",
+    "storage_permissions": "Depolama izinleri",
+    "need_to_request_files": "Uygulamada yüklemek için yerel dosyaları okuma izninizi istememiz gerekiyor",
+    "need_to_request_notifications": "Bu işlevin çalışması için size bildirim gönderme izninizi istememiz gerekiyor"
+  },
+  "assets": {
+    "selected_images": "Seçilen görseller",
+    "no_selected": "Seçili başka görseliniz yok",
+    "image_singular": "{{no}} görsel",
+    "image_plural": "{{no}} görsel",
+    "remove_image": "Görseli kaldır",
+    "all_images_folder": "Tüm görseller",
+    "max_allowed": "En fazla {{no}} dosya seçilebilir",
+    "select": "Seç",
+    "no_images_in_folder": "Bu klasörde görsel yok",
+    "add_images": "Görsel ekle"
+  },
+  "profile": {
+    "legal_info": "Yasal bilgiler",
+    "terms_of_service": "Kullanım Koşulları",
+    "privacy_policy": "Gizlilik politikası",
+    "cookies_policy": "Çerez politikası",
+    "about": "Hakkında",
+    "sign_out": "Çıkış yap",
+    "version": "Sürüm {{no}}",
+    "preferences": "Tercihler",
+    "languages": "Uygulama dilleri",
+    "report": "Bildir",
+    "language": "Uygulama dili",
+    "no_reviews": "(Değerlendirme yok)",
+    "update_account": "Güncelle",
+    "all_auctions_for": "{{name}} tarafından oluşturulan açık artırmalar ({{no}})",
+    "currencies": "Para birimleri",
+    "see_review_auction": "İlgili açık artırmayı gör",
+    "no_auctions": "Mevcut açık artırma yok",
+    "send_message": "Mesaj gönder",
+    "follow": "Takip et",
+    "unfollow": "Takibi bırak",
+    "following": "Takip edilenler",
+    "followers": "Takipçiler",
+    "congratulations_follow": "🚀 Tebrikler!",
+    "you_are_now_following": "Artık {{name}} kullanıcısını takip ediyorsunuz.\n\n{{name}} yeni bir açık artırma oluşturduğunda bildirim alacaksınız.",
+    "could_not_follow": "{{name}} takip edilemedi. Lütfen daha sonra tekrar deneyin",
+    "could_not_unfollow": "{{name}} takipten çıkarılamadı. Lütfen daha sonra tekrar deneyin",
+    "unfollow_success": "Artık {{name}} kullanıcısını takip etmiyorsunuz",
+    "no_followers": "{{name}} kullanıcısının henüz takipçisi yok",
+    "no_following": "{{name}} henüz kimseyi takip etmiyor",
+    "cannot_load_chat_group": "Hesapla sohbet yüklenemedi. Lütfen tekrar deneyin.",
+    "your_auctions": "Açık artırmalarınız",
+    "your_bids": "Teklifleriniz",
+    "all_your_bids": {
+      "title": "Tüm teklifleriniz",
+      "all_bids": "Tüm teklifleriniz ({{no}})",
+      "no_bids": "Henüz teklifiniz yok"
+    },
+    "accepted_bids": {
+      "title": "Kabul edilen teklifler",
+      "accepted_bids": "Kabul edilen teklifler ({{no}})",
+      "no_bids": "Henüz kabul edilen teklifiniz yok"
+    },
+    "rejected_bids": {
+      "title": "Reddedilen teklifler",
+      "rejected_bids": "Reddedilen teklifler ({{no}})",
+      "no_bids": "Henüz reddedilen teklifiniz yok"
+    },
+    "closed_auctions": {
+      "title": "Kapalı açık artırmalar",
+      "closed_auctions": "Kapalı açık artırmalar ({{no}})",
+      "no_auctions": "Henüz kapalı açık artırmanız yok"
+    },
+    "active_auctions": {
+      "title": "Aktif açık artırmalar",
+      "active_auctions": "Aktif açık artırmalar ({{no}})",
+      "no_auctions": "Aktif açık artırmanız yok"
+    },
+    "sign_out_dialog": {
+      "title": "Çıkış yap",
+      "description": "Çıkış yapmak istediğinizden emin misiniz?"
+    },
+    "update": {
+      "update_account": "Hesabı güncelle",
+      "application_name": "Uygulamadaki adınız",
+      "email": "E-posta",
+      "cannot_update_email": "*E-posta adresi değiştirilemez",
+      "update_error": "Uygulamadaki adınız güncellenemedi",
+      "update_success": "Hesabınız başarıyla güncellendi",
+      "what_name_do_you_want": "Hangi adı kullanmak istiyorsunuz?",
+      "change_profile_picture": "Profil resmini değiştir",
+      "delete_account": "Hesabı sil",
+      "are_you_sure_to_delete": "Hesabınızı silmek istediğinizden emin misiniz?",
+      "delete_account_details": "Hesabınızı silmek, tüm açık artırmalarınızı, tekliflerinizi, değerlendirmelerinizi ve diğer verilerinizi uygulamadan kaldıracaktır.\n\n*** Bu işlem geri alınamaz",
+      "delete_account_error": "Hesabınız silinemedi",
+      "save_location_to": "Konumunuzu kaydederseniz, bir açık artırma veya teklif oluşturduğunuzda varsayılan olarak kullanılacaktır",
+      "cannot_update_phone_number": "Telefon numarası değiştirilemez"
+    },
+    "notifications": {
+      "notifications": "Bildirimler",
+      "permission_not_granted": "İzin verilmedi",
+      "permission_not_granted_msg": "Bildirimleri almak için uygulamaya özel izinler vermeniz gerekiyor",
+      "give_permission": "İzin ver",
+      "permission_granted": "İzin verildi",
+      "permission_rejected": "İzin reddedildi",
+      "auctions": "Açık artırmalar",
+      "bids": "Teklifler",
+      "generic": "Genel",
+      "favourites": "Favoriler",
+      "my_auction_started": "Açık artırmanız başladı",
+      "my_auction_started_descr": "Açık artırmalarınızdan biri başladığında bildirim alacaksınız",
+      "fav_auction_started": "Favori açık artırma başladı",
+      "fav_auction_started_descr": "Favori açık artırmalarınızdan biri başladığında bildirim alacaksınız",
+      "auction_updated_title": "Teklif verdiğiniz açık artırma güncellendi",
+      "auction_updated_descr": "Teklif verdiğiniz bir açık artırmanın sahibi açık artırmayı güncellediğinde bildirim alacaksınız",
+      "bid_added_title": "Açık artırmanıza teklif eklendi",
+      "bid_added_descr": "Açık artırmalarınızdan birine yeni bir teklif eklendiğinde bildirim alacaksınız",
+      "bid_removed_title": "Açık artırmanızdan teklif kaldırıldı",
+      "bid_removed_descr": "Açık artırmalarınızdan birinden bir teklif kaldırıldığında bildirim alacaksınız",
+      "bid_accepted_title": "Teklif kabul edildi",
+      "bid_accepted_descr": "Tekliflerinizden biri kabul edildiğinde bildirim alacaksınız",
+      "bid_rejected_title": "Teklif reddedildi",
+      "bid_rejected_descr": "Tekliflerinizden biri reddedildiğinde bildirim alacaksınız",
+      "bid_seen": "Teklif görüldü",
+      "bid_seen_descr": "Teklif verdiğiniz bir açık artırmanın sahibi teklifinizi gördüğünde bildirim alacaksınız",
+      "same_auction_bid": "Benimle aynı açık artırmaya yeni teklif",
+      "same_auction_bid_descr": "Teklif verdiğiniz bir açık artırmaya başka biri teklif verdiğinde bildirim alacaksınız",
+      "auction_added_to_favourites": "Açık artırma favorilere eklendi",
+      "auction_added_to_favourites_descr": "Açık artırmalarınızdan biri başkasının favorilerine eklendiğinde bildirim alacaksınız",
+      "bid_on_favourites_auction": "Favori açık artırmalarınızdan birine teklif",
+      "bid_on_favourites_auction_descr": "Favorilerinize eklediğiniz bir açık artırmaya biri teklif verdiğinde bildirim alacaksınız",
+      "favourite_price_change": "Favori açık artırmalarınızdan birinde fiyat değişikliği",
+      "favourite_price_change_descr": "Favorilerinize eklediğiniz bir açık artırmanın fiyatı değiştiğinde bildirim alacaksınız",
+      "review_title": "Değerlendirme / Geri bildirim",
+      "review_descr": "Diğer kullanıcılar profilinize geri bildirim bıraktığında bildirim alacaksınız",
+      "new_message_title": "Yeni mesaj",
+      "new_message_descr": "Başka bir kullanıcıdan yeni bir mesaj aldığınızda bildirim alacaksınız",
+      "new_follower": "Yeni takipçi",
+      "new_follower_descr": "Biri sizi takip etmeye başladığında bildirim alacaksınız",
+      "new_auction_from_followed": "Takip ettiğiniz kullanıcıdan yeni açık artırma",
+      "new_auction_from_followed_descr": "Takip ettiğiniz biri yeni bir açık artırma eklediğinde bildirim alacaksınız",
+      "new_comment_title": "Yeni yorum",
+      "new_comment_descr": "Açık artırmalarınızdan birine biri yorum yaptığında bildirim alacaksınız",
+      "reply_title": "Yoruma yanıt",
+      "reply_descr": "Yorumlarınızdan birine biri yanıt verdiğinde bildirim alacaksınız",
+      "same_auction_comment": "Aynı açık artırmaya yeni yorum",
+      "same_auction_comment_descr": "Yorum yaptığınız bir açık artırmaya biri yorum yaptığında bildirim alacaksınız"
+    },
+    "block": {
+      "title": "Hesabı engelle",
+      "unblock": "Hesabın engelini kaldır",
+      "are_you_sure": "Bu hesabı engellemek istediğinizden emin misiniz?",
+      "are_you_sure_to_unblock": "Bu hesabın engelini kaldırmak istediğinizden emin misiniz?",
+      "blocked_cannot_bid": "Engellenen kullanıcılar açık artırmalarınıza teklif veremeyecektir.",
+      "block": "Engelle",
+      "unblock_2": "Engeli kaldır",
+      "was_blocked": "{{name}} engellendi",
+      "was_unblocked": "{{name}} engeli kaldırıldı"
+    },
+    "reviews": {
+      "info_msg": "Bu kullanıcıya sadece açık artırmalarından birini kazandığınızda veya sizin açık artırmanızı kazandığında değerlendirme ekleyebilirsiniz",
+      "no_reviews": "Değerlendirme yok",
+      "no_reviews_for_you": "Sizin için değerlendirme yok",
+      "reviews": "Değerlendirmeler",
+      "no_reviews_for_account": "Bu kullanıcı henüz değerlendirilmemiş",
+      "see_all_reviews": "Tüm değerlendirmeleri gör ({{no}})"
+    },
+    "more": {
+      "title": "Daha fazla bilgi",
+      "send_message": {
+        "title": "Mesaj veya öneri gönder",
+        "input_placeholder": "Buraya mesaj veya öneri yazın",
+        "send_message": "Mesaj gönder",
+        "could_not_send": "Mesaj gönderilemedi. Lütfen tekrar deneyin",
+        "message_sent": "Mesaj başarıyla gönderildi ve en kısa sürede okuyacağız",
+        "send_message_and_well_be_back": "Bize mesaj gönderin, en kısa sürede size geri döneceğiz."
+      }
+    }
+  },
+  "dialogs": {
+    "discard_changes": "Vazgeç",
+    "sure_to_go_back": "Geri dönmek istediğinizden emin misiniz?",
+    "changes_will_be_discarded": "Tüm değişiklikleriniz iptal edilecek"
+  },
+  "chat": {
+    "chat_images": "Sohbet görselleri",
+    "chat": "Sohbet",
+    "delete": "Sil",
+    "single_message_copied": "Mesaj kopyalandı",
+    "messages_copied": "{{no}} mesaj kopyalandı",
+    "send_message": "Mesaj gönder",
+    "search": "Konuşmada ara",
+    "no_more_messages": "Başka mesaj yok",
+    "no_recent_emojis": "Son kullanılan emoji yok",
+    "no_conversations_available": "Henüz konuşma yok",
+    "chat_data_reloaded": "Sohbet verileri başarıyla yenilendi",
+    "could_not_reload_data": "Sohbet verileri yenilenemedi",
+    "sure_you_want_to_delete": "Seçili mesajları silmek istediğinizden emin misiniz?",
+    "permanently_deleted": "Kalıcı olarak silinecekler ve geri getirilemeyecekler"
+  },
+  "verification": {
+    "account_verification": "Hesap doğrulama",
+    "verified_info": "Bu hesap sistem tarafından doğrulanmıştır.",
+    "account_was_verified": "Hesabınız şu tarihte doğrulandı: ",
+    "ask_verification": "Mevcut butona dokunarak doğrulama isteyebilirsiniz.",
+    "ask_verification_button": "Doğrulama iste",
+    "already_asked_for_verification": "Zaten doğrulama istediniz. Lütfen sisteminizin hesabınızı doğrulamasını bekleyin.",
+    "verified_have_icon": "Doğrulanmış hesapların profil fotoğraflarının yanında özel bir simge bulunur.",
+    "could_not_ask_for_verification": "Doğrulama istenemedi. Lütfen daha sonra tekrar deneyin.",
+    "verification_asked": "Doğrulama başarıyla istendi. Lütfen sisteminizin hesabınızı doğrulamasını bekleyin."
+  },
+  "auction_history": {
+    "auction_history": "Açık artırma geçmişi",
+    "update": "Açık artırma detaylarınızı güncellediniz.",
+    "promote": "Açık artırmanızı öne çıkardınız.",
+    "view": "{{name}} açık artırmanızı görüntüledi.",
+    "add_to_fav": "{{name}} açık artırmanızı favorilerine ekledi.",
+    "remove_from_fav": "{{name}} açık artırmanızı favorilerinden çıkardı.",
+    "coins_refunded": "Açık artırma oluşturmak için kullanılan jetonlar iade edildi.",
+    "bid_placed": "{{name}} açık artırmanıza teklif verdi.",
+    "you_accepted_bid": "Açık artırmanızdaki bir teklifi kabul ettiniz.",
+    "you_rejected_bid": "Açık artırmanızdaki bir teklifi reddettiniz."
+  },
+  "comments": {
+    "count": "Yorumlar ({{no}})",
+    "be_the_first": "İlk yorum veya soruyu bırakan siz olun",
+    "leave_message": "Bir yorum veya soru bırakın",
+    "reply": "Yanıtla",
+    "replying_to": "{{name}} kullanıcısına yanıt veriliyor"
+  },
+  "phone_sign_in": {
+    "title": "Telefon numarası ile giriş yap",
+    "description": "Giriş yapmak için telefon numaranızı girin",
+    "you_will_receive": "**Giriş yapmanıza yardımcı olacak bir kod alacaksınız",
+    "phone_number": "Telefon numarası",
+    "send_code": "Kod gönder",
+    "could_not_sign_in": "Giriş yapılamadı. Lütfen daha sonra tekrar deneyin",
+    "phone_invalid": "Telefon numarası geçersiz",
+    "verify_otp": "OTP doğrula",
+    "we_sent_code": "Telefon numaranıza bir kod gönderdik. Giriş yapmak için lütfen aşağıya girin",
+    "otp_invalid": "OTP geçersiz"
+  },
+  "limitations": {
+    "anonymous_post": "Anonim kullanıcılar açık artırma oluşturamaz",
+    "anonymous_bid": "Anonim kullanıcılar teklif veremez",
+    "anonymous_description": "Lütfen e-posta adresinizi kullanarak veya mevcut diğer giriş yöntemlerini kullanarak giriş yapın."
+  },
+  "verify_email": {
+    "title": "E-posta doğrulaması gerekli",
+    "we_sent_email": "E-posta adresinizi doğrulamak için size bir bağlantı içeren e-posta gönderdik.",
+    "didn_t_receive_email": "E-postayı almadınız mı?",
+    "send_again": "Bağlantıyı tekrar gönder",
+    "verified": "Doğrulandı",
+    "link_sent": "Doğrulama bağlantısı başarıyla gönderildi. Lütfen e-postanızı kontrol edin",
+    "could_not_send_link": "Doğrulama bağlantısı gönderilemedi. Lütfen daha sonra tekrar deneyin",
+    "your_email_is_not_verified": "E-posta adresiniz doğrulanmadı",
+    "email_verified": "E-posta adresi başarıyla doğrulandı"
+  },
+  "currencies": {
+    "could_not_update": "Para birimi güncellenemedi. Lütfen daha sonra tekrar deneyin"
+  },
+  "payment": {
+    "success": "Ödeme başarılı",
+    "success_description": "Ödeme başarılı oldu ve jetonlar hesabınıza eklendi. Eklenen jetonları görmek için ana sayfaya gidin.",
+    "open_profile": "Profili aç",
+    "please_wait": "Ödemenizi işlerken lütfen bekleyin...",
+    "could_not_capture_payment": "Ödeme işlenemedi. Lütfen daha sonra tekrar deneyin",
+    "no_payment_methods_available": "Kullanılabilir ödeme yöntemi yok",
+    "purchase_this_package_for": "Bu paketi şu fiyata satın alın:",
+    "step_1": "1. Jeton paketi seçin",
+    "step_2": "2. Ödeme yöntemi seçin",
+    "no_products_available": "Uygulama içinde kullanılabilir ürün yok.",
+    "buy_no_coins": "{{no}} jeton satın al"
+  },
+  "ai": {
+    "generate_description": "Başlık, kategori, fiyat ve açıklamayı otomatik olarak oluşturmak için yapay zeka kullanmak ister misiniz?",
+    "generate": "Oluştur",
+    "ai_disabled": "Yapay zeka devre dışı. Lütfen sistem yöneticisi ile iletişime geçin.",
+    "generate_error": "Oluşturulamadı. Lütfen daha sonra tekrar deneyin",
+    "max_ai_responses_reached": "İzin verilen maksimum yapay zeka yanıt sayısına ulaştınız. Sistem yöneticisi ile iletişime geçin.",
+    "not_enough_coins": "Yapay zeka yanıtı oluşturmak için yeterli jetonunuz yok. Lütfen daha fazla jeton satın alın."
+  }
+}

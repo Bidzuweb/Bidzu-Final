@@ -1,0 +1,1014 @@
+{
+  "coins_for_auction_or_bid": {
+    "reached_max_auctions": "Você atingiu o número máximo de leilões que pode criar gratuitamente ({{no}}).",
+    "reached_max_auctions_1": "Para criar um novo leilão, você precisa pagar {{no}} moedas.",
+    "auction_get_back": "Se o leilão expirar e ninguém der lance, você receberá as moedas de volta.",
+    "not_enough_for_auction": "Você não tem moedas suficientes para criar um novo leilão.",
+    "not_enough_for_bid": "Você não tem moedas suficientes para criar um novo lance.",
+    "you_have_coins_no": "Você tem {{no}} moedas.",
+    "bid_get_back": "Se o leilão expirar e você não for o vencedor, receberá as moedas de volta."
+  },
+  "starting_soon_auctions": {
+    "starting_soon": "Começando em breve",
+    "starting_soon_plural": "Leilões começando em breve",
+    "starts_at": "O leilão começa em:",
+    "add_to_fav": "Adicione o leilão aos favoritos para ser notificado quando começar",
+    "add_to_fav_multiple": "Adicione leilões que começarão em breve aos favoritos e seja notificado quando começarem",
+    "custom_start_date": "Data de início personalizada",
+    "opted_for_custom": "Você optou por data de início e término personalizada para este leilão. Você não pode voltar para que o leilão seja ativado automaticamente.",
+    "will_automaticaly_start": "O leilão começará automaticamente após ser criado. Se desejar, você pode desativar esta opção e definir datas de início e término personalizadas.",
+    "start_date": "Data de início",
+    "end_date": "Data de término",
+    "no_starting_soon": "Não há leilões começando em breve"
+  },
+  "auctions_map": {
+    "title": "Ver leilões no mapa",
+    "description": "Procurando algo especial? Confira os leilões próximos a você no mapa!",
+    "see_auction_details": "Ver detalhes",
+    "see_auctions": "Ver leilões"
+  },
+  "auction_details_status": {
+    "closing_at": "Fechando em:",
+    "closed_at": "Fechado em:"
+  },
+  "similar": {
+    "similar_auctions": "Leilões similares"
+  },
+  "share": {
+    "button": "Compartilhar",
+    "share_on": "Compartilhar no {{name}}",
+    "check_auction": "Confira este leilão no Biddo",
+    "check_account": "Confira esta conta no Biddo"
+  },
+  "terms_conditions": {
+    "titles": {
+      "terms_and_conditions": "Termos e Condições",
+      "cookie_policy": "Política de Cookies",
+      "security_policy": "Política de Segurança",
+      "user_rights": "Direitos do Usuário",
+      "prohibited_activities": "Atividades Proibidas",
+      "other_information": "Outras Informações Importantes"
+    },
+    "terms_and_conditions": {
+      "acceptance_of_terms": {
+        "title": "Aceitação dos Termos",
+        "content": "Ao usar este aplicativo, você concorda em cumprir e estar vinculado a estes Termos e Condições. Se você não concordar com estes termos, deve descontinuar o uso do Aplicativo imediatamente."
+      },
+      "user_responsibilities": {
+        "title": "Responsabilidades do Usuário",
+        "sections": {
+          "responsible_use": "Os usuários são exclusivamente responsáveis pelo uso do Aplicativo e devem usá-lo de maneira legal, ética e responsável.",
+          "prohibited_content": "Os usuários não devem postar ou compartilhar conteúdo ofensivo, adulto, discriminatório, racista, ilegal ou prejudicial. O administrador reserva-se o direito de remover tal conteúdo e encerrar as contas associadas.",
+          "account_security": "Os usuários são responsáveis por manter a confidencialidade de suas credenciais de conta e por qualquer atividade que ocorra em sua conta."
+        }
+      },
+      "sharing_of_information": {
+        "title": "Compartilhamento de Informações",
+        "content": "Ao usar o Aplicativo, você concorda que suas informações podem ser compartilhadas com serviços de terceiros para melhorar a funcionalidade e experiência do Aplicativo. O administrador garante que o compartilhamento de dados está em conformidade com os padrões legais aplicáveis."
+      },
+      "liability": {
+        "title": "Responsabilidade",
+        "sections": {
+          "not_responsible": "O administrador não é responsável por qualquer dano, prejuízo ou perda resultante do uso inadequado do Aplicativo, problemas técnicos, tempo de inatividade ou interações do usuário.",
+          "indemnification": "Os usuários concordam em indenizar e isentar o administrador de quaisquer reivindicações decorrentes do uso do Aplicativo."
+        }
+      },
+      "account_removal": {
+        "title": "Remoção de Conta",
+        "sections": {
+          "user_right": "Os usuários têm o direito de excluir suas contas a qualquer momento. Após a exclusão, os dados pessoais serão tratados conforme descrito na Política de Privacidade do Aplicativo.",
+          "admin_right": "O administrador reserva-se o direito de suspender ou remover permanentemente contas que violem as regras ou se envolvam em atividades maliciosas."
+        }
+      },
+      "modifications": {
+        "title": "Modificações",
+        "content": "O administrador reserva-se o direito de modificar estes Termos e Condições a qualquer momento. O uso continuado do Aplicativo constitui aceitação dos termos modificados."
+      }
+    },
+    "cookie_policy": {
+      "title": "Política de Cookies",
+      "use_of_cookies": {
+        "title": "Uso de Cookies",
+        "content": "O Aplicativo usa cookies para melhorar a experiência do usuário, analisar o desempenho do aplicativo e fornecer conteúdo personalizado. Ao usar o Aplicativo, você concorda com o uso de cookies."
+      },
+      "types_of_cookies": {
+        "title": "Tipos de Cookies",
+        "sections": {
+          "essential_cookies": "Necessários para a operação do Aplicativo.",
+          "performance_cookies": "Coletam dados sobre como os usuários interagem com o Aplicativo.",
+          "functionality_cookies": "Salvam preferências do usuário para melhorar a usabilidade.",
+          "third_party_cookies": "Podem ser usados para fornecer publicidade personalizada ou análises."
+        }
+      },
+      "user_consent": {
+        "title": "Consentimento do Usuário",
+        "content": "Ao usar o Aplicativo, você consente com o armazenamento e uso de cookies conforme descrito nesta política. Você pode desativar os cookies através das configurações do seu dispositivo, mas isso pode limitar a funcionalidade do Aplicativo."
+      }
+    },
+    "security_policy": {
+      "title": "Política de Segurança",
+      "data_protection": {
+        "title": "Proteção de Dados",
+        "content": "O Aplicativo emprega medidas de segurança padrão da indústria para proteger os dados do usuário. No entanto, o administrador não pode garantir segurança completa devido aos riscos inerentes aos serviços online."
+      },
+      "user_responsibility": {
+        "title": "Responsabilidade do Usuário",
+        "content": "Os usuários são responsáveis por proteger suas credenciais de login e relatar imediatamente ao administrador qualquer acesso não autorizado ou atividade suspeita."
+      },
+      "data_sharing": {
+        "title": "Compartilhamento de Dados",
+        "content": "Embora o Aplicativo priorize a segurança dos dados do usuário, alguns dados podem ser compartilhados com provedores terceirizados confiáveis para melhorar a funcionalidade ou cumprir requisitos legais."
+      }
+    },
+    "prohibited_activities": {
+      "title": "Atividades Proibidas",
+      "sections": {
+        "prohibited_content": "Os usuários não podem postar ou compartilhar conteúdo explícito, adulto, discriminatório, racista, ilegal ou que incite violência ou ódio.",
+        "misuse_of_app": "Os usuários não devem usar o Aplicativo para qualquer atividade que possa prejudicar sua reputação, interferir em sua operação ou explorar outros usuários.",
+        "consequences": "O administrador reserva-se o direito de remover qualquer conteúdo ou conta que viole estas regras sem aviso prévio."
+      }
+    },
+    "user_rights": {
+      "title": "Direitos do Usuário",
+      "account_deletion": {
+        "title": "Exclusão de Conta",
+        "content": "Os usuários podem solicitar a exclusão da conta a qualquer momento através das configurações do Aplicativo ou contatando o suporte. Após a exclusão, os dados pessoais serão removidos conforme a Política de Privacidade, mas alguns dados podem ser retidos para fins legais ou regulatórios."
+      },
+      "complaints": {
+        "title": "Reclamações e Disputas",
+        "content": "Os usuários têm o direito de apresentar reclamações ou disputas relacionadas ao Aplicativo. Tais reclamações devem ser enviadas através dos canais oficiais de suporte."
+      }
+    },
+    "other_information": {
+      "title": "Outras Informações Importantes",
+      "sections": {
+        "no_guarantee": "O Aplicativo é fornecido 'como está'. O administrador não garante acesso ininterrupto, precisão ou adequação a qualquer finalidade específica.",
+        "legal_compliance": "Os usuários são responsáveis por garantir que suas ações estejam em conformidade com as leis e regulamentos locais.",
+        "admin_rights": "O administrador reserva-se o direito de atualizar políticas, remover conteúdo e modificar recursos do Aplicativo a qualquer momento."
+      }
+    }
+  },
+  "pageSEO": {
+    "starting_soon_title": "Leilões começando em breve",
+    "starting_soon_description": "Confira os leilões que estão começando em breve no Biddo",
+    "terms_title": "Termos e Condições & Política de Privacidade",
+    "terms_description": "Leia os Termos e Condições e a Política de Privacidade do aplicativo",
+    "login_title": "Página de Login",
+    "login_description": "Faça login no aplicativo",
+    "forgot_password_title": "Esqueceu a senha",
+    "forgot_password_description": "Página de recuperação de senha",
+    "phone_login_title": "Login por telefone",
+    "phone_login_description": "Página de login por telefone",
+    "phone_otp_title": "OTP por telefone",
+    "phone_otp_description": "Página de OTP por telefone",
+    "home_title": "Biddo, Página Inicial",
+    "home_description": "Biddo, página inicial do aplicativo",
+    "create_auction_title": "Criar leilão",
+    "create_auction_description": "Criar um novo leilão",
+    "not_found_title": "Página não encontrada",
+    "not_found_description": "Página não encontrada",
+    "account_details_description": "Detalhes da conta",
+    "auctions_list_title": "Lista de leilões",
+    "auctions_list_description": "Lista de todos os leilões",
+    "recommendations_title": "Recomendações",
+    "recommendations_description": "Recomendações para você",
+    "auctions_map": "Leilões no mapa",
+    "auctions_map_description": "Leilões no mapa",
+    "promoted_auctions_title": "Leilões promovidos",
+    "promoted_auctions_description": "Leilões promovidos",
+    "last_seen_auctions_title": "Últimos leilões vistos",
+    "last_seen_auctions_description": "Últimos leilões vistos",
+    "payment_success_title": "Pagamento bem-sucedido",
+    "payment_success_description": "O pagamento foi bem-sucedido",
+    "register_title": "Registrar",
+    "register_description": "Página de registro"
+  },
+  "404": {
+    "oops": "Ops! Página não encontrada",
+    "page_not_found": "Talvez esta página esteja quebrada ou não tenha sido criada. Volte para a página inicial.",
+    "back_to_home": "Voltar para a página inicial"
+  },
+  "anonymous": {
+    "login_for_notifications": "Você precisa estar logado para receber notificações.",
+    "login_for_favourites": "Você precisa estar logado para adicionar leilões aos seus favoritos.",
+    "login_for_chat": "Você precisa estar logado para conversar com outros usuários.",
+    "login_for_search_history": "Você precisa estar logado para ter um histórico de pesquisa.",
+    "login_to_search_accounts": "Você precisa estar logado para pesquisar contas.",
+    "login_to_send_user_message": "Você precisa estar logado para enviar uma mensagem para este usuário.",
+    "login_to_bid": "Você precisa estar logado para fazer um lance.",
+    "login_to_report": "Você precisa estar logado para criar uma denúncia.",
+    "login_to_follow": "Você precisa estar logado para seguir este usuário."
+  },
+  "header": {
+    "profile": "Perfil",
+    "all_around_the_world": "Em todo o mundo",
+    "see_my_profile": "Ver meu perfil",
+    "my_auctions": "Meus leilões",
+    "my_bids": "Meus lances"
+  },
+  "footer": {
+    "follow_us": "Siga-nos no",
+    "tutorial": "Tutorial",
+    "create_auction": "Criar leilão",
+    "create_bid": "Criar lance",
+    "about": "Sobre",
+    "privacy_policy": "Política de privacidade",
+    "terms_of_service": "Termos de serviço",
+    "faq": "FAQ",
+    "mobile_app": "Aplicativo móvel",
+    "enjoy_better_experience": "Aproveite uma experiência melhor com nosso aplicativo móvel",
+    "about_motto": "Biddo é uma plataforma onde você pode vender itens que não precisa mais e comprar itens que deseja."
+  },
+  "cookie": {
+    "message": "Este site usa cookies para melhorar a experiência do usuário. Ao usar nosso site, você concorda com todos os cookies de acordo com nossa Política de Cookies.",
+    "readMore": "Ler Política de Cookies",
+    "accept": "Aceitar"
+  },
+  "info": {
+    "no_locations_found": "Nenhuma localização encontrada",
+    "condition_required": "A condição é obrigatória",
+    "location_needed": "A localização é necessária porque alguém pode dar lance em seu item dependendo da distância entre vocês",
+    "add_more_to_search": "Adicione pelo menos 2 caracteres para pesquisar uma localização",
+    "see_all_my_auctions": "Ver todos os meus leilões",
+    "see_all_auctions_from_user": "Ver todos os leilões deste usuário",
+    "min_price_for_bid_is": "O preço mínimo para um lance é {{no}}",
+    "max_price_for_bid_is": "O preço máximo para um lance é {{no}}",
+    "price_must_be_number": "O preço deve ser um número entre {{min}} e {{max}}",
+    "status": "Status",
+    "you_see_page": "Página {{page}} de {{total}}",
+    "main_category": "Categoria principal",
+    "sub_category": "Subcategoria",
+    "saved_filters": "Filtros salvos",
+    "search_auctions": "Pesquisar leilões",
+    "sort_auctions": "Ordenar leilões",
+    "no_filter_applied": "Você não tem filtros aplicados",
+    "manage_preferences": "Gerenciar preferências",
+    "you_dont_have_any_reviews": "Você ainda não tem avaliações",
+    "see_how_others_see_you": "Veja como outros visualizam seu perfil",
+    "settings": "Configurações",
+    "credentials_exist": "As credenciais que você inseriu já existem",
+    "need_to_accept_terms": "Você precisa aceitar os termos de serviço para continuar",
+    "no_chat_to_match": "Não há conversas que correspondam aos seus critérios",
+    "preferences_updated": "As preferências de categorias foram atualizadas",
+    "sign_in_for_recommendations": "Você precisa fazer login para receber recomendações de leilões",
+    "buy_coins_description": "Compre moedas para criar mais leilões, lances e promover seus leilões.",
+    "payment_success": "O pagamento foi bem-sucedido",
+    "sign_in_for_last_seen": "Você precisa fazer login para ver os últimos leilões vistos"
+  },
+  "ads": {
+    "win_coins": "Você ganha {{no}} moeda(s) para cada anúncio que assistir. O que acha?",
+    "watch_ad": "Assistir anúncio"
+  },
+  "intro": {
+    "would_you_like_to_see": "Gostaria de ver como o ",
+    "would_you_like_to_see_2": " funciona?",
+    "a_guid_on_how_it_words": "Você verá um guia sobre como o aplicativo funciona e como usá-lo",
+    "see_intro": "Ver introdução",
+    "not_now": "Agora não",
+    "want_to_skip": "Tem certeza de que deseja pular a introdução?",
+    "how_it_works": "Como funciona?",
+    "skip_intro": "Pular introdução",
+    "on": "No ",
+    "can_easily_trade": " você pode vender itens que não precisa mais e comprar itens que deseja.",
+    "steps": {
+      "create_auction": "1. Criar leilão",
+      "wait_for_bids": "2. Aguardar lances",
+      "accept_bid": "3. Aceitar lance",
+      "review": "4. Adicionar avaliação"
+    },
+    "create_auction": {
+      "become_visible": "Seu leilão ficará visível para outros e a comunidade terá ",
+      "hours_active": "{{no}} horas ",
+      "to_bid": "para adicionar lances aos seus itens.",
+      "simply": "Simplesmente ",
+      "create_an_auction": "crie um leilão ",
+      "using_the_books": "usando qualquer item que queira vender, e ",
+      "other_users": "outros usuários podem dar lance ",
+      "for_them": "por eles."
+    },
+    "wait_for_bid": {
+      "can_wait": "Você pode esperar o tempo que quiser até encontrar o lance perfeito para seu leilão."
+    },
+    "chose_bid": {
+      "if_you_pick": "Se você escolher um lance vencedor, terá a possibilidade de ",
+      "to_chat": "conversar com o vencedor ",
+      "to_arrange_settlement": "para combinar o acordo.",
+      "full_control": "Está sob seu total controle escolher o lance vencedor ou rejeitar lances."
+    },
+    "review": {
+      "after_the_auction": "Após o término do leilão, você pode ",
+      "leave_a_review": "deixar uma avaliação ",
+      "for_the_winner": "para o vencedor do leilão.",
+      "help_other_users": "Isso ajudará outros usuários a conhecerem melhor o vencedor."
+    }
+  },
+  "home": {
+    "discounts": {
+      "first15": "Ganhe 15% de desconto em seu primeiro pedido",
+      "use_code": "Use o código: ",
+      "every_weekend": "Carros têm 5% de desconto todo fim de semana",
+      "car_accessories": "Até 30% de desconto em acessórios para carros",
+      "shop_now": "Compre agora"
+    },
+    "preferred_categories": {
+      "title": "Escolha categorias preferidas",
+      "info": "Você receberá notificações e recomendações personalizadas com base em suas categorias preferidas.",
+      "update": "Atualizar categorias preferidas"
+    },
+    "search": {
+      "search": "O que você está procurando?",
+      "recent_searches": "Pesquisas recentes",
+      "users": "Usuários",
+      "no_recent_search_found": "Nenhuma pesquisa recente encontrada",
+      "auctions_count_singular": "{{no}} leilão",
+      "auctions_count_plural": "{{no}} leilões",
+      "no_auction_that_match": "Não há leilões que correspondam aos seus critérios...",
+      "no_users_that_match": "Não há usuários que correspondam aos seus critérios..."
+    },
+    "filter": {
+      "filtered_auctions": "Leilões filtrados",
+      "no_data_found": "Nenhum dado encontrado",
+      "all_auctions": "Todos os leilões {{no}}",
+      "auctions_count": "{{no}} leilões",
+      "categories": "Categorias",
+      "price": "Preço",
+      "min_price_value": "Preço mínimo: {{no}}",
+      "max_price_value": "Preço máximo: {{no}}",
+      "min_price": "Preço mínimo",
+      "max_price": "Preço máximo",
+      "invalid_number": "Preço inválido",
+      "apply_filter": "Aplicar filtro",
+      "apply_sub_filter": "Aplicar subfiltro",
+      "see_all": "Ver todos",
+      "auctions_count_parant": "({{no}} leilões)",
+      "selected_items": "({{no}} selecionados)",
+      "filter": "Filtrar",
+      "clear_all": "Limpar tudo",
+      "location": "Localização",
+      "locations": "Localizações",
+      "include_my_auctions": "Incluir meus leilões",
+      "without_my_auctions": "Sem meus leilões",
+      "max_locations_error": "Máximo de {{no}} localizações podem ser selecionadas",
+      "no_locations_for_criteria": "Nenhuma localização disponível para seus critérios",
+      "no_categories_for_criteria": "Nenhuma categoria disponível para seus critérios",
+      "save_filter_title": "Salvar filtro",
+      "save_filter_name": "Nome do filtro",
+      "you_dont_have_saved_filters": "Você não tem nenhum filtro salvo",
+      "you_can_have_max": "Você pode ter no máximo {{no}} filtros salvos",
+      "sure_you_want_to_remove": "Tem certeza que deseja remover este filtro?",
+      "filter_remove_error": "Não foi possível remover o filtro. Por favor, tente novamente",
+      "about_saved_filters_title": "Sobre filtros salvos",
+      "about_saved_filters_descr": "Você pode salvar filtros para acessá-los rapidamente depois.\n\nVocê poderá salvar um filtro apenas se ele não estiver vazio."
+    },
+    "auctions": {
+      "auctions": "Leilões",
+      "last_seen": "Últimos leilões vistos",
+      "no_last_seen": "Você ainda não viu nenhum leilão",
+      "no_auctions": "Não há leilões no aplicativo agora. Tente novamente mais tarde",
+      "see_all": "Ver todos os leilões ({{no}})",
+      "no_auctions_to_match_criteria": "Não há leilões que correspondam aos seus critérios",
+      "no_auctions_to_display": "Não há leilões no momento",
+      "all_auctions": "Todos os leilões ({{no}})"
+    },
+    "notifications": {
+      "notifications": "Notificações",
+      "mark_as_seen": "Marcar todas como vistas",
+      "dont_have_notifications": "Você ainda não tem notificações",
+      "mark_as_seen_success": "Todas as notificações foram marcadas como vistas",
+      "mark_as_seen_error": "Não foi possível marcar todas as notificações como vistas",
+      "permission_not_granted": "Permissão não concedida",
+      "permission_not_granted_msg": "Para receber notificações, você precisa dar permissões específicas ao aplicativo",
+      "give_permission": "Dar permissão",
+      "permission_granted": "Permissão concedida",
+      "permission_rejected": "Permissão rejeitada"
+    },
+    "categories": {
+      "categories": "Categorias",
+      "all": "Todas",
+      "sub_categories": "Subcategorias",
+      "no_auctions_for": "Não há leilões para {{name}}",
+      "no_auctions_to_match": "Não há leilões que correspondam à sua busca em {{name}}",
+      "auctions_by_categories": "Leilões por categorias",
+      "alphabetical": "Alfabeticamente",
+      "count_desc": "Quantidade de leilões (desc)",
+      "count_asc": "Quantidade de leilões (asc)",
+      "search_categories": "Pesquisar categorias",
+      "search_sub_categories": "Pesquisar em {{category}}",
+      "filter": "Adicionar filtro extra"
+    }
+  },
+  "favourites": {
+    "app_bar": {
+      "no_closed_auctions": "Não há leilões fechados em sua lista de favoritos",
+      "no_active_auctions": "Não há leilões ativos em sua lista de favoritos",
+      "tap_on_the": "Para adicionar um leilão aos favoritos, você precisa tocar no ícone ",
+      "available_icon": " disponível em todos os leilões",
+      "favourites": "Leilões favoritos",
+      "active": "Ativos ({{no}})",
+      "closed": "Fechados ({{no}})"
+    },
+    "users_who_added_to_favourites": "Usuários que adicionaram este leilão aos favoritos",
+    "nobody_added_to_favourites": "Ninguém adicionou este leilão aos favoritos"
+  },
+  "create_auction": {
+    "create_auction": "Criar leilão",
+    "create_a_new_auction": "Criar um novo leilão",
+    "title": "Título",
+    "enter_title": "Digite o título do leilão aqui",
+    "youtube_link": "Link do YouTube",
+    "enter_youtube_link": "Digite o link do YouTube aqui",
+    "description": "Descrição",
+    "enter_description": "Digite a descrição do leilão aqui",
+    "another_starting_price": "Outro",
+    "starting_price": "Preço inicial",
+    "price_cannot_be_empty": "O preço não pode estar vazio",
+    "starting_price_condition": "O preço inicial deve estar entre 1 e {{maxPrice}}",
+    "invalid_starting_price": "Preço inicial inválido",
+    "add_starting_price": "Adicionar preço inicial",
+    "category": "Categoria",
+    "select_category": "Selecionar categoria",
+    "new": "Novo",
+    "used": "Usado",
+    "condition": "Condição",
+    "title_required": "Título é obrigatório",
+    "category_required": "Categoria é obrigatória",
+    "location_required": "Localização é obrigatória",
+    "price_required": "Preço é obrigatório",
+    "repository": {
+      "too_many_assets": "Muitos arquivos enviados",
+      "asset_too_big": "Arquivo enviado é muito grande",
+      "asset_not_supported": "Tipo de arquivo enviado não é suportado",
+      "could_not_create": "Não foi possível criar o leilão. Por favor, tente novamente",
+      "could_not_update": "Não foi possível atualizar o leilão. Por favor, tente novamente"
+    }
+  },
+  "promote_auction": {
+    "promote_auction": "Promover",
+    "don_t_have_enough_coins": "Você não tem moedas suficientes para promover este leilão",
+    "could_not_promote": "Não foi possível promover o leilão. Por favor, tente novamente",
+    "auction_promoted": "Leilão foi promovido com sucesso",
+    "sure_you_want_to_promote": "Tem certeza que deseja promover este leilão?",
+    "promoted_will_show": "Um leilão promovido será mostrado no topo da lista de leilões. Você pode promover um leilão várias vezes.",
+    "can_be_pushed_down": "Uma promoção fará seu leilão pular para o topo da lista, mas novos leilões promovidos o empurrarão para baixo.",
+    "promotion_cost": "Cada promoção custa {{no}} moedas",
+    "promoted_at": "Promovido em",
+    "promoted": "Promovido"
+  },
+  "auction_details": {
+    "auction_ends_in": "O leilão termina em",
+    "auction_does_not_exit": "O leilão não existe mais ou não pode ser acessado",
+    "auction_data_reloaded": "Dados do leilão foram recarregados com sucesso",
+    "auction_images": "Imagens do leilão",
+    "does_not_have_images": "Este leilão não tem imagens",
+    "no_active_bids": "Não há lances ativos para este leilão",
+    "no_description_provided": "Nenhuma descrição fornecida",
+    "bids_count": "Lances ({{no}})",
+    "accepted_bid": "Lance aceito",
+    "closed": "Fechado",
+    "create_bid": {
+      "title": "Criar lance",
+      "price_hint": "Preço",
+      "location_is_required": "Localização é obrigatória",
+      "message_description": "Deseja deixar uma mensagem para seu lance",
+      "starting_price": "Preço inicial",
+      "highest_bid": "Lance mais alto",
+      "cannot_place_bid_lower": "*Você não pode fazer um lance menor que o preço inicial",
+      "cannot_place_bid_lower_than_bid": "Você não pode fazer um lance menor que o lance mais alto",
+      "select_price": "Selecione o preço que deseja ofertar",
+      "leave_a_message": "Deixe uma mensagem (Opcional)",
+      "bid_created": "Lance foi criado com sucesso",
+      "error_creating": "Não foi possível criar o lance. Por favor, tente novamente",
+      "this_is_user_bid": "Este é o lance que o usuário fez neste leilão",
+      "already_have_highest_bid": "Você já tem o lance mais alto para este leilão",
+      "cannot_create_on_your_auction": "Você não pode criar um lance em seu próprio leilão",
+      "cannot_create_on_expired": "Você não pode criar um lance em um leilão fechado"
+    },
+    "update": {
+      "title": "Atualizar leilão",
+      "update": "Atualizar",
+      "update_successful": "Leilão foi atualizado com sucesso"
+    },
+    "long_distance": {
+      "title": "Sua localização está longe",
+      "description": "Parece que você está criando uma oferta para um leilão e sua localização está longe da localização do dono do leilão."
+    },
+    "app_bar": {
+      "report_auction": "Denunciar leilão",
+      "remove_auction": "Remover leilão",
+      "update_auction": "Atualizar leilão",
+      "bids_count": "Lances ({{no}})"
+    },
+    "details": {
+      "created_by": "Criado por",
+      "views": "Visualizações: ",
+      "created_at": "Criado em: "
+    },
+    "dialogs": {
+      "auction_removed": "Leilão foi removido",
+      "sure_to_remove_auction": "Tem certeza que deseja remover este leilão?",
+      "bidders_will_be_notified_after_remove": "*Os licitantes deste leilão serão notificados que o leilão foi removido"
+    },
+    "bids": {
+      "bid_was_removed": "Lance foi removido do leilão",
+      "sure_to_remove_bid": "Tem certeza que deseja remover este lance do leilão?",
+      "auction_owner_will_be_notified": "*O dono do leilão será notificado sobre esta mudança",
+      "bid_rejected": "Lance foi rejeitado e o licitante será notificado.",
+      "sure_to_reject": "Tem certeza que deseja rejeitar este lance?",
+      "enter_rejection_reason": "Digite o motivo da rejeição",
+      "cannot_undo_or_see": "*Você não poderá desfazer esta operação e não poderá ver os detalhes do lance novamente",
+      "reject_bid": "Rejeitar lance",
+      "bid_accepted": "Lance foi aceito e o licitante será notificado",
+      "sure_to_accept": "Tem certeza que deseja aceitar este lance?",
+      "auction_will_be_closed": "O leilão será automaticamente fechado",
+      "cannot_undo": "*Você não poderá desfazer esta operação",
+      "accept_bid": "Aceitar lance",
+      "rejected": "Rejeitado",
+      "see_your_profile": "Ver seu perfil",
+      "see_bidder": "Ver perfil do licitante",
+      "report": "Denunciar lance",
+      "remove": "Remover lance",
+      "unknown_location": "Localização desconhecida"
+    },
+    "reviews": {
+      "review_updated": "Avaliação foi atualizada",
+      "review_created": "Avaliação foi criada",
+      "could_not_update_review": "Não foi possível atualizar a avaliação",
+      "could_not_create_review": "Não foi possível criar a avaliação",
+      "would_you_leave_review": "Você gostaria de deixar uma avaliação para ",
+      "review_details": "Detalhes da avaliação",
+      "save_review": "Salvar avaliação",
+      "added_a_review": " adicionou uma avaliação"
+    }
+  },
+  "map_auctions": {
+    "auctions_count": "{{no}} leilões nesta localização",
+    "auctions_loaded": "{{no}} leilões foram carregados",
+    "location_disabled": "Serviços de localização estão desativados",
+    "location_denied": "Permissões de localização foram negadas",
+    "location_permanent_denied": "Permissões de localização foram negadas permanentemente, não podemos solicitar permissões",
+    "auctions_count_simple": "{{no}} leilões",
+    "search_locations": "Pesquisar localizações",
+    "select_location": "Por favor, selecione uma localização",
+    "need_to_zoom_in": "Para que os leilões fiquem visíveis no mapa, você precisa aumentar o zoom",
+    "loading_auctions": "Carregando leilões",
+    "no_auction_loaded": "Nenhum leilão carregado. Tente selecionar uma localização ou categoria diferente",
+    "long_tap": "Pressione longamente no mapa para selecionar uma localização diferente",
+    "select_category": "Selecione uma categoria para exibir no mapa",
+    "show_on_map": "Mostrar no mapa",
+    "need_permission_from_settings": "Você precisa dar esta permissão nas configurações do sistema"
+  },
+  "recommendations": {
+    "no_recommendations_for_you": "Não há recomendações para você no momento.",
+    "no_recommendation_details": "Certifique-se de ter adicionado alguns leilões aos seus favoritos ou ter pelo menos uma categoria selecionada como preferida.",
+    "you_might_like": "Você pode gostar"
+  },
+  "buy_coins": {
+    "buy_coins": "Comprar moedas",
+    "coins_no": "{{no}} moedas",
+    "buy_coins_and_promote": "Compre moedas e promova seus leilões para mais visibilidade.",
+    "no_products": "Não há produtos disponíveis no momento",
+    "success_purchase": "Moedas compradas com sucesso",
+    "error_purchase": "Não foi possível comprar moedas. Por favor, tente novamente",
+    "having_trouble": "Tendo problemas para comprar moedas?",
+    "send_us_a_message": "Envie-nos uma mensagem e entraremos em contato o mais breve possível.",
+    "buy_coins_to_create_more_auctions": "Compre moedas para criar mais leilões e promovê-los para mais visibilidade."
+  },
+  "location": {
+    "location": "Localização",
+    "your_location": "Sua localização",
+    "select_location": "Selecionar localização",
+    "location_disabled": "Serviços de localização estão desativados",
+    "location_denied": "Permissões de localização foram negadas",
+    "location_permanent_denied": "Permissões de localização foram negadas permanentemente, não podemos solicitar permissões",
+    "long_tap": "Pressione longamente no mapa para selecionar uma localização diferente",
+    "search_by_city": "Pesquisar por cidade",
+    "to_create_pin": "Pesquise uma nova localização ou pressione longamente o mapa para criar um novo pin",
+    "map_not_available": "Mini-Mapa não está disponível",
+    "need_to_give_permissions": "Você precisa dar permissões de localização para usar este recurso",
+    "distance": "{{no}}km de você"
+  },
+  "reports": {
+    "was_reported": "Denúncia foi criada com sucesso. Analisaremos em breve",
+    "misleading_or_scam": "Enganoso ou fraude",
+    "sexually_inappropriate": "Sexualmente inapropriado",
+    "offensive_content": "Conteúdo ofensivo",
+    "other": "Outro",
+    "like_to_give_details": "Gostaria de nos dar mais detalhes?",
+    "sure_to_report": "Tem certeza que deseja denunciar este {{name}}?",
+    "sure_to_report_2": "Tem certeza que deseja denunciar este {{name}}?",
+    "sure_to_report_auction": "leilão",
+    "sure_to_report_bid": "lance",
+    "sure_to_report_account": "conta",
+    "report_action": "Denunciar"
+  },
+  "errors": {
+    "no_internet": "Parece que você não está conectado à internet",
+    "try_again": "Tentar novamente"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Senha",
+    "sign_in": {
+      "sign_in": "Entrar",
+      "enter_credentials": "Digite suas credenciais para continuar",
+      "enter_email": "Digite seu email",
+      "enter_password": "Digite sua senha",
+      "forgot_password": "Esqueceu a senha?",
+      "continue_with": "Ou continue com",
+      "not_a_member": "Não é membro? ",
+      "register_now": "Registre-se agora",
+      "continue_as_anon": "Continuar como anônimo",
+      "email_empty": "Email não pode estar vazio",
+      "email_invalid": "Email é inválido",
+      "password_empty": "Senha não pode estar vazia",
+      "cannot_facebook_login": "Não foi possível entrar usando Facebook. Por favor, tente novamente",
+      "cannot_google_login": "Não foi possível entrar usando Google. Por favor, tente novamente",
+      "cannot_email_login": "Não foi possível entrar usando estas credenciais. Certifique-se de ter uma conta ativa e que as credenciais estejam corretas."
+    },
+    "sign_up": {
+      "email_empty": "Email não pode estar vazio",
+      "email_invalid": "Email é inválido",
+      "password_empty": "Senha não pode estar vazia",
+      "password_min_len": "Senha deve ter pelo menos 6 caracteres",
+      "need_to_accept": "Você precisa aceitar os ",
+      "terms_of_service": "Termos de Serviço",
+      "to_continue": " para continuar",
+      "sign_up": "Registrar",
+      "lets_create_acc": "Vamos criar uma nova conta",
+      "email_placeholder": "Digite seu email",
+      "password_placeholder": "Defina uma senha",
+      "already_member": "Já tem uma conta? ",
+      "sign_in": "Entrar"
+    },
+    "forgot_password": {
+      "title": "Esqueceu a senha",
+      "reset": "Redefinir senha",
+      "enter_email": "Digite o endereço de email usado para criar sua conta",
+      "return_to": "Voltar para ",
+      "you_will_receive": "**Você receberá um email que o ajudará a redefinir sua senha",
+      "user_was_not_found": "Não encontramos um usuário com este endereço de email",
+      "could_not_send_email": "Não foi possível enviar um email de redefinição de senha. Por favor, tente novamente mais tarde",
+      "email_sent": "Um email foi enviado para seu endereço de email. Por favor, siga as instruções dentro do email para redefinir sua senha"
+    },
+    "terms": {
+      "continue": "Continuar",
+      "almost_there": "Quase lá",
+      "accept": "Eu aceito as condições dos ",
+      "terms_of_service": "Termos de Serviço",
+      "processing": " e concordo com o processamento dos meus dados pessoais de acordo com a ",
+      "privacy": "Política de privacidade"
+    }
+  },
+  "generic": {
+    "days_no": "{{no}} dias",
+    "see_video": "Ver vídeo",
+    "online": "Online",
+    "offline": "Offline",
+    "translate": "Traduzir",
+    "see_original": "Ver original",
+    "change_tab": "Mudar aba",
+    "promoted_auctions": "Leilões promovidos",
+    "open_settings": "Abrir configurações",
+    "give_permission": "Dar permissão",
+    "permission_denied": "Permissão negada",
+    "image_not_found": "Imagem não encontrada",
+    "choose": "Escolher",
+    "unknown": "Desconhecido",
+    "search": "Pesquisar",
+    "by": "por {{name}}",
+    "undo": "Desfazer",
+    "remove": "Remover",
+    "see_all": "Ver todos",
+    "done": "Concluído",
+    "newest": "Mais recentes",
+    "oldest": "Mais antigos",
+    "newest_accepted_bid": "Lance aceito mais recente",
+    "oldest_accepted_bid": "Lance aceito mais antigo",
+    "ascending_price": "Preço crescente",
+    "descending_price": "Preço decrescente",
+    "skip": "Pular",
+    "back": "Voltar",
+    "continue": "Continuar",
+    "finish": "Finalizar",
+    "closed": "Fechado",
+    "cancel": "Cancelar",
+    "face_to_face": "Presencial",
+    "delivery": "Entrega",
+    "custom": "Personalizado",
+    "save": "Salvar",
+    "see_less": " Ver menos",
+    "see_more": " Ver mais",
+    "optional": "(Opcional)",
+    "details": "Detalhes",
+    "clear": "Limpar",
+    "clear_all": "Limpar tudo",
+    "refresh": "Atualizar",
+    "yes": "Sim",
+    "no": "Não",
+    "auction": "leilão",
+    "auction2": "leilão",
+    "ok": "Ok",
+    "offer": "oferta",
+    "offer2": "oferta",
+    "loading": "Carregando...",
+    "don_t_show_again": "Não mostrar novamente",
+    "something_went_wrong": "Algo deu errado. Por favor, tente novamente",
+    "info": "Informação",
+    "your_auction": "Seu leilão",
+    "bids_count_singular": "1 lance",
+    "bids_count_plural": "{{no}} lances",
+    "auction_count_singular": "1 leilão",
+    "auction_count_plural": "{{no}} leilões"
+  },
+  "bottom_nav": {
+    "home": "Início",
+    "favourites": "Favoritos",
+    "create": "Criar",
+    "chat": "Chat",
+    "more": "Mais"
+  },
+  "permissions": {
+    "camera_permissions": "Permissões da câmera",
+    "need_to_request_camera": "Precisamos solicitar sua permissão para abrir a câmera",
+    "from_settings": "Você precisa dar esta permissão nas configurações do sistema",
+    "open_settings": "Abrir configurações",
+    "allow_access": "Permitir acesso",
+    "storage_permissions": "Permissões de armazenamento",
+    "need_to_request_files": "Precisamos solicitar sua permissão para ler arquivos locais para carregá-los no aplicativo",
+    "need_to_request_notifications": "Para que esta funcionalidade funcione, precisamos solicitar sua permissão para enviar notificações"
+  },
+  "assets": {
+    "selected_images": "Imagens selecionadas",
+    "no_selected": "Você não tem mais imagens selecionadas",
+    "image_singular": "{{no}} imagem",
+    "image_plural": "{{no}} imagens",
+    "remove_image": "Remover imagem",
+    "all_images_folder": "Todas as imagens",
+    "max_allowed": "Máximo de {{no}} arquivos podem ser selecionados",
+    "select": "Selecionar",
+    "no_images_in_folder": "Não há imagens nesta pasta",
+    "add_images": "Adicionar imagens"
+  },
+  "profile": {
+    "legal_info": "Informações legais",
+    "terms_of_service": "Termos de Serviço",
+    "privacy_policy": "Política de Privacidade",
+    "cookies_policy": "Política de Cookies",
+    "about": "Sobre",
+    "sign_out": "Sair",
+    "version": "Versão {{no}}",
+    "preferences": "Preferências",
+    "languages": "Idiomas do aplicativo",
+    "report": "Denunciar",
+    "language": "Idioma do aplicativo",
+    "no_reviews": "(Sem avaliações)",
+    "update_account": "Atualizar",
+    "all_auctions_for": "Leilões criados por {{name}} ({{no}})",
+    "currencies": "Moedas",
+    "see_review_auction": "Ver leilão associado",
+    "no_auctions": "Nenhum leilão disponível",
+    "send_message": "Enviar mensagem",
+    "follow": "Seguir",
+    "unfollow": "Deixar de seguir",
+    "following": "Seguindo",
+    "followers": "Seguidores",
+    "congratulations_follow": "🚀 Parabéns!",
+    "you_are_now_following": "Agora você está seguindo {{name}}.\n\nVocê receberá uma notificação quando {{name}} criar um novo leilão.",
+    "could_not_follow": "Não foi possível seguir {{name}}. Por favor, tente novamente mais tarde",
+    "could_not_unfollow": "Não foi possível deixar de seguir {{name}}. Por favor, tente novamente mais tarde",
+    "unfollow_success": "Você não está mais seguindo {{name}}",
+    "no_followers": "{{name}} ainda não tem seguidores",
+    "no_following": "{{name}} ainda não está seguindo ninguém",
+    "cannot_load_chat_group": "Não foi possível carregar o chat com a conta. Por favor, tente novamente.",
+    "your_auctions": "Seus leilões",
+    "your_bids": "Seus lances",
+    "all_your_bids": {
+      "title": "Todos os seus lances",
+      "all_bids": "Todos os seus lances ({{no}})",
+      "no_bids": "Você ainda não tem nenhum lance"
+    },
+    "accepted_bids": {
+      "title": "Lances aceitos",
+      "accepted_bids": "Lances aceitos ({{no}})",
+      "no_bids": "Você ainda não tem nenhum lance aceito"
+    },
+    "rejected_bids": {
+      "title": "Lances rejeitados",
+      "rejected_bids": "Lances rejeitados ({{no}})",
+      "no_bids": "Você ainda não tem nenhum lance rejeitado"
+    },
+    "closed_auctions": {
+      "title": "Leilões encerrados",
+      "closed_auctions": "Leilões encerrados ({{no}})",
+      "no_auctions": "Você ainda não tem nenhum leilão encerrado"
+    },
+    "active_auctions": {
+      "title": "Leilões ativos",
+      "active_auctions": "Leilões ativos ({{no}})",
+      "no_auctions": "Você não tem leilões ativos"
+    },
+    "sign_out_dialog": {
+      "title": "Sair",
+      "description": "Tem certeza que deseja sair?"
+    },
+    "update": {
+      "update_account": "Atualizar conta",
+      "application_name": "Seu nome no aplicativo",
+      "email": "Email",
+      "cannot_update_email": "*O endereço de email não pode ser alterado",
+      "update_error": "Não foi possível atualizar seu nome no aplicativo",
+      "update_success": "Sua conta foi atualizada com sucesso",
+      "what_name_do_you_want": "Qual nome você deseja usar?",
+      "change_profile_picture": "Alterar foto do perfil",
+      "delete_account": "Excluir conta",
+      "are_you_sure_to_delete": "Tem certeza que deseja excluir sua conta?",
+      "delete_account_details": "Excluir sua conta removerá todos os seus leilões, lances, avaliações e outros dados do aplicativo.\n\n*** Esta ação não pode ser desfeita",
+      "delete_account_error": "Não foi possível excluir sua conta",
+      "save_location_to": "Se você salvar sua localização, ela será usada por padrão sempre que você criar um leilão ou um lance",
+      "cannot_update_phone_number": "O número de telefone não pode ser alterado"
+    },
+    "notifications": {
+      "notifications": "Notificações",
+      "permission_not_granted": "Permissão não concedida",
+      "permission_not_granted_msg": "Para receber notificações, você precisa dar permissões específicas ao aplicativo",
+      "give_permission": "Dar permissão",
+      "permission_granted": "Permissão concedida",
+      "permission_rejected": "Permissão rejeitada",
+      "auctions": "Leilões",
+      "bids": "Lances",
+      "generic": "Geral",
+      "favourites": "Favoritos",
+      "my_auction_started": "Seu leilão começou",
+      "my_auction_started_descr": "Você será notificado quando um de seus leilões começar",
+      "fav_auction_started": "Leilão favorito começou",
+      "fav_auction_started_descr": "Você será notificado quando um de seus leilões favoritos começar",
+      "auction_updated_title": "Leilão em que você deu lance foi atualizado",
+      "auction_updated_descr": "Você será notificado se o proprietário de um leilão em que você deu lance atualizar o leilão",
+      "bid_added_title": "Lance adicionado ao seu leilão",
+      "bid_added_descr": "Você será notificado quando alguém adicionar um novo lance em um de seus leilões",
+      "bid_removed_title": "Lance removido do seu leilão",
+      "bid_removed_descr": "Você será notificado quando alguém remover um lance de um de seus leilões",
+      "bid_accepted_title": "Lance aceito",
+      "bid_accepted_descr": "Você será notificado quando um de seus lances for aceito",
+      "bid_rejected_title": "Lance rejeitado",
+      "bid_rejected_descr": "Você será notificado quando um de seus lances for rejeitado",
+      "bid_seen": "Lance foi visto",
+      "bid_seen_descr": "Você será notificado quando o proprietário de um leilão em que você deu lance ver seu lance",
+      "same_auction_bid": "Nova oferta no mesmo leilão que você",
+      "same_auction_bid_descr": "Você será notificado quando alguém fizer um lance em um leilão em que você já deu lance",
+      "auction_added_to_favourites": "Leilão adicionado aos favoritos",
+      "auction_added_to_favourites_descr": "Você será notificado quando alguém adicionar um de seus leilões aos favoritos",
+      "bid_on_favourites_auction": "Lance em um de seus leilões favoritos",
+      "bid_on_favourites_auction_descr": "Você será notificado quando alguém der um lance em um leilão que você adicionou aos favoritos",
+      "favourite_price_change": "Alteração de preço em um de seus leilões favoritos",
+      "favourite_price_change_descr": "Você será notificado quando o preço de um leilão que você adicionou aos favoritos mudar",
+      "review_title": "Avaliação / Feedback",
+      "review_descr": "Você será notificado quando outros usuários deixarem feedback em seu perfil",
+      "new_message_title": "Nova mensagem",
+      "new_message_descr": "Você será notificado quando receber uma nova mensagem de outro usuário",
+      "new_follower": "Novo seguidor",
+      "new_follower_descr": "Você será notificado quando alguém começar a seguir você",
+      "new_auction_from_followed": "Novo leilão de usuário seguido",
+      "new_auction_from_followed_descr": "Você será notificado quando alguém que você segue adicionar um novo leilão",
+      "new_comment_title": "Novo comentário",
+      "new_comment_descr": "Você será notificado quando alguém comentar em um de seus leilões",
+      "reply_title": "Resposta ao comentário",
+      "reply_descr": "Você será notificado quando alguém responder a um de seus comentários",
+      "same_auction_comment": "Novo comentário no mesmo leilão",
+      "same_auction_comment_descr": "Você será notificado quando alguém comentar em um leilão que você já comentou"
+    },
+    "block": {
+      "title": "Bloquear conta",
+      "unblock": "Desbloquear conta",
+      "are_you_sure": "Tem certeza que deseja bloquear esta conta?",
+      "are_you_sure_to_unblock": "Tem certeza que deseja desbloquear esta conta?",
+      "blocked_cannot_bid": "Usuários bloqueados não poderão criar lances em nenhum de seus leilões.",
+      "block": "Bloquear",
+      "unblock_2": "Desbloquear",
+      "was_blocked": "{{name}} foi bloqueado",
+      "was_unblocked": "{{name}} foi desbloqueado"
+    },
+    "reviews": {
+      "info_msg": "Você poderá adicionar avaliações a este usuário somente após ganhar um de seus leilões ou ele ganhar um dos seus",
+      "no_reviews": "Nenhuma avaliação disponível",
+      "no_reviews_for_you": "Nenhuma avaliação disponível para você",
+      "reviews": "Avaliações",
+      "no_reviews_for_account": "Este usuário ainda não tem avaliações",
+      "see_all_reviews": "Ver todas as avaliações ({{no}})"
+    },
+    "more": {
+      "title": "Mais informações",
+      "send_message": {
+        "title": "Enviar uma mensagem ou proposta",
+        "input_placeholder": "Escreva uma mensagem ou proposta aqui",
+        "send_message": "Enviar mensagem",
+        "could_not_send": "Não foi possível enviar mensagem. Por favor, tente novamente",
+        "message_sent": "Mensagem foi enviada com sucesso e nós a leremos assim que possível",
+        "send_message_and_well_be_back": "Envie-nos uma mensagem e responderemos assim que possível."
+      }
+    }
+  },
+  "dialogs": {
+    "discard_changes": "Descartar",
+    "sure_to_go_back": "Tem certeza que deseja voltar?",
+    "changes_will_be_discarded": "Todas as suas alterações serão descartadas"
+  },
+  "chat": {
+    "chat_images": "Imagens do chat",
+    "chat": "Chat",
+    "delete": "Excluir",
+    "single_message_copied": "Mensagem copiada",
+    "messages_copied": "{{no}} mensagens copiadas",
+    "send_message": "Enviar uma mensagem",
+    "search": "Pesquisar conversa",
+    "no_more_messages": "Não há mais mensagens disponíveis",
+    "no_recent_emojis": "Nenhum emoji recente usado",
+    "no_conversations_available": "Nenhuma conversa disponível ainda",
+    "chat_data_reloaded": "Dados do chat recarregados com sucesso",
+    "could_not_reload_data": "Não foi possível recarregar os dados do chat",
+    "sure_you_want_to_delete": "Tem certeza que deseja remover as mensagens selecionadas?",
+    "permanently_deleted": "Elas serão permanentemente excluídas e não poderão ser recuperadas"
+  },
+  "verification": {
+    "account_verification": "Verificação de conta",
+    "verified_info": "Esta conta foi verificada pelo sistema.",
+    "account_was_verified": "Sua conta foi verificada em: ",
+    "ask_verification": "Você pode solicitar verificação clicando no botão disponível.",
+    "ask_verification_button": "Solicitar verificação",
+    "already_asked_for_verification": "Você já solicitou verificação. Por favor, aguarde o sistema verificar sua conta.",
+    "verified_have_icon": "Contas verificadas têm um ícone especial ao lado do avatar.",
+    "could_not_ask_for_verification": "Não foi possível solicitar verificação. Por favor, tente novamente mais tarde.",
+    "verification_asked": "Verificação foi solicitada com sucesso. Por favor, aguarde o sistema verificar sua conta."
+  },
+  "auction_history": {
+    "auction_history": "Histórico do leilão",
+    "update": "Você atualizou os detalhes do seu leilão.",
+    "promote": "Você promoveu seu leilão.",
+    "view": "{{name}} visualizou seu leilão.",
+    "add_to_fav": "{{name}} adicionou seu leilão aos favoritos.",
+    "remove_from_fav": "{{name}} removeu seu leilão dos favoritos.",
+    "coins_refunded": "Moedas usadas para criar o leilão foram reembolsadas.",
+    "bid_placed": "{{name}} fez um lance em seu leilão.",
+    "you_accepted_bid": "Você aceitou um lance em seu leilão.",
+    "you_rejected_bid": "Você rejeitou um lance em seu leilão."
+  },
+  "comments": {
+    "count": "Comentários ({{no}})",
+    "be_the_first": "Seja o primeiro a deixar um comentário ou uma pergunta",
+    "leave_message": "Deixe um comentário ou uma pergunta",
+    "reply": "Responder",
+    "replying_to": "Respondendo para {{name}}"
+  },
+  "phone_sign_in": {
+    "title": "Entrar usando número de telefone",
+    "description": "Digite seu número de telefone para entrar",
+    "you_will_receive": "**Você receberá um código que ajudará você a entrar",
+    "phone_number": "Número de telefone",
+    "send_code": "Enviar código",
+    "could_not_sign_in": "Não foi possível entrar. Por favor, tente novamente mais tarde",
+    "phone_invalid": "Número de telefone inválido",
+    "verify_otp": "Verificar OTP",
+    "we_sent_code": "Enviamos um código para seu número de telefone. Por favor, digite-o abaixo para entrar",
+    "otp_invalid": "OTP inválido"
+  },
+  "limitations": {
+    "anonymous_post": "Usuários anônimos não podem criar leilões",
+    "anonymous_bid": "Usuários anônimos não podem criar lances",
+    "anonymous_description": "Por favor, entre usando seu endereço de email ou usando os outros métodos de login disponíveis."
+  },
+  "verify_email": {
+    "title": "Validação de email necessária",
+    "we_sent_email": "Enviamos um email com um link para validar seu endereço de email.",
+    "didn_t_receive_email": "Não recebeu o email?",
+    "send_again": "Enviar link novamente",
+    "verified": "Validado",
+    "link_sent": "Link de validação foi enviado com sucesso. Por favor, verifique seu email",
+    "could_not_send_link": "Não foi possível enviar o link de validação. Por favor, tente novamente mais tarde",
+    "your_email_is_not_verified": "Seu endereço de email não está verificado",
+    "email_verified": "Endereço de email foi verificado com sucesso"
+  },
+  "currencies": {
+    "could_not_update": "Não foi possível atualizar a moeda. Por favor, tente novamente mais tarde"
+  },
+  "payment": {
+    "success": "Pagamento bem-sucedido",
+    "success_description": "O pagamento foi bem-sucedido e as moedas foram adicionadas à sua conta. Vá para a página inicial para ver as moedas adicionadas.",
+    "open_profile": "Abrir perfil",
+    "please_wait": "Por favor, aguarde enquanto capturamos seu pagamento...",
+    "could_not_capture_payment": "Não foi possível capturar o pagamento. Por favor, tente novamente mais tarde",
+    "no_payment_methods_available": "Nenhum método de pagamento disponível",
+    "purchase_this_package_for": "Comprar este pacote por",
+    "step_1": "1. Escolha o pacote de moedas",
+    "step_2": "2. Escolha o método de pagamento",
+    "no_products_available": "Nenhum produto disponível no aplicativo.",
+    "buy_no_coins": "Comprar {{no}} moedas"
+  },
+  "ai": {
+    "generate_description": "Você deseja usar IA para gerar automaticamente um título, categoria, preço e descrição?",
+    "generate": "Gerar",
+    "ai_disabled": "IA está desativada. Por favor, entre em contato com o administrador do sistema.",
+    "generate_error": "Não foi possível gerar. Por favor, tente novamente mais tarde",
+    "max_ai_responses_reached": "Você atingiu o número máximo permitido de respostas da IA. Entre em contato com o administrador do sistema.",
+    "not_enough_coins": "Você não tem moedas suficientes para gerar uma resposta da IA. Por favor, compre mais moedas."
+  }
+}
