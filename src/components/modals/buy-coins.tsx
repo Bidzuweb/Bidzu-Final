@@ -13,7 +13,6 @@ import { BuyCoinsCard } from './buy-coins-card'
 import Image from 'next/image'
 
 import PayPalImage from '@/../public/assets/img/payment/paypal.png'
-import RazorPayWhiteImage from '@/../public/assets/img/payment/razorpay-white.png'
 import RazorpayImage from '@/../public/assets/img/payment/razorpay.png'
 import StripeImage from '@/../public/assets/img/payment/stripe.png'
 
