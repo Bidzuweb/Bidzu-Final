@@ -36,110 +36,70 @@
   },
   "terms_conditions": {
     "titles": {
-      "terms_and_conditions": "Termini e Condizioni",
-      "cookie_policy": "Politica sui Cookie",
-      "security_policy": "Politica di Sicurezza",
-      "user_rights": "Diritti dell'Utente",
-      "prohibited_activities": "Attività Proibite",
-      "other_information": "Altre Informazioni Importanti"
+      "privacy_policy": "Informativa sulla Privacy",
+      "terms_of_service": "Termini di Servizio"
     },
-    "terms_and_conditions": {
-      "acceptance_of_terms": {
-        "title": "Accettazione dei Termini",
-        "content": "Utilizzando questa applicazione, accetti di rispettare e di essere vincolato da questi Termini e Condizioni. Se non sei d'accordo con questi termini, devi interrompere immediatamente l'uso dell'app."
+    "privacy_policy": {
+      "title": "Informativa sulla Privacy",
+      "intro": "In BidZuu, la tua privacy è una priorità assoluta. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo, divulghiamo e proteggiamo le tue informazioni quando visiti il nostro sito web o utilizzi i nostri servizi.",
+      "information_collection": {
+        "title": "Raccolta di Informazioni:",
+        "content": "Raccogliamo informazioni come il tuo nome, email, indirizzo di spedizione, dettagli di pagamento e identificazione per la verifica dell'account. Potremmo anche raccogliere dati sul comportamento di navigazione, informazioni sul dispositivo e cookie per migliorare l'esperienza utente."
       },
-      "user_responsibilities": {
-        "title": "Responsabilità dell'Utente",
-        "sections": {
-          "responsible_use": "Gli utenti sono l'unico responsabile dell'uso dell'app e devono utilizzarla in modo legale, etico e responsabile.",
-          "prohibited_content": "Gli utenti non devono pubblicare o condividere contenuti offensivi, per adulti, discriminatori, razzisti, illegali o dannosi. L'amministratore si riserva il diritto di rimuovere tali contenuti e sospendere gli account associati.",
-          "account_security": "Gli utenti sono responsabili di mantenere la riservatezza delle loro credenziali di account e di qualsiasi attività che avvenga nel loro account."
-        }
+      "how_we_use": {
+        "title": "Come Utilizziamo le Informazioni:",
+        "content": "Per gestire account e transazioni, per comunicare con gli utenti su inserzioni, offerte e vendite, per migliorare le prestazioni del sito, la sicurezza e la personalizzazione"
       },
-      "sharing_of_information": {
-        "title": "Condivisione delle Informazioni",
-        "content": "Utilizzando l'app, accetti che le tue informazioni possano essere condivise con servizi di terze parti per migliorare la funzionalità e l'esperienza dell'app. L'amministratore garantisce che la condivisione dei dati sia conforme agli standard legali applicabili."
+      "sharing_disclosure": {
+        "title": "Condivisione e Divulgazione:",
+        "content": "Non vendiamo né affittiamo informazioni personali. Le tue informazioni potrebbero essere condivise con fornitori di servizi terzi (ad es. processori di pagamento, partner di spedizione) solo per l'adempimento degli ordini e scopi operativi. Gli obblighi legali potrebbero richiedere di condividere dati in risposta a richieste legali."
       },
-      "liability": {
-        "title": "Responsabilità",
-        "sections": {
-          "not_responsible": "L'amministratore non è responsabile per danni, perdite o inconvenienti derivanti da un uso improprio dell'app, problemi tecnici, interruzioni o interazioni tra utenti.",
-          "indemnification": "Gli utenti accettano di indennizzare e tenere indenne l'amministratore da qualsiasi reclamo derivante dall'uso dell'app."
-        }
+      "data_security": {
+        "title": "Sicurezza dei Dati:",
+        "content": "Tutti i dati utente sono crittografati e archiviati in modo sicuro. L'accesso è limitato solo al personale autorizzato."
       },
-      "account_removal": {
-        "title": "Rimozione dell'Account",
-        "sections": {
-          "user_right": "Gli utenti hanno il diritto di eliminare il proprio account in qualsiasi momento. Dopo l'eliminazione, i dati personali saranno trattati come descritto nella Politica sulla Privacy dell'app.",
-          "admin_right": "L'amministratore si riserva il diritto di sospendere o rimuovere permanentemente gli account che violano le regole o partecipano ad attività dannose."
-        }
+      "user_rights": {
+        "title": "Diritti dell'Utente:",
+        "content": "Puoi aggiornare, correggere o eliminare i tuoi dati personali in qualsiasi momento. Gli utenti possono richiedere una copia dei dati archiviati o rinunciare alle comunicazioni di marketing."
+      },
+      "consent": "Utilizzando BidZuu, acconsenti alle nostre pratiche sulla privacy. Per qualsiasi domanda relativa alla privacy, contattaci a privacy@bidzuu.com."
+    },
+    "terms_of_service": {
+      "title": "Termini di Servizio",
+      "intro": "Benvenuto su BidZuu. Accedendo o utilizzando la nostra piattaforma, accetti i seguenti termini e condizioni:",
+      "user_eligibility": {
+        "title": "Eligibilità dell'Utente:",
+        "content": "Devi avere almeno 18 anni e fornire dettagli di registrazione accurati. Accetti di non creare account multipli o impersonare altri."
+      },
+      "platform_use": {
+        "title": "Utilizzo della Piattaforma:",
+        "content": "BidZuu è una piattaforma di marketplace. Non possediamo né vendiamo articoli inseriti. I venditori sono responsabili solo dell'accuratezza degli inserimenti e dell'adempimento. Gli acquirenti sono responsabili del pagamento e dell'aderenza agli impegni di offerta o acquisto."
+      },
+      "seller_fees": {
+        "title": "Commissioni del Venditore e Pagamenti:",
+        "content": "BidZuu addebita una commissione di transazione del 3% sulle vendite completate. Le commissioni vengono dedotte automaticamente al momento del pagamento."
+      },
+      "prohibited_listings": {
+        "title": "Inserzioni Proibite:",
+        "content": "Non sono consentiti articoli illegali, contraffatti o che violano i diritti di proprietà intellettuale. Ci riserviamo il diritto di rimuovere qualsiasi inserzione senza preavviso."
+      },
+      "disputes": {
+        "title": "Dispute e Risoluzione:",
+        "content": "Gli utenti sono incoraggiati a risolvere le dispute direttamente. Se escalate, BidZuu può mediare a sua discrezione ma non assume responsabilità."
+      },
+      "account_suspension": {
+        "title": "Sospensione dell'Account:",
+        "content": "Potremmo sospendere o terminare account per violazione dei termini, frode, abuso o violazioni delle politiche."
+      },
+      "limitation_liability": {
+        "title": "Limitazione di Responsabilità:",
+        "content": "BidZuu non è responsabile per perdite, danni o problemi derivanti da transazioni utente o servizi terzi."
       },
       "modifications": {
-        "title": "Modifiche",
-        "content": "L'amministratore si riserva il diritto di modificare questi Termini e Condizioni in qualsiasi momento. L'uso continuato dell'app costituisce accettazione dei termini modificati."
-      }
-    },
-    "cookie_policy": {
-      "title": "Politica sui Cookie",
-      "use_of_cookies": {
-        "title": "Uso dei Cookie",
-        "content": "L'app utilizza i cookie per migliorare l'esperienza dell'utente, analizzare le prestazioni dell'app e fornire contenuti personalizzati. Utilizzando l'app, accetti l'uso dei cookie."
+        "title": "Modifiche:",
+        "content": "I termini potrebbero essere aggiornati periodicamente. L'uso continuato costituisce accettazione dei termini più recenti."
       },
-      "types_of_cookies": {
-        "title": "Tipi di Cookie",
-        "sections": {
-          "essential_cookies": "Necessari per il funzionamento dell'app.",
-          "performance_cookies": "Raccolgono dati su come gli utenti interagiscono con l'app.",
-          "functionality_cookies": "Salvano le preferenze degli utenti per migliorare la fruibilità.",
-          "third_party_cookies": "Possono essere utilizzati per offrire pubblicità personalizzata o analisi."
-        }
-      },
-      "user_consent": {
-        "title": "Consenso dell'Utente",
-        "content": "Utilizzando l'app, acconsenti alla memorizzazione e all'uso dei cookie come descritto in questa politica. Puoi disabilitare i cookie dalle impostazioni del tuo dispositivo, ma ciò potrebbe limitare la funzionalità dell'app."
-      }
-    },
-    "security_policy": {
-      "title": "Politica di Sicurezza",
-      "data_protection": {
-        "title": "Protezione dei Dati",
-        "content": "L'app utilizza misure di sicurezza standard del settore per proteggere i dati degli utenti. Tuttavia, l'amministratore non può garantire la sicurezza completa a causa dei rischi intrinseci dei servizi online."
-      },
-      "user_responsibility": {
-        "title": "Responsabilità dell'Utente",
-        "content": "Gli utenti sono responsabili della protezione delle proprie credenziali di accesso e devono segnalare immediatamente all'amministratore qualsiasi accesso non autorizzato o attività sospetta."
-      },
-      "data_sharing": {
-        "title": "Condivisione dei Dati",
-        "content": "Pur dando priorità alla sicurezza dei dati degli utenti, alcuni dati possono essere condivisi con fornitori di terze parti di fiducia per migliorare la funzionalità o per adempiere agli obblighi legali."
-      }
-    },
-    "prohibited_activities": {
-      "title": "Attività Proibite",
-      "sections": {
-        "prohibited_content": "Gli utenti non devono pubblicare né condividere contenuti espliciti, per adulti, discriminatori, razzisti, illegali o che incitino alla violenza o all'odio.",
-        "misuse_of_app": "Gli utenti non devono utilizzare l'app per attività che possano danneggiare la sua reputazione, interferire con il suo funzionamento o sfruttare altri utenti.",
-        "consequences": "L'amministratore si riserva il diritto di rimuovere qualsiasi contenuto o account che violi queste regole senza preavviso."
-      }
-    },
-    "user_rights": {
-      "title": "Diritti dell'Utente",
-      "account_deletion": {
-        "title": "Eliminazione dell'Account",
-        "content": "Gli utenti possono richiedere la cancellazione del proprio account in qualsiasi momento tramite le impostazioni dell'app o contattando il supporto. Dopo l'eliminazione, i dati personali saranno rimossi secondo la Politica sulla Privacy, ma alcuni dati potrebbero essere conservati per motivi legali o regolatori."
-      },
-      "complaints": {
-        "title": "Reclami e Controversie",
-        "content": "Gli utenti hanno il diritto di presentare reclami o controversie riguardo all'app. I reclami devono essere inviati tramite i canali ufficiali di supporto."
-      }
-    },
-    "other_information": {
-      "title": "Altre Informazioni Importanti",
-      "sections": {
-        "no_guarantee": "L'app è fornita 'così com'è'. L'amministratore non garantisce l'accesso ininterrotto, l'accuratezza o l'idoneità per uno scopo specifico.",
-        "legal_compliance": "Gli utenti sono responsabili di assicurarsi che le proprie azioni siano conformi alle leggi e regolamenti locali.",
-        "admin_rights": "L'amministratore si riserva il diritto di aggiornare le politiche, rimuovere contenuti e modificare le funzionalità dell'app in qualsiasi momento."
-      }
+      "contact": "Per domande, contattaci a support@bidzuu.com."
     }
   },
   "pageSEO": {

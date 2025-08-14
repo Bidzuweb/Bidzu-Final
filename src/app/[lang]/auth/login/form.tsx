@@ -10,17 +10,17 @@ import { loginSchema } from './validation-schema'
 import { Icon } from '@/components/common/icon'
 import { ErrorMessage } from '@/components/common/error-message'
 import { AuthController } from '@/core/controllers/auth'
-import { useRouter } from 'next/navigation'
+// import { useRouter } from 'next/navigation'
 
 const LoginForm = () => {
   const globalContext = useGlobalContext()
   const currentLanguage = globalContext.currentLanguage
   const { t } = useTranslation(currentLanguage)
-  const router = useRouter()
+  // const router = useRouter()
 
   const [loginWithPassInProgress, setLoginWithPassInProgress] = useState(false)
   const [loginWithGoogleInProgress, setLoginWithGoogleInProgress] = useState(false)
-  const [loginWithFacebookInProgress, setLoginWithFacebookInProgress] = useState(false)
+  // const [loginWithFacebookInProgress, setLoginWithFacebookInProgress] = useState(false)
 
   const [passwordVisible, setPasswordVisible] = useState(false)
 
@@ -50,7 +50,7 @@ const LoginForm = () => {
   })
 
   const loginWithEmailAndPassword = async () => {
-    if (loginWithPassInProgress || loginWithGoogleInProgress || loginWithFacebookInProgress) {
+    if (loginWithPassInProgress || loginWithGoogleInProgress) {
       return
     }
 
@@ -64,7 +64,7 @@ const LoginForm = () => {
   }
 
   const loginWithGoogle = async () => {
-    if (loginWithPassInProgress || loginWithGoogleInProgress || loginWithFacebookInProgress) {
+    if (loginWithPassInProgress || loginWithGoogleInProgress) {
       return
     }
 
@@ -77,23 +77,23 @@ const LoginForm = () => {
     }
   }
 
-  const goToPhoneLogin = () => {
-    router.push('/auth/phone-login')
-  }
+  // const goToPhoneLogin = () => {
+  //   router.push('/auth/phone-login')
+  // }
 
-  const loginWithFacebook = async () => {
-    if (loginWithPassInProgress || loginWithGoogleInProgress || loginWithFacebookInProgress) {
-      return
-    }
+  // const loginWithFacebook = async () => {
+  //   if (loginWithPassInProgress || loginWithGoogleInProgress || loginWithFacebookInProgress) {
+  //     return
+  //   }
 
-    setLoginWithFacebookInProgress(true)
-    const loggedIn = await AuthController.loginWithFacebook()
-    setLoginWithFacebookInProgress(false)
+  //   setLoginWithFacebookInProgress(true)
+  //   const loggedIn = await AuthController.loginWithFacebook()
+  //   setLoginWithFacebookInProgress(false)
 
-    if (!loggedIn) {
-      toast.error(t('auth.sign_in.cannot_facebook_login'))
-    }
-  }
+  //   if (!loggedIn) {
+  //     toast.error(t('auth.sign_in.cannot_facebook_login'))
+  //   }
+  // }
 
   return (
     <>
@@ -182,19 +182,6 @@ const LoginForm = () => {
             )}
           </button>
 
-          <button onClick={() => goToPhoneLogin()} >
-            <Icon type="social/call" size={40} />
-          </button>
-
-          <button onClick={() => loginWithFacebook()} disabled={loginWithFacebookInProgress}>
-            {loginWithFacebookInProgress ? (
-              <div className="loader-wrapper">
-                <Icon type="loading" color={'#fff'} size={40} />
-              </div>
-            ) : (
-              <Icon type="social/facebook" size={40} />
-            )}
-          </button>
         </div>
       </div>
 

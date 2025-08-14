@@ -23,20 +23,38 @@ class LocationsController {
   getLocationFromCurrentDevice = (): Promise<GooglePlaceDetails | null> => {
     const options = {
       enableHighAccuracy: false,
-      timeout: 5000,
-      maximumAge: 0,
+      timeout: 10000, // Increased timeout to 10 seconds
+      maximumAge: 300000, // Allow cached positions up to 5 minutes old
     }
 
-    return new Promise(async (resolve, reject) => {
+    return new Promise(async (resolve) => {
       if (!navigator.geolocation) {
+        console.warn('Geolocation is not supported by this browser')
         return resolve(null)
       }
 
-      const errors = (err: unknown) => {
-        reject(err)
+      const handleError = (error: GeolocationPositionError) => {
+        let errorMessage = 'Unknown geolocation error'
+
+        switch (error.code) {
+          case error.PERMISSION_DENIED:
+            errorMessage = 'Location permission denied by user'
+            break
+          case error.POSITION_UNAVAILABLE:
+            errorMessage = 'Location information unavailable'
+            break
+          case error.TIMEOUT:
+            errorMessage = 'Location request timed out'
+            break
+          default:
+            errorMessage = `Geolocation error: ${error.message}`
+        }
+
+        console.warn(`Geolocation failed: ${errorMessage}`)
+        resolve(null) // Resolve with null instead of rejecting
       }
 
-      const success = async (position: GeolocationPosition) => {
+      const handleSuccess = async (position: GeolocationPosition) => {
         try {
           const placeDetails = await LocationsRepository.getPlaceDetailsFromLatLng(
             position.coords.latitude,
@@ -51,23 +69,27 @@ class LocationsController {
       }
 
       try {
+        // Check if we're in a secure context (HTTPS or localhost)
+        if (!window.isSecureContext) {
+          console.warn('Geolocation requires a secure context (HTTPS or localhost)')
+          return resolve(null)
+        }
+
+        // Check permissions
         const permissionStatus = await navigator.permissions.query({
-          name: 'geolocation',
+          name: 'geolocation' as PermissionName,
         })
 
-        if (permissionStatus.state === 'granted') {
-          navigator.geolocation.getCurrentPosition(success, errors, options)
-        } else if (permissionStatus.state === 'prompt') {
-          navigator.geolocation.getCurrentPosition(success, errors, options)
+        if (permissionStatus.state === 'granted' || permissionStatus.state === 'prompt') {
+          navigator.geolocation.getCurrentPosition(handleSuccess, handleError, options)
         } else if (permissionStatus.state === 'denied') {
-          reject('denied')
-        }
-
-        if (permissionStatus.state === 'denied') {
-          reject('denied')
+          console.warn('Location permission denied by user')
+          resolve(null)
         }
       } catch (error) {
-        return reject(error)
+        console.error('Error checking geolocation permissions:', error)
+        // Fallback: try to get location anyway
+        navigator.geolocation.getCurrentPosition(handleSuccess, handleError, options)
       }
     })
   }

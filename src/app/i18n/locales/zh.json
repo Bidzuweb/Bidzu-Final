@@ -42,110 +42,70 @@
   },
   "terms_conditions": {
     "titles": {
-      "terms_and_conditions": "条款和条件",
-      "cookie_policy": "Cookie政策",
-      "security_policy": "安全政策",
-      "user_rights": "用户权利",
-      "prohibited_activities": "禁止活动",
-      "other_information": "其他重要信息"
+      "privacy_policy": "隐私政策",
+      "terms_of_service": "服务条款"
     },
-    "terms_and_conditions": {
-      "acceptance_of_terms": {
-        "title": "条款接受",
-        "content": "使用本应用程序即表示您同意遵守并受这些条款和条件的约束。如果您不同意这些条款，必须立即停止使用本应用程序。"
+    "privacy_policy": {
+      "title": "隐私政策",
+      "intro": "在BidZuu，您的隐私是我们的首要任务。本隐私政策解释了当您访问我们的网站或使用我们的服务时，我们如何收集、使用、披露和保护您的信息。",
+      "information_collection": {
+        "title": "信息收集：",
+        "content": "我们收集您的姓名、电子邮件、送货地址、付款详情和身份证明等信息用于账户验证。我们还可能收集浏览行为、设备信息和cookie数据以增强用户体验。"
       },
-      "user_responsibilities": {
-        "title": "用户责任",
-        "sections": {
-          "responsible_use": "用户对其使用应用程序的行为完全负责，必须以合法、道德和负责任的方式使用。",
-          "prohibited_content": "用户不得发布或分享任何冒犯性、成人、歧视性、种族主义、非法或有害的内容。管理员保留删除此类内容和终止相关账户的权利。",
-          "account_security": "用户负责维护其账户凭据的机密性，并对其账户下发生的任何活动负责。"
-        }
+      "how_we_use": {
+        "title": "我们如何使用信息：",
+        "content": "管理账户和交易，与用户沟通关于列表、出价和销售的信息，改善网站性能、安全性和个性化"
       },
-      "sharing_of_information": {
-        "title": "信息共享",
-        "content": "使用本应用程序即表示您同意您的信息可能会与第三方服务共享，以增强应用程序的功能和体验。管理员确保数据共享符合适用的法律标准。"
+      "sharing_disclosure": {
+        "title": "共享和披露：",
+        "content": "我们不出售或出租个人信息。您的信息可能仅出于订单履行和运营目的与第三方服务提供商（如支付处理器、运输合作伙伴）共享。法律义务可能要求我们在响应合法请求时共享数据。"
       },
-      "liability": {
-        "title": "责任",
-        "sections": {
-          "not_responsible": "管理员对因不当使用应用程序、技术问题、停机时间或用户互动而导致的任何伤害、损害或损失不承担责任。",
-          "indemnification": "用户同意赔偿并使管理员免于承担因其使用应用程序而产生的任何索赔。"
-        }
+      "data_security": {
+        "title": "数据安全：",
+        "content": "所有用户数据都经过加密并安全存储。访问仅限于授权人员。"
       },
-      "account_removal": {
-        "title": "账户删除",
-        "sections": {
-          "user_right": "用户有权随时删除其账户。删除后，个人数据将按照应用程序的隐私政策处理。",
-          "admin_right": "管理员保留暂停或永久删除违反规则或从事恶意活动的账户的权利。"
-        }
+      "user_rights": {
+        "title": "用户权利：",
+        "content": "您可以随时更新、更正或删除您的个人数据。用户可以请求存储数据的副本或选择退出营销通信。"
+      },
+      "consent": "使用BidZuu即表示您同意我们的隐私做法。如有任何隐私相关问题，请联系我们：privacy@bidzuu.com。"
+    },
+    "terms_of_service": {
+      "title": "服务条款",
+      "intro": "欢迎使用BidZuu。访问或使用我们的平台即表示您同意以下条款和条件：",
+      "user_eligibility": {
+        "title": "用户资格：",
+        "content": "您必须年满18岁并提供准确的注册信息。您同意不创建多个账户或冒充他人。"
+      },
+      "platform_use": {
+        "title": "平台使用：",
+        "content": "BidZuu是一个市场平台。我们不拥有或销售列出的商品。卖家对列表的准确性和履行完全负责。买家负责付款和遵守出价或购买承诺。"
+      },
+      "seller_fees": {
+        "title": "卖家费用和付款：",
+        "content": "BidZuu对完成的销售收取3%的交易费用。费用在付款时自动扣除。"
+      },
+      "prohibited_listings": {
+        "title": "禁止列表：",
+        "content": "不允许非法、假冒或侵犯知识产权的商品。我们保留在无通知的情况下删除任何列表的权利。"
+      },
+      "disputes": {
+        "title": "争议和解决：",
+        "content": "鼓励用户直接解决争议。如果升级，BidZuu可能酌情调解但不承担责任。"
+      },
+      "account_suspension": {
+        "title": "账户暂停：",
+        "content": "我们可能因违反条款、欺诈、滥用或违反政策而暂停或终止账户。"
+      },
+      "limitation_liability": {
+        "title": "责任限制：",
+        "content": "BidZuu不对因用户交易或第三方服务而产生的损失、损害或问题承担责任。"
       },
       "modifications": {
-        "title": "修改",
-        "content": "管理员保留随时修改这些条款和条件的权利。继续使用应用程序即表示接受修改后的条款。"
-      }
-    },
-    "cookie_policy": {
-      "title": "Cookie政策",
-      "use_of_cookies": {
-        "title": "Cookie使用",
-        "content": "本应用程序使用cookie来增强用户体验、分析应用程序性能并提供个性化内容。使用本应用程序即表示您同意使用cookie。"
+        "title": "修改：",
+        "content": "条款可能会定期更新。继续使用即表示接受最新条款。"
       },
-      "types_of_cookies": {
-        "title": "Cookie类型",
-        "sections": {
-          "essential_cookies": "对应用程序运行必要的cookie。",
-          "performance_cookies": "收集用户如何与应用程序交互的数据。",
-          "functionality_cookies": "保存用户偏好以增强可用性。",
-          "third_party_cookies": "可能用于提供个性化广告或分析。"
-        }
-      },
-      "user_consent": {
-        "title": "用户同意",
-        "content": "使用本应用程序即表示您同意按照本政策所述存储和使用cookie。您可以通过设备设置禁用cookie，但这样做可能会限制应用程序的功能。"
-      }
-    },
-    "security_policy": {
-      "title": "安全政策",
-      "data_protection": {
-        "title": "数据保护",
-        "content": "本应用程序采用行业标准安全措施来保护用户数据。但是，由于在线服务固有的风险，管理员不能保证完全的安全。"
-      },
-      "user_responsibility": {
-        "title": "用户责任",
-        "content": "用户负责保护其登录凭据，并立即向管理员报告任何未经授权的访问或可疑活动。"
-      },
-      "data_sharing": {
-        "title": "数据共享",
-        "content": "虽然本应用程序优先考虑用户数据安全，但某些数据可能会与受信任的第三方提供商共享，以增强功能或遵守法律要求。"
-      }
-    },
-    "prohibited_activities": {
-      "title": "禁止活动",
-      "sections": {
-        "prohibited_content": "用户不得发布或分享露骨、成人、歧视性、种族主义、非法或煽动暴力或仇恨的内容。",
-        "misuse_of_app": "用户不得将应用程序用于可能损害其声誉、干扰其运营或利用其他用户的任何活动。",
-        "consequences": "管理员保留在不事先通知的情况下删除任何违反这些规则的内容或账户的权利。"
-      }
-    },
-    "user_rights": {
-      "title": "用户权利",
-      "account_deletion": {
-        "title": "账户删除",
-        "content": "用户可以随时通过应用程序设置或联系支持请求删除账户。删除后，个人数据将按照隐私政策删除，但某些数据可能因法律或监管目的而保留。"
-      },
-      "complaints": {
-        "title": "投诉和争议",
-        "content": "用户有权就应用程序提出投诉或争议。此类投诉必须通过官方支持渠道提交。"
-      }
-    },
-    "other_information": {
-      "title": "其他重要信息",
-      "sections": {
-        "no_guarantee": "本应用程序按\"原样\"提供。管理员不保证不间断访问、准确性或适合任何特定目的。",
-        "legal_compliance": "用户负责确保其行为符合当地法律法规。",
-        "admin_rights": "管理员保留随时更新政策、删除内容和修改应用程序功能的权利。"
-      }
+      "contact": "如有问题，请联系我们：support@bidzuu.com。"
     }
   },
   "pageSEO": {

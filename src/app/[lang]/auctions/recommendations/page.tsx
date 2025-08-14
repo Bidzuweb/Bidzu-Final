@@ -5,6 +5,9 @@ import { useTranslation } from '../../../i18n/index'
 import { PageWrapper } from '@/components/page-wrapper'
 import { RecommendationsRoot } from './root'
 
+// Force dynamic rendering for this page
+export const dynamic = 'force-dynamic'
+
 const getRecommendations = async () => {
   const loadedCookies = await cookies()
   const session = loadedCookies.get(SESSION_COOKIE_NAME)?.value || ''
@@ -21,7 +24,6 @@ const getRecommendations = async () => {
         Authorization: session,
         'Content-Type': 'application/json',
       },
-      next: { revalidate: 0 },
     })
 
     if (!response.ok) {

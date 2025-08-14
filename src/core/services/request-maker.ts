@@ -39,6 +39,61 @@ class RequestMaker implements IRequestMaker {
     this.authToken = token
   }
 
+  /**
+   * Safely parse response body based on content type and content length
+   */
+  private async parseResponseBody(response: Response, path: string): Promise<unknown> {
+    const contentType = response.headers.get('content-type')
+    const contentLength = response.headers.get('content-length')
+    const hasContent = contentLength && contentLength !== '0'
+
+    // Log response details for debugging
+    console.debug(`Response from ${path}:`, {
+      status: response.status,
+      statusText: response.statusText,
+      contentType,
+      contentLength,
+      hasContent,
+      ok: response.ok
+    })
+
+    // If no content, return null
+    if (!hasContent) {
+      console.debug(`Empty response from ${path}`)
+      return null
+    }
+
+    // If JSON content type, try to parse as JSON
+    if (contentType && contentType.includes('application/json')) {
+      try {
+        const jsonResponse = await response.json()
+        console.debug(`Successfully parsed JSON response from ${path}:`, jsonResponse)
+        return jsonResponse
+      } catch (jsonError) {
+        console.warn(`Failed to parse JSON response from ${path}:`, jsonError)
+        // If JSON parsing fails but it's a successful response, return null
+        if (response.ok) {
+          console.debug(`JSON parsing failed but response was successful from ${path}`)
+          return null
+        }
+        // If it's an error response, throw a more descriptive error
+        throw new Error(`Invalid JSON response from server (${path})`)
+      }
+    }
+
+    // For non-JSON responses, return as text
+    if (contentType && contentType.includes('text/')) {
+      const textResponse = await response.text()
+      console.debug(`Text response from ${path}:`, textResponse)
+      return textResponse
+    }
+
+    // For other content types, return as blob
+    const blobResponse = await response.blob()
+    console.debug(`Blob response from ${path}:`, blobResponse)
+    return blobResponse
+  }
+
   async makeRequest(params: MakeRequestParams = {}): Promise<unknown> {
     const {
       method = RequestType.GET,
@@ -70,9 +125,20 @@ class RequestMaker implements IRequestMaker {
         body: payload,
       })
 
-      const responseBody = await response.json()
+      const responseBody = await this.parseResponseBody(response, path)
+
       if (response.status >= 400 && response.status < 600) {
-        throw new Error(JSON.stringify(responseBody))
+        let errorMessage: string
+
+        if (responseBody && typeof responseBody === 'object' && 'error' in responseBody) {
+          errorMessage = (responseBody as { error: string }).error
+        } else if (responseBody && typeof responseBody === 'string') {
+          errorMessage = responseBody
+        } else {
+          errorMessage = `Request failed with status ${response.status}`
+        }
+
+        throw new Error(errorMessage)
       }
 
       return responseBody

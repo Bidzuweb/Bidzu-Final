@@ -5,10 +5,12 @@ import { Metadata } from 'next'
 import { useTranslation } from '../../../i18n/index'
 import { Suspense } from 'react'
 
+// Force dynamic rendering for this page
+export const dynamic = 'force-dynamic'
+
 const getAuctionMapClusters = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auction-map`, {
-      next: { revalidate: 0 },
       method: 'GET',
     })
 
@@ -18,7 +20,7 @@ const getAuctionMapClusters = async () => {
 
     return response.json()
   } catch (error) {
-    console.error(`Failed to fetch categories: ${error}`)
+    console.error(`Failed to fetch auction map clusters: ${error}`)
     return []
   }
 }

@@ -27,7 +27,7 @@ export const getAuctionClosingDate = (auction: Auction) => {
   const AUCTION_ACTIVE_TIME_IN_HOURS = 96
   const deadline = new Date(
     (dateToCheck?.getTime() ?? -AUCTION_ACTIVE_TIME_IN_HOURS) +
-      AUCTION_ACTIVE_TIME_IN_HOURS * 60 * 60 * 1000
+    AUCTION_ACTIVE_TIME_IN_HOURS * 60 * 60 * 1000
   )
 
   return deadline
@@ -49,7 +49,7 @@ export const checkIfAuctionIsClosed = (auction: Auction, activeTimeInHours = 96)
   const AUCTION_ACTIVE_TIME_IN_HOURS = activeTimeInHours
   const deadline = new Date(
     (dateToCheck?.getTime() ?? -AUCTION_ACTIVE_TIME_IN_HOURS) +
-      AUCTION_ACTIVE_TIME_IN_HOURS * 60 * 60 * 1000
+    AUCTION_ACTIVE_TIME_IN_HOURS * 60 * 60 * 1000
   )
   const now = new Date()
   const durationDiff = Number(deadline) - Number(now)
@@ -118,9 +118,9 @@ export const calculateDistanceBetweenPoints = (
   const a =
     Math.sin(deltaLatitude / 2) * Math.sin(deltaLatitude / 2) +
     Math.cos(toRadians(startLatitude)) *
-      Math.cos(toRadians(endLatitude)) *
-      Math.sin(deltaLongitude / 2) *
-      Math.sin(deltaLongitude / 2)
+    Math.cos(toRadians(endLatitude)) *
+    Math.sin(deltaLongitude / 2) *
+    Math.sin(deltaLongitude / 2)
 
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
 

@@ -12,10 +12,12 @@ import { PromotedAuctionsSection } from '@/components/home-page/promoted-auction
 import { LastSeenAuctionsSection } from '@/components/home-page/last-seen-auctions'
 import { StartingSoonAuctionsSection } from '@/components/home-page/starting-soon-auctions'
 
+// Force dynamic rendering for this page to prevent build-time API calls
+export const dynamic = 'force-dynamic'
+
 const getAuctions = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auction/latest`, {
-      next: { revalidate: 0 },
       method: 'GET',
     })
 
@@ -25,7 +27,7 @@ const getAuctions = async () => {
 
     return response.json()
   } catch (error) {
-    console.error(`Failed to fetch categories: ${error}`)
+    console.error(`Failed to fetch latest auctions: ${error}`)
     return []
   }
 }
@@ -55,7 +57,6 @@ const getPromotedAuctions = async () => {
 const countActiveAuctions = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auction/filter/count`, {
-      next: { revalidate: 0 },
       method: 'POST',
       body: JSON.stringify({ active: true }),
     })
@@ -66,7 +67,7 @@ const countActiveAuctions = async () => {
 
     return response.json()
   } catch (error) {
-    console.error(`Failed to fetch categories: ${error}`)
+    console.error(`Failed to fetch active auctions count: ${error}`)
     return 0
   }
 }
@@ -87,7 +88,6 @@ const getRecommendations = async () => {
         Authorization: session,
         'Content-Type': 'application/json',
       },
-      next: { revalidate: 0 },
     })
 
     if (!response.ok) {
@@ -117,7 +117,6 @@ const getStartingSoonAuctions = async () => {
         Authorization: session,
         'Content-Type': 'application/json',
       },
-      next: { revalidate: 0 },
     })
 
     if (!response.ok) {
@@ -126,7 +125,7 @@ const getStartingSoonAuctions = async () => {
 
     return response.json()
   } catch (error) {
-    console.error(`Failed to fetch recommendations: ${error}`)
+    console.error(`Failed to fetch starting soon auctions: ${error}`)
     return []
   }
 }

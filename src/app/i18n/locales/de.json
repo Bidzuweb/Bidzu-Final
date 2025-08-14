@@ -36,110 +36,70 @@
   },
   "terms_conditions": {
     "titles": {
-      "terms_and_conditions": "Allgemeine Geschäftsbedingungen",
-      "cookie_policy": "Cookie-Richtlinie",
-      "security_policy": "Sicherheitsrichtlinie",
-      "user_rights": "Benutzerrechte",
-      "prohibited_activities": "Verbotene Aktivitäten",
-      "other_information": "Weitere Wichtige Informationen"
+      "privacy_policy": "Datenschutzrichtlinie",
+      "terms_of_service": "Nutzungsbedingungen"
     },
-    "terms_and_conditions": {
-      "acceptance_of_terms": {
-        "title": "Annahme der Bedingungen",
-        "content": "Durch die Nutzung dieser Anwendung erklärst du dich mit diesen Allgemeinen Geschäftsbedingungen einverstanden. Wenn du mit diesen Bedingungen nicht einverstanden bist, musst du die Nutzung der App sofort einstellen."
+    "privacy_policy": {
+      "title": "Datenschutzrichtlinie",
+      "intro": "Bei BidZuu ist Ihre Privatsphäre oberste Priorität. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen oder unsere Dienste nutzen.",
+      "information_collection": {
+        "title": "Informationssammlung:",
+        "content": "Wir sammeln Informationen wie Ihren Namen, E-Mail, Lieferadresse, Zahlungsdetails und Identifikation für die Kontoverifizierung. Wir können auch Daten über das Surfverhalten, Geräteinformationen und Cookies sammeln, um die Benutzererfahrung zu verbessern."
       },
-      "user_responsibilities": {
-        "title": "Verantwortlichkeiten des Benutzers",
-        "sections": {
-          "responsible_use": "Benutzer sind allein für die Nutzung der App verantwortlich und müssen sie auf legale, ethische und verantwortungsvolle Weise verwenden.",
-          "prohibited_content": "Benutzer dürfen keine Inhalte veröffentlichen oder teilen, die anstößig, für Erwachsene, diskriminierend, rassistisch, illegal oder schädlich sind. Der Administrator behält sich das Recht vor, solche Inhalte zu entfernen und die zugehörigen Konten zu sperren.",
-          "account_security": "Benutzer sind dafür verantwortlich, die Vertraulichkeit ihrer Kontodaten zu wahren und für alle Aktivitäten, die unter ihrem Konto stattfinden."
-        }
+      "how_we_use": {
+        "title": "Wie Wir Informationen Verwenden:",
+        "content": "Zur Verwaltung von Konten und Transaktionen, zur Kommunikation mit Benutzern über Angebote, Gebote und Verkäufe, zur Verbesserung der Websiteleistung, Sicherheit und Personalisierung"
       },
-      "sharing_of_information": {
-        "title": "Weitergabe von Informationen",
-        "content": "Durch die Nutzung der App erklärst du dich damit einverstanden, dass deine Informationen mit Drittanbietern geteilt werden dürfen, um die Funktionalität und Benutzererfahrung der App zu verbessern. Der Administrator stellt sicher, dass die Datenweitergabe den geltenden gesetzlichen Standards entspricht."
+      "sharing_disclosure": {
+        "title": "Weitergabe und Offenlegung:",
+        "content": "Wir verkaufen oder vermieten keine persönlichen Informationen. Ihre Informationen können nur für Auftragsabwicklung und betriebliche Zwecke mit Drittanbietern (z.B. Zahlungsabwicklern, Versandpartnern) geteilt werden. Rechtliche Verpflichtungen können uns dazu veranlassen, Daten als Reaktion auf rechtmäßige Anfragen zu teilen."
       },
-      "liability": {
-        "title": "Haftung",
-        "sections": {
-          "not_responsible": "Der Administrator ist nicht verantwortlich für Schäden, Verluste oder Nachteile, die durch unsachgemäße Nutzung der App, technische Probleme, Ausfallzeiten oder Interaktionen zwischen Benutzern entstehen.",
-          "indemnification": "Die Benutzer erklären sich damit einverstanden, den Administrator von jeglichen Ansprüchen freizustellen, die sich aus der Nutzung der App ergeben."
-        }
+      "data_security": {
+        "title": "Datensicherheit:",
+        "content": "Alle Benutzerdaten werden verschlüsselt und sicher gespeichert. Der Zugang ist nur autorisiertem Personal gestattet."
       },
-      "account_removal": {
-        "title": "Kontolöschung",
-        "sections": {
-          "user_right": "Benutzer haben das Recht, ihr Konto jederzeit zu löschen. Nach der Löschung werden persönliche Daten gemäß der Datenschutzrichtlinie der App behandelt.",
-          "admin_right": "Der Administrator behält sich das Recht vor, Konten, die gegen die Regeln verstoßen oder schädliche Aktivitäten betreiben, zu sperren oder dauerhaft zu löschen."
-        }
+      "user_rights": {
+        "title": "Benutzerrechte:",
+        "content": "Sie können Ihre persönlichen Daten jederzeit aktualisieren, korrigieren oder löschen. Benutzer können eine Kopie der gespeicherten Daten anfordern oder sich von Marketingkommunikation abmelden."
+      },
+      "consent": "Durch die Nutzung von BidZuu stimmen Sie unseren Datenschutzpraktiken zu. Bei datenschutzbezogenen Fragen kontaktieren Sie uns unter privacy@bidzuu.com."
+    },
+    "terms_of_service": {
+      "title": "Nutzungsbedingungen",
+      "intro": "Willkommen bei BidZuu. Durch den Zugriff auf oder die Nutzung unserer Plattform stimmen Sie den folgenden Bedingungen zu:",
+      "user_eligibility": {
+        "title": "Benutzerberechtigung:",
+        "content": "Sie müssen mindestens 18 Jahre alt sein und genaue Registrierungsdaten angeben. Sie stimmen zu, keine mehrfachen Konten zu erstellen oder andere zu imitieren."
+      },
+      "platform_use": {
+        "title": "Plattformnutzung:",
+        "content": "BidZuu ist eine Marktplatzplattform. Wir besitzen oder verkaufen keine gelisteten Artikel. Verkäufer sind allein verantwortlich für die Richtigkeit der Angebote und die Erfüllung. Käufer sind verantwortlich für Zahlung und Einhaltung von Geboten oder Kaufverpflichtungen."
+      },
+      "seller_fees": {
+        "title": "Verkäufergebühren und Zahlungen:",
+        "content": "BidZuu berechnet eine Transaktionsgebühr von 3% auf abgeschlossene Verkäufe. Gebühren werden automatisch zum Zeitpunkt der Auszahlung abgezogen."
+      },
+      "prohibited_listings": {
+        "title": "Verbotene Angebote:",
+        "content": "Artikel, die illegal, gefälscht sind oder geistige Eigentumsrechte verletzen, sind nicht erlaubt. Wir behalten uns das Recht vor, alle Angebote ohne Vorankündigung zu entfernen."
+      },
+      "disputes": {
+        "title": "Streitigkeiten und Lösungen:",
+        "content": "Benutzer werden ermutigt, Streitigkeiten direkt zu lösen. Bei Eskalation kann BidZuu nach eigenem Ermessen vermitteln, übernimmt aber keine Haftung."
+      },
+      "account_suspension": {
+        "title": "Kontosperrung:",
+        "content": "Wir können Konten wegen Verstoßes gegen Bedingungen, Betrug, Missbrauch oder Richtlinienverstößen sperren oder beenden."
+      },
+      "limitation_liability": {
+        "title": "Haftungsbeschränkung:",
+        "content": "BidZuu haftet nicht für Verluste, Schäden oder Probleme, die aus Benutzertransaktionen oder Drittanbieterdiensten entstehen."
       },
       "modifications": {
-        "title": "Änderungen",
-        "content": "Der Administrator behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Die weitere Nutzung der App gilt als Zustimmung zu den geänderten Bedingungen."
-      }
-    },
-    "cookie_policy": {
-      "title": "Cookie-Richtlinie",
-      "use_of_cookies": {
-        "title": "Verwendung von Cookies",
-        "content": "Die App verwendet Cookies, um die Benutzererfahrung zu verbessern, die Leistung der App zu analysieren und personalisierte Inhalte bereitzustellen. Durch die Nutzung der App stimmst du der Verwendung von Cookies zu."
+        "title": "Änderungen:",
+        "content": "Bedingungen können regelmäßig aktualisiert werden. Fortgesetzte Nutzung bedeutet Akzeptanz der neuesten Bedingungen."
       },
-      "types_of_cookies": {
-        "title": "Arten von Cookies",
-        "sections": {
-          "essential_cookies": "Erforderlich für den Betrieb der App.",
-          "performance_cookies": "Sammeln Daten darüber, wie Benutzer mit der App interagieren.",
-          "functionality_cookies": "Speichern Benutzereinstellungen, um die Benutzerfreundlichkeit zu verbessern.",
-          "third_party_cookies": "Können verwendet werden, um personalisierte Werbung oder Analysen bereitzustellen."
-        }
-      },
-      "user_consent": {
-        "title": "Benutzerzustimmung",
-        "content": "Durch die Nutzung der App erklärst du dich mit der Speicherung und Nutzung von Cookies einverstanden, wie in dieser Richtlinie beschrieben. Du kannst Cookies über die Geräteeinstellungen deaktivieren, aber dies kann die Funktionalität der App einschränken."
-      }
-    },
-    "security_policy": {
-      "title": "Sicherheitsrichtlinie",
-      "data_protection": {
-        "title": "Datenschutz",
-        "content": "Die App verwendet branchenübliche Sicherheitsmaßnahmen, um Benutzerdaten zu schützen. Der Administrator kann jedoch keine vollständige Sicherheit garantieren, da es Risiken im Zusammenhang mit Online-Diensten gibt."
-      },
-      "user_responsibility": {
-        "title": "Verantwortung des Benutzers",
-        "content": "Benutzer sind dafür verantwortlich, ihre Zugangsdaten zu schützen und jeden unbefugten Zugriff oder verdächtige Aktivitäten dem Administrator sofort zu melden."
-      },
-      "data_sharing": {
-        "title": "Datenweitergabe",
-        "content": "Obwohl die App die Sicherheit der Benutzerdaten priorisiert, können einige Daten mit vertrauenswürdigen Drittanbietern geteilt werden, um die Funktionalität zu verbessern oder gesetzlichen Anforderungen zu entsprechen."
-      }
-    },
-    "prohibited_activities": {
-      "title": "Verbotene Aktivitäten",
-      "sections": {
-        "prohibited_content": "Benutzer dürfen keine Inhalte veröffentlichen oder teilen, die explizit, für Erwachsene, diskriminierend, rassistisch, illegal sind oder zu Gewalt oder Hass aufrufen.",
-        "misuse_of_app": "Benutzer dürfen die App nicht für Aktivitäten nutzen, die ihren Ruf schädigen, ihren Betrieb stören oder andere Benutzer ausnutzen könnten.",
-        "consequences": "Der Administrator behält sich das Recht vor, Inhalte oder Konten, die gegen diese Regeln verstoßen, ohne Vorankündigung zu entfernen."
-      }
-    },
-    "user_rights": {
-      "title": "Benutzerrechte",
-      "account_deletion": {
-        "title": "Kontolöschung",
-        "content": "Benutzer können die Löschung ihres Kontos jederzeit über die Einstellungen der App oder durch Kontaktaufnahme mit dem Support beantragen. Nach der Löschung werden persönliche Daten gemäß der Datenschutzrichtlinie entfernt, aber einige Daten können aus rechtlichen oder regulatorischen Gründen aufbewahrt werden."
-      },
-      "complaints": {
-        "title": "Beschwerden und Streitigkeiten",
-        "content": "Benutzer haben das Recht, Beschwerden oder Streitigkeiten in Bezug auf die App einzureichen. Solche Beschwerden müssen über die offiziellen Supportkanäle eingereicht werden."
-      }
-    },
-    "other_information": {
-      "title": "Weitere Wichtige Informationen",
-      "sections": {
-        "no_guarantee": "Die App wird 'wie besehen' bereitgestellt. Der Administrator garantiert keinen ununterbrochenen Zugang, keine Genauigkeit oder keine Eignung für einen bestimmten Zweck.",
-        "legal_compliance": "Benutzer sind dafür verantwortlich, sicherzustellen, dass ihre Handlungen den örtlichen Gesetzen und Vorschriften entsprechen.",
-        "admin_rights": "Der Administrator behält sich das Recht vor, Richtlinien zu aktualisieren, Inhalte zu entfernen und App-Funktionen jederzeit zu ändern."
-      }
+      "contact": "Bei Fragen kontaktieren Sie uns unter support@bidzuu.com."
     }
   },
   "pageSEO": {

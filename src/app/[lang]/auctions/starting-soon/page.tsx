@@ -5,10 +5,12 @@ import { useTranslation } from '../../../i18n/index'
 import { PageWrapper } from '@/components/page-wrapper'
 import { StartingSoonAuctionsRoot } from './root'
 
+// Force dynamic rendering for this page
+export const dynamic = 'force-dynamic'
+
 const getStartingSoonAuctions = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auction/filter/auctions`, {
-      next: { revalidate: 0 },
       body: JSON.stringify({ perPage: 16, started: false }),
       method: 'POST',
       headers: {
@@ -22,7 +24,7 @@ const getStartingSoonAuctions = async () => {
 
     return response.json()
   } catch (error) {
-    console.error(`Failed to fetch promoted auctions: ${error}`)
+    console.error(`Failed to fetch starting soon auctions: ${error}`)
     return []
   }
 }

@@ -9,21 +9,21 @@ import { AuthController } from '@/core/controllers/auth'
 import { loginSchema } from '../login/validation-schema'
 import { ErrorMessage } from '@/components/common/error-message'
 import { Icon } from '@/components/common/icon'
-import { useRouter } from 'next/navigation'
+// import { useRouter } from 'next/navigation'
 
 export const RegisterForm = () => {
   const globalContext = useGlobalContext()
   const currentLanguage = globalContext.currentLanguage
   const { t } = useTranslation(currentLanguage)
 
-  const router = useRouter()
+  // const router = useRouter()
 
   const [passwordVisible, setPasswordVisible] = useState(false)
   const [acceptedTerms, setAcceptedTerms] = useState(false)
   const [signupInProgress, setSignupInProgress] = useState(false)
 
   const [loginWithGoogleInProgress, setLoginWithGoogleInProgress] = useState(false)
-  const [loginWithFacebookInProgress, setLoginWithFacebookInProgress] = useState(false)
+  // const [loginWithFacebookInProgress, setLoginWithFacebookInProgress] = useState(false)
 
   const acceptTermsRef = useRef<HTMLInputElement>(null)
 
@@ -79,12 +79,12 @@ export const RegisterForm = () => {
     }
   })
 
-  const goToPhoneLogin = () => {
-    router.push('/auth/phone-login')
-  }
+  // const goToPhoneLogin = () => {
+  //   router.push('/auth/phone-login')
+  // }
 
   const loginWithGoogle = async () => {
-    if (loginWithGoogleInProgress || loginWithFacebookInProgress) {
+    if (loginWithGoogleInProgress) {
       return
     }
 
@@ -97,19 +97,19 @@ export const RegisterForm = () => {
     }
   }
 
-  const loginWithFacebook = async () => {
-    if (loginWithGoogleInProgress || loginWithFacebookInProgress) {
-      return
-    }
+  // const loginWithFacebook = async () => {
+  //   if (loginWithGoogleInProgress || loginWithFacebookInProgress) {
+  //     return
+  //   }
 
-    setLoginWithFacebookInProgress(true)
-    const loggedIn = await AuthController.loginWithFacebook()
-    setLoginWithFacebookInProgress(false)
+  //   setLoginWithFacebookInProgress(true)
+  //   const loggedIn = await AuthController.loginWithFacebook()
+  //   setLoginWithFacebookInProgress(false)
 
-    if (!loggedIn) {
-      toast.error(t('auth.sign_in.cannot_facebook_login'))
-    }
-  }
+  //   if (!loggedIn) {
+  //     toast.error(t('auth.sign_in.cannot_facebook_login'))
+  //   }
+  // }
 
   return (
     <>
@@ -213,7 +213,7 @@ export const RegisterForm = () => {
                 )}
               </button>
 
-              <button onClick={() => goToPhoneLogin()} >
+              {/* <button onClick={() => goToPhoneLogin()} >
                 <Icon type="social/call" size={40} />
               </button>
 
@@ -225,7 +225,7 @@ export const RegisterForm = () => {
                 ) : (
                   <Icon type="social/facebook" size={40} />
                 )}
-              </button>
+              </button> */}
             </div>
           </div>
 

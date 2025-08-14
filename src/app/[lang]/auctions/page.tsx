@@ -5,10 +5,12 @@ import { SEO } from '@/constants'
 import { AllAuctionsListRoot } from './root'
 import { Suspense } from 'react'
 
+// Force dynamic rendering for this page
+export const dynamic = 'force-dynamic'
+
 const getAllLocations = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/location/all`, {
-      next: { revalidate: 0 },
       method: 'GET',
     })
 
@@ -26,7 +28,6 @@ const getAllLocations = async () => {
 const countActiveAuctions = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/auction/filter/count`, {
-      next: { revalidate: 0 },
       method: 'POST',
       body: JSON.stringify({ active: true }),
     })
@@ -37,7 +38,7 @@ const countActiveAuctions = async () => {
 
     return response.json()
   } catch (error) {
-    console.error(`Failed to fetch categories: ${error}`)
+    console.error(`Failed to fetch active auctions count: ${error}`)
     return 0
   }
 }

@@ -8,7 +8,7 @@ export const MOBILE_APP_LINKS = {
   APP_STORE_LINK: 'https://www.apple.com/ios/app-store/',
 }
 
-export const APP_NAME = ''
+export const APP_NAME = 'BidZuu'
 
 export const SESSION_COOKIE_NAME = 'session_cookie'
 export const ACCOUNT_SESSION_COOKIE_NAME = 'account_session_cookie'

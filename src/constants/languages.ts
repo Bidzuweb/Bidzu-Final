@@ -6,7 +6,7 @@ export interface LanguageMetaItem {
 export const LANGUAGES_META: Record<string, LanguageMetaItem> = {
   en: {
     name: 'English',
-    icon: 'flags/english1',
+    icon: 'flags/us',
   },
   es: {
     name: 'Español',

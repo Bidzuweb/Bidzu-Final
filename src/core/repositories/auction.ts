@@ -69,10 +69,13 @@ class AuctionRepository {
     try {
       await RequestMaker.makeRequest({
         method: RequestType.POST,
-        path: `/lastSeen`,
+        path: '/lastSeen',
         payload: JSON.stringify({ auctionId }),
         contentType: 'application/json',
       })
+
+      // The endpoint might return an empty response, which is fine
+      // We just need to check if the request was successful
       return true
     } catch (error) {
       console.error('Error storing last seen auction:', error)

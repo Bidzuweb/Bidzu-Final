@@ -1,7 +1,7 @@
 import { useTranslation } from '@/app/i18n/client'
 import useGlobalContext from '@/hooks/use-context'
-import { Icon } from '../common/icon'
-import { AppStore } from '@/core/store'
+// import { Icon } from '../common/icon'
+// import { AppStore } from '@/core/store'
 import { useState } from 'react'
 import { AuthService } from '@/core/services/auth'
 import { EmailVerificationNeeded } from '../modals/email-verification-needed'
@@ -77,26 +77,27 @@ export const AiPromptCard = (props: AiPromptCardProps) => {
     return null
   }
 
-  const usedAiResponses = AppStore.accountData?.aiResponsesCount ?? 0
-  const coinsToSpend =
-    usedAiResponses < appSettings.freeAiResponses ? 0 : appSettings.aiResponsesPriceInCoins
+  // const usedAiResponses = AppStore.accountData?.aiResponsesCount ?? 0
+  // const coinsToSpend =
+  //   usedAiResponses < appSettings.freeAiResponses ? 0 : appSettings.aiResponsesPriceInCoins
 
   return (
     <div
       style={{
         padding: '1px',
-        background: `linear-gradient(90deg, 
-      #F45C43,
-      #DC4973,
-      #AB4F8F,
-      #5438DC,
-      #357DED,
-      #008072
-    )`,
+        background: 'white',
+        //     background: `linear-gradient(90deg, 
+        //   #F45C43,
+        //   #DC4973,
+        //   #AB4F8F,
+        //   #5438DC,
+        //   #357DED,
+        //   #008072
+        // )`,
         borderRadius: '6px',
       }}
     >
-      <div
+      {/* <div
         style={{
           background: 'var(--background_1)',
           padding: '16px',
@@ -131,7 +132,7 @@ export const AiPromptCard = (props: AiPromptCardProps) => {
             </div>
           )}
         </button>
-      </div>
+      </div> */}
 
       <EmailVerificationNeeded
         isOpened={unverifiedUserModalOpened}
