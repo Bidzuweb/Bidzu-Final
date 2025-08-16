@@ -276,7 +276,7 @@
       "update": "Update preferred categories"
     },
     "search": {
-      "search": "What are you looking for?",
+      "search": "Search",
       "recent_searches": "Recent searches",
       "users": "Users",
       "no_recent_search_found": "No recent searches found",
@@ -394,6 +394,11 @@
     "category_required": "Category is required",
     "location_required": "Location is required",
     "price_required": "Price is required",
+    "reverse_price": "Reverse Price",
+    "enter_reverse_price": "Enter reverse price",
+    "set_reverse_price": "Set Reverse Price",
+    "change_reverse_price": "Change Reverse Price",
+    "reverse_price_required": "Reverse price is required",
     "repository": {
       "too_many_assets": "Too many assets uploaded",
       "asset_too_big": "Uploaded asset is too big",
@@ -498,6 +503,11 @@
       "review_details": "Review details",
       "save_review": "Save review",
       "added_a_review": " added a review"
+    },
+    "reverse_price": {
+      "buy_it_now": "Buy It Now",
+      "price": "Buy It Now Price",
+      "description": "Purchase this item immediately at this price and end the auction"
     }
   },
   "map_auctions": {
@@ -656,6 +666,8 @@
     "delivery": "Delivery",
     "custom": "Custom",
     "save": "Save",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
     "see_less": " See less",
     "see_more": " See more",
     "optional": "(Optional)",
@@ -698,16 +710,19 @@
     "need_to_request_notifications": "For this functionality to work, we need to request your permission to send you notifications"
   },
   "assets": {
-    "selected_images": "Selected images",
-    "no_selected": "You don't have any more images selected",
+    "selected_images": "Selected media",
+    "no_selected": "You don't have any more media selected",
     "image_singular": "{{no}} image",
     "image_plural": "{{no}} images",
-    "remove_image": "Remove image",
-    "all_images_folder": "All images",
+    "media_singular": "{{no}} media file",
+    "media_plural": "{{no}} media files",
+    "remove_image": "Remove media",
+    "all_images_folder": "All media",
     "max_allowed": "Maximum {{no}} assets can be selected",
     "select": "Select",
-    "no_images_in_folder": "There are no images in this folder",
-    "add_images": "Add images"
+    "no_images_in_folder": "There are no media files in this folder",
+    "add_images": "Add images",
+    "add_media": "Add images & videos"
   },
   "profile": {
     "legal_info": "Legal information",
@@ -875,6 +890,7 @@
   },
   "chat": {
     "chat_images": "Chat images",
+    "chat_media": "Chat media",
     "chat": "Chat",
     "delete": "Delete",
     "single_message_copied": "Message copied",

@@ -33,6 +33,8 @@ export class Auction {
 
   hasCustomStartingPrice?: boolean
   startingPrice?: number
+  reversePrice?: number
+  hasReversePrice?: boolean
   lastPrice?: number
   likesCount?: number
 
@@ -70,6 +72,8 @@ export class Auction {
     this.bidsCount = params.bidsCount as number
     this.hasCustomStartingPrice = params.hasCustomStartingPrice as boolean
     this.startingPrice = params.startingPrice as number
+    this.reversePrice = params.reversePrice as number
+    this.hasReversePrice = params.hasReversePrice as boolean
     this.youtubeLink = params.youtubeLink as string
     this.lastPrice = params.lastPrice as number
     this.mainCategoryId = params.mainCategoryId as string
@@ -118,8 +122,8 @@ export class Auction {
 
     const historyEvents = data.auctionHistoryEvents
       ? (data.auctionHistoryEvents as Partial<AuctionHistoryEvent>[]).map(
-          AuctionHistoryEvent.fromJSON
-        )
+        AuctionHistoryEvent.fromJSON
+      )
       : []
 
     return new Auction({
@@ -150,6 +154,8 @@ export class Auction {
       reactivationCount: data.reactivationCount ?? 0,
       hasCustomStartingPrice: data.hasCustomStartingPrice,
       startingPrice: data.startingPrice ? parseFloat(data.startingPrice.toString()) : 0,
+      reversePrice: data.reversePrice ? parseFloat(data.reversePrice.toString()) : null,
+      hasReversePrice: data.hasReversePrice ?? false,
       lastPrice: data.lastPrice ? parseFloat(data.lastPrice.toString()) : 0,
       whoPaysForShipment: data.whoPaysForShipment,
       expiresAt: data.expiresAt ? new Date(data.expiresAt.toString()) : null,

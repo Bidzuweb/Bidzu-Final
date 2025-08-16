@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import useGlobalContext from '@/hooks/use-context'
 import { useTranslation } from "@/app/i18n/client";
 import { AssetsGalleryModal } from "../auction-form/assets/assets-gallery";
+import { createPreviewUrl } from '@/utils/heic-converter'
+import { generateVideoThumbnail, isVideoUrl } from '@/utils/video-utils'
 
 export const AssetsMessage = (params: { message: ChatMessage }) => {
   const globalContext = useGlobalContext()
@@ -14,23 +16,45 @@ export const AssetsMessage = (params: { message: ChatMessage }) => {
   const [constructedImagePaths, setConstructedImagePaths] = useState<string[]>([]);
 
   useEffect(() => {
-    const images = params.message.assetPaths;
-    const fileListImages = [];
-    for (let i = 0; i < (params.message.fileList ? params.message.fileList!.length : 0); i++) {
-      fileListImages.push(params.message.fileList![i]);
+    const constructImagePaths = async () => {
+      const images = params.message.assetPaths;
+      const fileListImages = [];
+      for (let i = 0; i < (params.message.fileList ? params.message.fileList!.length : 0); i++) {
+        fileListImages.push(params.message.fileList![i]);
+      }
+
+      let paths: string[] = []
+
+      if (images?.length) {
+        paths = images.map((path) => {
+          return `${serverUrl}/assets/${path}`
+        })
+      } else if (fileListImages?.length) {
+        // Convert HEIC files to JPEG for preview
+        paths = await Promise.all(
+          fileListImages.map(async (file) => {
+            return await createPreviewUrl(file)
+          })
+        )
+      }
+
+      setConstructedImagePaths(paths)
     }
 
-    const constructedImagePaths = images?.length ? images?.map((path) => {
-      return `${serverUrl}/assets/${path}`
-    }) : fileListImages?.length ? fileListImages.map((file) => {
-      return URL.createObjectURL(file)
-    }) : []
+    constructImagePaths()
 
-    setConstructedImagePaths(constructedImagePaths)
-  }, [])
+    // Cleanup function to revoke object URLs
+    return () => {
+      constructedImagePaths.forEach(path => {
+        if (path.startsWith('blob:')) {
+          URL.revokeObjectURL(path)
+        }
+      })
+    }
+  }, [params.message.assetPaths, params.message.fileList, serverUrl])
 
   if (!constructedImagePaths || constructedImagePaths.length === 0) {
-    return <div>No images available</div>;
+    return <div>No media available</div>;
   }
 
   return (
@@ -45,21 +69,82 @@ export const AssetsMessage = (params: { message: ChatMessage }) => {
           cursor: "pointer",
         }}
       >
-        {constructedImagePaths.slice(0, constructedImagePaths.length > 4 ? 3 : 4).map((imagePath, index) => (
-          <img
-            key={index}
-            src={imagePath}
-            alt={`Image ${index + 1}`}
-            style={{
-              width: "100%",
-              height: "130px",
-              objectFit: "cover",
-              borderRadius: "8px",
-              gridColumn:
-                constructedImagePaths.length === 3 && index === 2 ? "1 / -1" : "auto",
-            }}
-          />
-        ))}
+        {constructedImagePaths.slice(0, constructedImagePaths.length > 4 ? 3 : 4).map((imagePath, index) => {
+          const isVideo = isVideoUrl(imagePath)
+
+          return isVideo ? (
+            <div
+              key={index}
+              style={{
+                width: "100%",
+                height: "130px",
+                borderRadius: "8px",
+                gridColumn:
+                  constructedImagePaths.length === 3 && index === 2 ? "1 / -1" : "auto",
+                position: "relative",
+                overflow: "hidden",
+              }}
+            >
+              <video
+                src={imagePath}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  borderRadius: "8px",
+                }}
+                preload="metadata"
+                muted
+                onLoadedData={(e) => {
+                  // Generate thumbnail from video
+                  const video = e.target as HTMLVideoElement
+                  generateVideoThumbnail(video).catch(console.error)
+                }}
+              />
+              <div style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                background: "rgba(0, 0, 0, 0.3)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                borderRadius: "8px",
+              }}>
+                <div style={{
+                  fontSize: "24px",
+                  color: "var(--primary)",
+                  background: "rgba(255, 255, 255, 0.9)",
+                  borderRadius: "50%",
+                  width: "40px",
+                  height: "40px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)"
+                }}>
+                  ▶
+                </div>
+              </div>
+            </div>
+          ) : (
+            <img
+              key={index}
+              src={imagePath}
+              alt={`Media ${index + 1}`}
+              style={{
+                width: "100%",
+                height: "130px",
+                objectFit: "cover",
+                borderRadius: "8px",
+                gridColumn:
+                  constructedImagePaths.length === 3 && index === 2 ? "1 / -1" : "auto",
+              }}
+            />
+          )
+        })}
         {constructedImagePaths.length > 4 && (
           <div
             style={{
@@ -106,7 +191,7 @@ export const AssetsMessage = (params: { message: ChatMessage }) => {
         isOpened={assetsGalleryOpened}
         setOpened={setAssetsGalleryOpened}
         assets={constructedImagePaths ?? []}
-        title={t('chat.chat_images')}
+        title={t('chat.chat_media')}
       />
     </>
   );

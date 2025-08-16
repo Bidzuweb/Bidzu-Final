@@ -3,6 +3,7 @@ import { Auction } from '@/core/domain/auction'
 import useGlobalContext from '@/hooks/use-context'
 import { NoBidsInAuction } from './no-bids'
 import { AuctionDetailsPrice } from '../summary/price-card'
+import { AuctionDetailsReversePrice } from '../summary/reverse-price-card'
 import { AuctionDetailBidItem } from './item'
 import { AppStore } from '@/core/store'
 import { observer } from 'mobx-react-lite'
@@ -122,6 +123,11 @@ export const AuctionDetailsBidsSection = observer(
             <p className="secondary-color">{t('starting_soon_auctions.add_to_fav')}</p>
           </div>
         )}
+
+        {/* Reverse Price Section */}
+        <AuctionDetailsReversePrice
+          auction={auction}
+        />
       </div>
     )
   }

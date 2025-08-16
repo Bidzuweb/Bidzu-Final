@@ -1,11 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore from 'swiper'
 import { Navigation, Thumbs } from 'swiper/modules'
+import { generateVideoThumbnail, isVideoUrl } from '@/utils/video-utils'
 
 import { useState } from 'react'
 
 interface GalleryAsset {
   url: string
+  type?: 'image' | 'video'
 }
 
 export default function AssetsGallery(props: { assets: GalleryAsset[] }) {
@@ -22,10 +24,23 @@ export default function AssetsGallery(props: { assets: GalleryAsset[] }) {
         className="big-swiper"
       >
         {assets.map((asset, index) => {
+          const isVideo = asset.type === 'video' || isVideoUrl(asset.url)
+
           return (
             <SwiperSlide key={index} className="assets-swiper-slide">
               <div className="w-100 d-flex align-items-center justify-content-center image-root">
-                <img src={asset.url} key={index} />
+                {isVideo ? (
+                  <video
+                    src={asset.url}
+                    key={index}
+                    controls
+                    autoPlay={false}
+                    preload="metadata"
+                    style={{ maxWidth: '100%', maxHeight: '60vh' }}
+                  />
+                ) : (
+                  <img src={asset.url} key={index} />
+                )}
               </div>
             </SwiperSlide>
           )
@@ -41,9 +56,25 @@ export default function AssetsGallery(props: { assets: GalleryAsset[] }) {
         className="thumb-swiper"
       >
         {assets.map((asset, index) => {
+          const isVideo = asset.type === 'video' || isVideoUrl(asset.url)
+
           return (
             <SwiperSlide key={index} className="thumb-assets-swiper-slide">
-              <img src={asset.url} key={index + 'thumb'} />
+              {isVideo ? (
+                <video
+                  src={asset.url}
+                  className="video-thumbnail"
+                  preload="metadata"
+                  muted
+                  onLoadedData={(e) => {
+                    // Generate thumbnail from video
+                    const video = e.target as HTMLVideoElement
+                    generateVideoThumbnail(video).catch(console.error)
+                  }}
+                />
+              ) : (
+                <img src={asset.url} key={index + 'thumb'} />
+              )}
             </SwiperSlide>
           )
         })}
@@ -87,6 +118,14 @@ export default function AssetsGallery(props: { assets: GalleryAsset[] }) {
           width: 100%;
           height: 100%;
           object-fit: contain;
+          border-radius: 6px;
+        }
+
+        :global(.thumb-assets-swiper-slide .video-thumbnail) {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
           border-radius: 6px;
         }
 

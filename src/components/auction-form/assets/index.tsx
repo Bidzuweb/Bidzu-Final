@@ -36,9 +36,9 @@ export const CreateAuctionAssetsSection = (props: CreateAuctionAssetsSectionProp
       <FilePickerButton
         multiple
         onFilesPick={handleAssetsPick}
-        accept="image/jpeg, image/png, image/webp, image/tiff, image/heic, image/heif"
+        accept="image/jpeg, image/png, image/webp, image/tiff, image/heic, image/heif, video/mp4, video/avi, video/mov, video/wmv, video/flv, video/webm, video/mkv, video/m4v, video/3gp, video/ogv, video/ts, video/mts, video/m2ts, video/vob, video/asf, video/rm, video/rmvb, video/divx, video/xvid, video/h264, video/h265, video/hevc, video/vp8, video/vp9, video/av1, video/theora, video/mpeg, video/mpeg2, video/mpeg4, video/quicktime, video/realmedia, video/windowsmedia"
       >
-        <span>+ {t('assets.add_images')}</span>
+        <span>+ {t('assets.add_media')}</span>
       </FilePickerButton>
       <UploadedAssetsList
         assets={uploadedAssets}

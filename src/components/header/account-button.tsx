@@ -113,7 +113,7 @@ export const HeaderAccountButton = observer((props: { handleBuyCoins: () => void
             alt="profile-img"
             style={{ borderRadius: '50%' }}
           />
-          {t('header.profile')}
+          <span className="profile-username">{generateNameForAccount(account as Account)}</span>
         </button>
       </div>
 

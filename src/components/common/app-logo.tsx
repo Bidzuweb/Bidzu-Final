@@ -1,16 +1,17 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../../../public/assets/logo.png'
-import { APP_NAME } from '@/constants'
-import useGlobalContext from '@/hooks/use-context'
 import { memo } from 'react'
 
 export const AppLogo = memo(() => {
-  const globalContext = useGlobalContext()
   return (
     <Link className="logo" href="/">
-      <Image width={210} height={70} src={logo} alt="logo-img" />
-      {globalContext.appSettings.appName || APP_NAME}
+      <div className="text-center gap-3">
+        <Image width={290} height={90} src={logo} alt="logo-img" />
+        <div className="logo-title">
+          <h1 className="m-0 text-black fw-bold fs-6">Bid & Win Together</h1>
+        </div>
+      </div>
     </Link>
   )
 })

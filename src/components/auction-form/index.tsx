@@ -4,6 +4,7 @@ import useGlobalContext from '@/hooks/use-context'
 import { useTranslation } from '@/app/i18n/client'
 import { toast } from 'react-toastify'
 import { AuctionFormPriceSection } from './price'
+import { AuctionFormReversePriceSection } from './reverse-price'
 import { useRouter } from 'next/navigation'
 import { GooglePlaceDetails } from '@/core/domain/location'
 import { Icon } from '@/components/common/icon'
@@ -46,6 +47,9 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
   const [isCustomPrice, setIsCustomPrice] = useState(
     initialAuction?.hasCustomStartingPrice ?? false
   )
+  const [selectedReversePrice, setSelectedReversePrice] = useState<number | null>(
+    initialAuction?.reversePrice ?? null
+  )
   const [mainCategoryId, setMainCategoryId] = useState<string | null>(
     initialAuction?.mainCategoryId ?? null
   )
@@ -64,7 +68,7 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
 
   const [submitInProgress, setSubmitInProgress] = useState(false)
 
-  const [formIsValid, setFormIsValid] = useState(true)
+  const [formIsValid, setFormIsValid] = useState(false)
   const [formSubmitTries, setFormSubmitTries] = useState(0)
 
   const [createConfirmationModalOpen, setCreateConfirmationModalOpen] = useState(false)
@@ -85,17 +89,18 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
   const categoryButtonRef = useRef<HTMLDivElement>(null)
   const conditionRef = useRef<HTMLDivElement>(null)
   const priceRef = useRef<HTMLDivElement>(null)
+  const reversePriceRef = useRef<HTMLDivElement>(null)
 
   const locationLoading = useRef(false)
 
   useEffect(() => {
-    if (!selectedLocation) {
+    if (!selectedLocation || !selectedReversePrice || !title?.trim().length || !mainCategoryId || !subCategoryId || condition === null || !selectedPrice) {
       setFormIsValid(false)
       return
     }
 
     setFormIsValid(true)
-  }, [selectedLocation])
+  }, [selectedLocation, selectedReversePrice, title, mainCategoryId, subCategoryId, condition, selectedPrice])
 
   useEffect(() => {
     if (!initialAuction || !!selectedLocation || locationLoading.current) {
@@ -209,6 +214,14 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
       return
     }
 
+    if (!selectedReversePrice) {
+      reversePriceRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      })
+      return
+    }
+
     if (freeAuctionsCount <= AppStore.accountStats.allAuctionsCount && !props.auction?.id) {
       setCreateConfirmationModalOpen(true)
       return
@@ -229,6 +242,18 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
     const uniqueAssetsToKeep = Array.from(new Set(assetsToKeep))
     const assetsToActuallyUpload = uploadedAssets.filter((el) => !(el as Asset)?.id) as File[]
 
+    // DEBUG: Log the assets being uploaded
+    console.log('🚀 Form Submission Debug - Assets:', {
+      totalAssets: uploadedAssets.length,
+      assetsToKeep: uniqueAssetsToKeep,
+      assetsToActuallyUpload: assetsToActuallyUpload.map(file => ({
+        name: file.name,
+        type: file.type,
+        size: file.size,
+        isVideo: file.type.startsWith('video/')
+      }))
+    })
+
     const createOrUpdateParams = {
       assets: assetsToActuallyUpload as File[],
       latLng: { lat, lng },
@@ -244,6 +269,8 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
       condition: condition!,
       startAt: dateMetadata.useCustomDate ? dateMetadata.startDate ?? undefined : undefined,
       expiresAt: dateMetadata.useCustomDate ? dateMetadata.endDate ?? undefined : undefined,
+      reversePrice: selectedReversePrice,
+      hasReversePrice: true, // Always true since reverse price is now required
     }
 
     const createdOrUpdatedAuction = initialAuction
@@ -341,6 +368,17 @@ export const AuctionForm = observer((props: { auction?: Record<string, unknown> 
           setPrice={(value, isCustomPrice = false) => {
             setSelectedPrice(value)
             setIsCustomPrice(isCustomPrice)
+          }}
+        />
+
+        <AuctionFormReversePriceSection
+          key={'reverse-price-' + refreshKey.toString()}
+          rootRef={reversePriceRef}
+          formIsValid={formIsValid}
+          selectedReversePrice={selectedReversePrice}
+          formSubmitTries={formSubmitTries}
+          setReversePrice={(value) => {
+            setSelectedReversePrice(value)
           }}
         />
 

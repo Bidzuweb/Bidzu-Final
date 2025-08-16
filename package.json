@@ -36,6 +36,7 @@
     "formik": "^2.4.2",
     "google-libphonenumber": "^3.2.40",
     "google-places": "^0.0.2",
+    "heic2any": "^0.0.4",
     "i18next": "^23.16.4",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-resources-to-backend": "^1.2.1",

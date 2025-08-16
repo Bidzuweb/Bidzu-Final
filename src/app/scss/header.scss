@@ -100,6 +100,15 @@
   min-width: 130px;
 }
 
+.profile-btn .profile-username {
+  font-weight: 500;
+  color: var(--font_1);
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .signin-btn {
   height: 45px;
   display: flex;

@@ -4,6 +4,9 @@ import { Icon } from '@/components/common/icon'
 import { Asset } from '@/core/domain/asset'
 import useGlobalContext from '@/hooks/use-context'
 import dynamic from 'next/dynamic'
+import { useState, useEffect } from 'react'
+import { createPreviewUrl } from '@/utils/heic-converter'
+import { isVideoUrl } from '@/utils/video-utils'
 
 const AssetsGallery = dynamic(() => import('@/components/common/assets-gallery'), {
   ssr: false,
@@ -27,14 +30,58 @@ export const AssetsGalleryModal = (props: {
   const { isOpened, setOpened, assets, title } = props
   const serverBaseURL = process.env.NEXT_PUBLIC_SERVER_URL
 
-  const assetsToDisplay = assets.map((asset) => ({
-    url:
-      typeof asset === 'string'
-        ? asset
-        : asset.hasOwnProperty('id')
-          ? `${serverBaseURL}/assets/${(asset as Asset).path}`
-          : URL.createObjectURL(asset as File),
-  }))
+  const [assetsToDisplay, setAssetsToDisplay] = useState<{ url: string }[]>([])
+
+  // Generate preview URLs for all assets with HEIC conversion
+  useEffect(() => {
+    const generatePreviewUrls = async () => {
+      const processedAssets = await Promise.all(
+        assets.map(async (asset) => {
+          let url: string
+          let type: 'image' | 'video' = 'image'
+
+          if (typeof asset === 'string') {
+            url = asset
+            // Try to determine type from URL
+            if (isVideoUrl(asset)) {
+              type = 'video'
+            }
+          } else if (asset.hasOwnProperty('id')) {
+            url = `${serverBaseURL}/assets/${(asset as Asset).path}`
+            // Determine type from path extension
+            const path = (asset as Asset).path
+            if (isVideoUrl(path)) {
+              type = 'video'
+            }
+          } else {
+            // Local file - create preview URL (with HEIC conversion if needed)
+            url = await createPreviewUrl(asset as File)
+            // Determine type from MIME type
+            if ((asset as File).type.startsWith('video/')) {
+              type = 'video'
+            }
+          }
+
+          return { url, type }
+        })
+      )
+
+      setAssetsToDisplay(processedAssets)
+    }
+
+    if (assets.length > 0) {
+      generatePreviewUrls()
+    }
+
+    // Cleanup function to revoke object URLs
+    return () => {
+      assetsToDisplay.forEach(asset => {
+        if (asset.url.startsWith('blob:')) {
+          URL.revokeObjectURL(asset.url)
+        }
+      })
+    }
+  }, [assets, serverBaseURL])
 
   return (
     <CustomModal
@@ -66,8 +113,8 @@ export const AssetsGalleryModal = (props: {
         <h4>{title ?? t('assets.selected_images')}</h4>
         <span>
           {assetsToDisplay.length === 1
-            ? t('assets.image_singular', { no: assetsToDisplay.length })
-            : t('assets.image_plural', { no: assetsToDisplay.length })}
+            ? t('assets.media_singular', { no: assetsToDisplay.length })
+            : t('assets.media_plural', { no: assetsToDisplay.length })}
         </span>
       </div>
       <AssetsGallery assets={assetsToDisplay} />
